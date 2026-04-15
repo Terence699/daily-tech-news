@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-15</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-15</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-15</h1>
+<p>今日科技圈动态频出，OpenAI 被曝正在研发代号为 "Spud" 的新模型及 "Super App"，引发行业对其估值与战略走向的热议。国内方面，MiniMax 因修改开源授权引发争议，开源 AI 的定义与边界再次成为焦点。此外，基础设施层面出现 Trivy 供应链攻击等安全事件，Zig 语言也迎来了关键版本更新，值得开发者重点关注。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://www.infoq.cn/article/lAmhJxwuoPLvsKAF8WCV">OpenAI 被曝研发 "Super App" 及新模型 Spud</a> (InfoQ)
+    据报道，OpenAI 正在开发一款能 "替用户操作电脑" 的 Super App，以及代号为 Spud 的新模型，预计几周内登场。这标志着 AI 正从单一对话工具向具备自主执行能力的系统级应用演进，意图降低非技术用户的使用门槛。</li>
+<li><a href="https://www.infoq.cn/article/UGpjbIzIbbxbZ3XyWeRL">MiniMax 修改开源授权引发争议</a> (InfoQ)
+    MiniMax 因限制 M2.7 商用、强制标注来源却未完全撤下 MIT 标识而遭到社区质疑。这一事件再次引发了关于 "模型权重下载是否等于开源" 的讨论，暴露了当前 AI 开源生态在许可证定义上的模糊与冲突。</li>
+<li><a href="https://www.infoq.cn/article/TO5Qtp6GDufPrNOsoeMx">开源安全工具 Trivy 遭供应链攻击</a> (InfoQ)
+    知名开源安全扫描工具 Trivy 遭遇供应链攻击，引发行业紧急响应。作为基础设施中广泛依赖的安全组件，此次事件不仅敲响了软件供应链安全的警钟，也警示开发者需对安全工具本身保持警惕。</li>
+<li><a href="https://www.reuters.com/legal/transactional/openai-investors-question-852-billion-valuation-strategy-shifts-ft-reports-2026-04-14/">OpenAI 估值面临投资者审查</a> (Reuters)
+    据金融时报报道，OpenAI 高达 8520 亿美元的估值正面临投资者审查，原因涉及其战略方向的转变。在巨额融资与商业化变现压力并存的当下，资本市场对 AI 巨头的耐心与预期正在进入微妙的调整期。</li>
+<li><a href="https://rareese.com/posts/backblaze/">Backblaze 停止备份 OneDrive 和 Dropbox 文件夹</a> (Hacker News)
+    云备份服务商 Backblaze 宣布停止对 OneDrive 和 Dropbox 等云同步文件夹的备份支持。这一策略调整可能迫使依赖本地备份双重保险的用户重新审视数据安全策略，也反映了云存储服务商之间竞合关系的微妙变化。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://sspai.com/post/107600">浅谈人工智能时代的用户体验：Agent Experience 导论</a> (少数派)
+    文章提出了 "Agent Experience (AX)" 的概念，探讨如何设计让 AI 智能体而非人类用户 "理解" 并操作的产品形态。随着 AI 从辅助工具转变为自主执行者，产品设计逻辑正面临从 UX 到 AX 的范式转移。</li>
+<li><a href="https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing">加州立法审查 3D 打印的危险性</a> (EFF)
+    EFF 发文警告加州拟议立法审查 3D 打印内容的危险性，认为这可能构成对数字制造领域的审查。该趋势表明，随着制造技术的民主化，政府正试图通过立法手段介入对硬件设计与代码分发的管控。</li>
+<li><a href="https://www.oschina.net/news/421059">天猫拟新增 AI 软件及应用类商品发布规范</a> (开源中国)
+    天猫拟出台新规规范 AI 软件商品的发布，预示着国内 AI 应用市场正从野蛮生长转向合规化运营。明确的类目与发布标准将有助于提升消费者信任，但也可能提高中小开发者的准入门槛。</li>
+<li><a href="https://www.oschina.net/news/420715">"集市"的终结？当开源 AI 只剩下载</a> (开源中国)
+    一项针对 280 万个仓库的实证研究指出，当前所谓的 "开源 AI" 往往仅停留在权重下载层面，缺乏真正的协同开发。这种模式与传统开源软件的 "集市" 模式大相径庭，可能意味着 AI 时代的开源定义需要被重新审视。</li>
+<li><a href="https://news.ycombinator.com/item?id=47769796">Tell HN: Fiverr 泄露客户文件</a> (Hacker News)
+    自由职业平台 Fiverr 被曝因第三方服务配置不当导致客户文件可被公开搜索。此类事件频发揭示了零工经济平台在数据隐私保护上的薄弱环节，提醒企业和个人在交付数字资产时需格外谨慎。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://www.oschina.net/news/421066/zig-0-16-0-released">Zig 0.16.0 正式发布</a> (开源中国)
+    Zig 语言发布 0.16.0 版本，带来了标准库 I/O 接口化的重大重构。作为迈向 1.0 的关键一步，此次更新解决了核心架构问题，对于追求高性能和无隐藏控制流的系统级开发者而言，是一个重要里程碑。</li>
+<li><a href="https://www.oschina.net/news/421057">禅道 MCP 发布，协同项目管理与工程研发</a> (开源中国)
+    禅道正式发布 MCP（模型上下文协议）服务，支持在 Claude、Cursor 等 AI 助手中直接调用项目管理接口。这标志着研发管理工具正在主动拥抱 AI 编程工作流，让开发者能通过自然语言完成需求管理与代码提交。</li>
+<li><a href="https://code.claude.com/docs/en/routines">Claude Code Routines 文档上线</a> (Hacker News)
+    Claude Code 更新了关于 Routines 的文档，为开发者提供了优化 AI 编程助手的配置指南。结合社区热议的 Karpathy 配置单，这表明针对特定模型定制工作流正成为提升 AI 辅助编程效率的关键技能。</li>
+<li><a href="https://github.com/dropseed/plain">Plain：面向人类与智能体的全栈 Python 框架</a> (Hacker News)
+    Plain 是一个新兴的全栈 Python 框架，其设计初衷是同时服务于人类开发者与 AI Agent。它试图简化开发流程，让代码更易于被 AI 理解和修改，代表了下一代开发工具 "AI-Native" 的设计趋势。</li>
+<li><a href="https://www.oschina.net/news/420732">Seedance 2.0 全面开放 API 服务</a> (开源中国)
+    火山引擎宣布 Seedance 2.0 视频 API 正式上线，支持文字、图片、音频、视频四种模态输入。该工具在物理准确度与可控性上显著增强，为工业级视频创作提供了新的底层能力，值得 AIGC 创作者关注。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
