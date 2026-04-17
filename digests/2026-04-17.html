@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-17</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-17</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-17</h1>
+<p>今日科技圈迎来多项重磅发布，阿里开源Qwen3.6-35B-A3B模型仅激活3B参数即超越谷歌Gemma4，Anthropic同步推出Claude Opus 4.7。硬件领域同样热闹，大疆Pocket 4降价上市，长江存储一季度收入翻倍增长，内存接口即将迎来DDR6时代的重大变革。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3770357608219395">阿里开源千问3.6系列中等尺寸模型</a> (36kr)
+  4月16日晚，阿里千问开源中等尺寸模型Qwen3.6-35B-A3B，仅激活3B参数即超越谷歌最新发布的Gemma4-31B模型。该模型主打高效推理，在保持性能的同时大幅降低计算成本，为开发者在本地部署高质量AI模型提供了新选择。</p>
+</li>
+<li>
+<p><a href="https://www.anthropic.com/news/claude-opus-4-7">Anthropic发布Claude Opus 4.7模型</a> (Hacker News)
+  Anthropic正式推出Claude Opus 4.7，作为其旗舰级大语言模型的最新版本。此次更新在推理能力和代码生成方面有显著提升，进一步缩小与OpenAI顶级模型的差距，显示出AI模型竞争进入白热化阶段。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3770363954954755">"华为天才少年"创业公司行云集成电路融资超4亿元</a> (36kr)
+  国内全自研GPGPU企业「行云集成电路」宣布连续完成Pre-A及Pre-A+轮融资，金额超4亿元。公司由华为天才少年创立，专注新一代推理芯片研发，致力于重构显存成本，五源资本、赛富投资基金、春华资本联合领投。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3769604011885316">大疆发布Pocket 4并预告双摄版本，起售价下调500元</a> (36kr)
+  大疆发布全新一英寸口袋云台相机Osmo Pocket 4，搭载全新一英寸CMOS，动态范围提升至14级，支持10-bit D-Log。在影像规格升级的同时，起售价反而下调500元，以应对日益激烈的短视频硬件市场竞争。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3770303536825092">长江存储一季度收入超200亿元，正进行史诗级扩产</a> (36kr)
+  受庞大存储订单推动，长江存储一季度收入同比翻倍增长，NAND芯片产量已超全球市场10%份额，逼近全球第三。公司正以最快速度扩产，计划在新建一座工厂基础上再建两座工厂，全部投产后产能将大幅提升。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1206337">内存减产涨价的真正原因：DDR6将改变DIMM物理接口</a> (V2EX)
+  从1990年代沿用至今的DIMM物理接口将在2027年DDR6普及后发生天翻地覆的变化。这一底层架构的革新意味着现有内存生产线需要大规模改造，这才是内存减产涨价的深层原因，而非单纯AI需求驱动。</p>
+</li>
+<li>
+<p><a href="https://blog.cloudflare.com/ai-platform/">Cloudflare推出AI平台：为Agent设计的推理层</a> (Hacker News)
+  Cloudflare发布AI平台，提供专为AI Agent设计的推理层，同时推出支持Git的版本化存储Artifacts。这一布局显示边缘计算巨头正积极切入AI基础设施赛道，为开发者提供从模型部署到数据管理的全链路解决方案。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3770348485558787">国家发改委：重点在"人工智能+"基础设施等领域扩大投资</a> (36kr)
+  国家发改委表示今年将重点在"人工智能+"基础设施、城市更新、国家水网、新型能源体系等领域开展扩大有效投资行动。政策层面明确将AI基础设施作为投资重点，预示着算力中心、数据中心等建设将迎来新一轮增长。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3769501816439555">智元旗下觅蜂发布物理AI数据服务平台</a> (36kr)
+  具身机器人行业正面临"无token可烧"的数据匮乏瓶颈。觅蜂科技发布一站式物理AI数据服务平台，希望让数据像水电一样即取即用，解决具身智能必须在真实世界获取数据的核心痛点，这或将成为机器人行业突破的关键。</p>
+</li>
+<li>
+<p><a href="https://www.theguardian.com/us-news/ng-interactive/2026/apr/16/amazon-price-fixing-california-lawsuit">亚马逊被曝价格操纵，加州检方披露新证据</a> (Hacker News)
+  新解封的法庭记录显示亚马逊存在价格操纵行为，加州总检察长指控其通过算法和平台优势操控市场价格。这一案件再次引发对科技巨头市场垄断行为的关注，可能对电商平台的定价机制产生深远影响。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://cadquery.github.io/">CadQuery：开源Python 3D CAD建模库</a> (Hacker News)
+  CadQuery是一个强大的开源Python库，用于构建3D CAD模型。与传统CAD软件不同，它采用代码定义几何体的方式，支持参数化建模，非常适合需要自动化设计流程的工程师和开发者，可与3D打印、CNC加工无缝衔接。</p>
+</li>
+<li>
+<p><a href="https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html">Android CLI：用任何Agent构建Android应用快3倍</a> (Hacker News)
+  谷歌推出Android CLI工具，支持开发者使用任何AI Agent构建Android应用，效率提升3倍。这一工具将AI编程助手深度整合到移动开发流程中，大幅降低Android应用开发门槛，值得关注移动开发的开发者尝试。</p>
+</li>
+<li>
+<p><a href="https://github.com/Seeed-Projects/reBot-DevArm">ReBot-DevArm：开源机械臂项目</a> (Hacker News)
+  ReBot-DevArm是一款开源机械臂项目，提供完整的硬件设计和软件控制方案。适合机器人爱好者、研究机构进行二次开发，项目文档详尽，可作为学习机器人控制和自动化技术的入门平台。</p>
+</li>
+<li>
+<p><a href="https://qwen.ai/blog?id=qwen3.6-35b-a3b">Qwen3.6-35B-A3B：阿里开源Agent编程模型</a> (Hacker News)
+  阿里开源的Qwen3.6-35B-A3B模型专为Agent编程场景优化，采用稀疏激活架构，仅激活3B参数即可达到优异性能。开发者可在本地高效部署，适合构建代码生成、自动化任务等AI Agent应用。</p>
+</li>
+<li>
+<p><a href="https://lucasgerads.com/blog/lecroy-mcp-spice-demo/">Show HN：用Claude Code实现SPICE仿真与示波器验证闭环</a> (Hacker News)
+  一位开发者展示了如何为示波器和SPICE仿真器构建MCP服务器，让Claude Code能够自动完成仿真与真实硬件之间的验证闭环。这一案例展示了AI辅助硬件开发的实际应用，值得电子工程师参考学习。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
