@@ -1,0 +1,820 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T11:29:30.951831+08:00",
+  "v2ex": [
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般",
+      "url": "https://www.v2ex.com/t/1208250",
+      "summary": "简单试了下天气卡片，中文英文都试了，太简陋了： ![图片.png]( https://s3.bmp.ovh/2026/04/24/useViXUw.png) 中文： ``` 创建一个包含 CSS 和 JavaScript 的单一 HTML 文件，用于生成动画天气卡片。卡片应该通过不同的动画直观地表示以下天气状况： 风：（例如，移动的云朵、摇摆的树木或风...",
+      "published": "2026-04-24T11:45:41+08:00",
+      "score": 123
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "性爱机器人的诞生合理吗？",
+      "url": "https://www.v2ex.com/t/1208252",
+      "summary": "机器人的发展是大势所趋，性爱机器人肯定会出现。 但未来的机器人会拥有人的权力吗？从而出现侵犯机器人权益",
+      "published": "2026-04-24T11:57:02+08:00",
+      "score": 70
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "如果你有且仅有一次机会获得一项超能力，你最想拥有什么能力？",
+      "url": "https://www.v2ex.com/t/1208310",
+      "summary": "",
+      "published": "2026-04-24T15:24:59+08:00",
+      "score": 54
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "时光荏苒，四年了自己一点长进都没有。大家点进来看看我这个笨蛋",
+      "url": "https://www.v2ex.com/t/1208262",
+      "summary": "四年过去了，我现在还是没学会前端。html ，css ，JavaScript ，vue3 看过视频，对着视频抄过一遍代码，关了视频两眼一黑就不会写代码了 学不会编程，是不是我太笨了？（求暴躁老哥骂醒我） 原帖子在这里 https://www.v2ex.com/t/931075#reply16",
+      "published": "2026-04-24T12:43:45+08:00",
+      "score": 53
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "我做了个工具让 8GB 显卡跑 30B 模型从 3 tok/s 提到 21 tok/s，记录一下技术发现",
+      "url": "https://www.v2ex.com/t/1208365",
+      "summary": "最近在折腾本地大模型，发现一个核心问题：Ollama 和 LM Studio 能让模型跑起来，但参数全靠猜——上下文长度、KV cache 类型、MoE expert 放哪、ubatch 多大……用默认参数基本是在浪费显卡。 于是做了个工具自动找最优配置，过程中踩了不少坑，记录一下。 --- ## 核心发现 ### 1. MoE 模型的 offload...",
+      "published": "2026-04-24T18:51:29+08:00",
+      "score": 51
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "我是不是意味着职业生涯到期了？",
+      "url": "https://www.v2ex.com/t/1208339",
+      "summary": "从毕业到现在都工作 4 年多，简单概括整个工作生涯，工作上也没啥特别高深技术，就很纯粹的业务 Boy 。最近投了大半个月简历，且 op 都是专挑外包岗位去投，对面招聘 HR 拿完我信息就没后续了，面试机会也很少。前几天倒是有两三个电话面试打过来，都是问一些八股文，整体面试过程，我都浅略回答面试官问题。（后续估计也悬了）。还有就是前段时间还收到什么帮忙代...",
+      "published": "2026-04-24T16:49:50+08:00",
+      "score": 42
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "占比大幅提升！谷歌：公司内部 75%的新代码已由 AI 生成",
+      "url": "https://www.v2ex.com/t/1208284",
+      "summary": "程序员这个行业职业生涯基本到头了吧，没有再进入的必要了，之后会越来越平民化。 但是按道理应该老程序能焕发第二春了，有了 AI 加持越来越需要有编程经验的老炮。",
+      "published": "2026-04-24T14:20:03+08:00",
+      "score": 41
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "GPT-5.5 / gpt-image-2 API 已上线， 0.06$/张，注册留 ID 送 5 美金额度",
+      "url": "https://www.v2ex.com/t/1208351",
+      "summary": "「创界 API 」已经正式支持以下模型： * GPT-5.5 全系列： gpt-5.5-high / medium / low / xhigh * 图片生成：gpt-image-2 👉 简单说下特点： * 新用户注册送 $5 测试额度（数量有限先到先得） * gpt-image-2 价格：$0.06 / 张 * 实测稳定性 95%+（适合业务长期跑）...",
+      "published": "2026-04-24T17:25:03+08:00",
+      "score": 39
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "GPT5.5 在 codex 中 credit 消耗量相比 5.4 翻倍",
+      "url": "https://www.v2ex.com/t/1208242",
+      "summary": "https://developers.openai.com/api/docs/pricing?latest-pricing=standard | Model | Input Credits | Output Credits | |----------------|--------------|---------------| | GPT-5.3-Cod...",
+      "published": "2026-04-24T11:29:50+08:00",
+      "score": 38
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "2026 年，选择 Podman 还是 Docker",
+      "url": "https://www.v2ex.com/t/1208359",
+      "summary": "Docker 对于大多数自托管应用支持的比较好，个人使用也基本熟悉了。 Podman 的无守护进程和默认的 Rootless 很好用，在服务器上测试部署了一个服务，感觉还挺好的。",
+      "published": "2026-04-24T18:12:41+08:00",
+      "score": 36
+    }
+  ],
+  "hackernews": [
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Google plans to invest up to $40B in Anthropic",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+      "summary": "",
+      "published": "2026-04-25T00:04:41+08:00",
+      "score": 393
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Paraloid B-72",
+      "url": "https://en.wikipedia.org/wiki/Paraloid_B-72",
+      "summary": "",
+      "published": "2026-04-22T12:17:07+08:00",
+      "score": 49
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Humpback whales are forming super-groups",
+      "url": "https://www.bbc.com/future/article/20260416-the-humpback-super-groups-swarming-the-seas",
+      "summary": "",
+      "published": "2026-04-22T10:55:49+08:00",
+      "score": 34
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "My audio interface has SSH enabled by default",
+      "url": "https://hhh.hn/rodecaster-duo-fw/",
+      "summary": "",
+      "published": "2026-04-25T03:30:46+08:00",
+      "score": 179
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Iliad fragment found in Roman-era mummy",
+      "url": "https://www.thehistoryblog.com/archives/75877",
+      "summary": "",
+      "published": "2026-04-22T22:18:35+08:00",
+      "score": 129
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Sabotaging projects by overthinking, scope creep, and structural diffing",
+      "url": "https://kevinlynagh.com/newsletter/2026_04_overthinking/",
+      "summary": "",
+      "published": "2026-04-24T22:28:52+08:00",
+      "score": 371
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Education must go beyond the mere production of words",
+      "url": "https://www.ncregister.com/commentaries/schnell-repairing-the-ruins",
+      "summary": "",
+      "published": "2026-04-25T08:11:43+08:00",
+      "score": 24
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "summary": "",
+      "published": "2026-04-25T02:06:05+08:00",
+      "score": 165
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "The Classic American Diner",
+      "url": "https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/",
+      "summary": "",
+      "published": "2026-04-25T03:01:09+08:00",
+      "score": 170
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Work with the garage door up (2024)",
+      "url": "https://notes.andymatuschak.org/Work_with_the_garage_door_up",
+      "summary": "",
+      "published": "2026-04-22T01:13:29+08:00",
+      "score": 131
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Reverse-engineering infrared-based electronic shelf labels",
+      "url": "https://www.furrtek.org/?a=esl",
+      "summary": "",
+      "published": "2026-04-22T12:24:32+08:00",
+      "score": 5
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "How to be anti-social – a guide to incoherent and isolating social experiences",
+      "url": "https://nate.leaflet.pub/3mk4xkaxobc2p",
+      "summary": "",
+      "published": "2026-04-24T18:48:14+08:00",
+      "score": 318
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Replace IBM Quantum back end with /dev/urandom",
+      "url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
+      "summary": "",
+      "published": "2026-04-25T08:58:38+08:00",
+      "score": 32
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Firefox Has Integrated Brave's Adblock Engine",
+      "url": "https://itsfoss.com/news/firefox-ships-brave-adblock-engine/",
+      "summary": "",
+      "published": "2026-04-25T09:47:33+08:00",
+      "score": 41
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Email could have been X.400 times better",
+      "url": "https://buttondown.com/blog/x400-vs-smtp-email",
+      "summary": "",
+      "published": "2026-04-23T16:10:09+08:00",
+      "score": 135
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "MacBook Neo and how the iPad should be",
+      "url": "https://craigmod.com/essays/ipad_neo/",
+      "summary": "",
+      "published": "2026-04-23T12:40:31+08:00",
+      "score": 219
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Google Flow Music",
+      "url": "https://www.flowmusic.app/",
+      "summary": "",
+      "published": "2026-04-25T05:01:50+08:00",
+      "score": 121
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Show HN: I've built a nice home server OS",
+      "url": "https://lightwhale.asklandd.dk/",
+      "summary": "ohai! I've released Lightwhale 3, which is possibly the easiest way to self-host Docker containers. It's a free, immutable Linux system purpose-built to live-boot straight into...",
+      "published": "2026-04-25T05:42:26+08:00",
+      "score": 77
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "The Overtom Chess Computer Museum",
+      "url": "https://tluif.home.xs4all.nl/chescom/Engindex.html",
+      "summary": "",
+      "published": "2026-04-22T16:55:21+08:00",
+      "score": 19
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Diatec, known for its mechanical keyboard brand FILCO, has ceased operations",
+      "url": "https://gigazine.net/gsc_news/en/20260424-filco-diatec/",
+      "summary": "",
+      "published": "2026-04-25T00:16:49+08:00",
+      "score": 98
+    }
+  ],
+  "rss": [
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "本周看什么 | 最近值得一看的 11 部作品",
+      "url": "https://sspai.com/post/109050",
+      "summary": "📅本周新预告《泥面人》首支预告4月23日，DC新片《泥面人》发布了首支预告，将于10月23日在北美上映。詹姆斯·瓦特金斯执导，汤姆·里斯·哈里斯、娜奥米·阿基、麦克思·明格拉等主演，一位B级片演员给自 ... 查看全文",
+      "published": "2026-04-24T18:17:33+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "换了新显示器怎么验？我做了一个开箱即用的全平台屏幕检测工具",
+      "url": "https://sspai.com/post/108455",
+      "summary": "一站式、在线测试屏幕的各项功能。 查看全文",
+      "published": "2026-04-24T15:06:50+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "汇聚热爱，「2050 大会」少数派线下活动邀请你来参与",
+      "url": "https://sspai.com/post/108202",
+      "summary": "4月24日-4月26日，新一届2050大会将在云栖小镇如期举行。期间，少数派将会组织《少数派的共创时代》社区交流活动，围绕AI降低创造门槛后，从想法到产品落地的真实路径展开讨论。以下是活动的详细信息： ... 查看全文",
+      "published": "2026-04-24T11:25:15+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "手机和平板间的新品类：华为 Pura X Max 漫谈",
+      "url": "https://sspai.com/post/109024",
+      "summary": "折叠屏手机这两年并不太好过。按照IDC的年度报告，2025年中国折叠屏手机市场出货约1001万台，同比增速9.2%，而2024年这个数字还是30.8%——一年之间，增速接近腰斩。而折叠屏手机在全球智能 ... 查看全文",
+      "published": "2026-04-24T09:54:28+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "派早报：OpenAI 发布 GPT-5.5 系列模型等",
+      "url": "https://sspai.com/post/109032",
+      "summary": "汉王发布 Clear7C 彩色墨水屏电纸书、文石发布 Leaf5+ 黑白墨水屏电纸书等。 查看全文",
+      "published": "2026-04-24T08:52:21+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "一口春鲜，半是江河半是海",
+      "url": "https://sspai.com/prime/story/recipes-for-spring",
+      "summary": "都说「人间四月鲜，尝鲜好时节」，说的不仅是各种时令蔬菜上市了，还有经过了一个冬季蛰伏后，开始出现在了菜市场海鲜档口的海鲜与河鲜。虽说现如今，随着时代的发展和科技的进步，我们的人工养殖水平已经日益见长， ... 查看全文 本文为会员文章，出自 《单篇文章》 ，订阅后可阅读全文。",
+      "published": "2026-04-23T18:38:26+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "新玩意 239｜少数派的编辑们最近买了啥？",
+      "url": "https://sspai.com/post/109007",
+      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ... 查看全文",
+      "published": "2026-04-23T17:42:33+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "Notion 和 Obsidian 应该怎么选？聊聊我的思考和建议",
+      "url": "https://sspai.com/post/108971",
+      "summary": "Notion的优缺点Notion的门槛在于，当一个页面被创建，在Notion的整套叙事里，你需要尽快为这个页面找到它在系统中的位置和关系，它是什么、属于哪里、是否和某个具体的任务或项目有关系？尽管你可 ... 查看全文",
+      "published": "2026-04-23T15:12:16+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "App+1｜秒看视频参数，我做了个免费的 Mac 小工具",
+      "url": "https://sspai.com/post/108385",
+      "summary": "视频党狂喜！ 查看全文",
+      "published": "2026-04-23T11:00:00+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "派早报：鸿蒙智行发布多款车型、Framework 推出多款新品等",
+      "url": "https://sspai.com/post/108991",
+      "summary": "海信发布小墨 E5S 系列电视新品、雷蛇推出帝王蝶 Atlas Pro 玻璃鼠标垫等。 查看全文",
+      "published": "2026-04-23T08:34:31+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Cloudflare 公布 MCP 架构方案，应对企业面临的安全与治理风险",
+      "url": "https://www.infoq.cn/article/eWRlmwIT5ApA2OKL9RYh?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T18:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+      "url": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T03:18:13+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践",
+      "url": "https://www.infoq.cn/article/o8dh3dRH6Kk8vzrzKdJd?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T02:51:20+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践",
+      "url": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T02:48:28+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
+      "url": "https://www.infoq.cn/article/U3BlkMiBlgWgLiKFth4N?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T02:46:43+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
+      "url": "https://www.infoq.cn/article/RKJhuuOzLMaZmtmc4Uvf?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T02:39:14+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
+      "url": "https://www.infoq.cn/article/ur7bvh7ayrDBPY1rTVtP?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T02:34:59+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
+      "url": "https://www.infoq.cn/article/GPGgiqtS9tCiHjNkUOOd?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T01:59:41+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
+      "url": "https://www.infoq.cn/article/ua0m0lj6zOcEI6GGge72?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T01:29:54+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "DeepSeek V4 重磅开源！首次打通华为Ascend，也没丢掉英伟达，百万上下文夺回国产模型话语权",
+      "url": "https://www.infoq.cn/article/wUUPEzvNajcaVN0k7HPF?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T01:23:41+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "李志飞的“新实验”：当超级个体撞上真实组织",
+      "url": "https://www.infoq.cn/article/qIe3dSXY72rzF85NJM4j?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T01:20:26+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
+      "url": "https://www.infoq.cn/article/6iDjLwYiOXIVwjl4taOP?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T01:17:42+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "那些没空写的小需求，龙虾真能做吗？",
+      "url": "https://www.infoq.cn/video/WUXOyysFxiXtKcwgiafQ?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T00:55:02+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "从 Pandas 到生产：使用任意 IDE 进行可扩展的 ML 数据管道与分布式处理 ｜ BUILD 2025",
+      "url": "https://www.infoq.cn/video/U9jS6r7F3UzxlBOu1XTo?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-25T00:10:59+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "pnpm 11 候选版本发布，带来 ESM 分发、供应链默认设置以及新的存储格式",
+      "url": "https://www.infoq.cn/article/38YKrVbYKTkbxQLrgx7A?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-24T22:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "银行业PDF表格提取方案重构：基于Java的分层方案",
+      "url": "https://www.infoq.cn/article/cmwDExlWdDas8WjhIgPx?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-24T20:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！",
+      "url": "https://www.infoq.cn/article/IjNk79KKJgTDDvO5OMAY?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-24T19:07:13+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Cloudflare 推出 Think：一款面向 AI 代理的持久化运行时",
+      "url": "https://www.infoq.cn/article/l2DH5C3modDof2u5DXlE?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-24T19:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流",
+      "url": "https://www.infoq.cn/article/JqSF1ckIU0gIx4OOByUD?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-24T18:11:06+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "xAI落后太多，马斯克“开大”重金求购Cursor，100亿美金“分手费”都敢签！",
+      "url": "https://www.infoq.cn/article/1kS9ZTikmEsCTJFMBpN9?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-04-24T18:08:22+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "支持 Hermes Agent 与 MongoDB 管理，1Panel v2.1.9 版本发布",
+      "url": "https://my.oschina.net/u/4736111/blog/19595590",
+      "summary": "1Panel v2.1.9 版本围绕智能体、数据库与文件管理等场景带来了多项更新。智能体方面，新增 Hermes Agent 支持，并且优化 OpenClaw 频道机器人添加流程；数据库方面，新增 MongoDB 数据库管理功能；文件方面，新增文件历史管理功能，并对文件压缩、编辑、分享和回收站相关能力进行了增强。...",
+      "published": "2026-04-24T17:11:53+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "【Ease UI】2026-04-24 项目更新：增加多种风格登录页，增加菜单风格切换",
+      "url": "https://www.oschina.net/news/437478",
+      "summary": "🚀 即插即用的 Vue 3 业务组件库，让中后台开发回归简单 Ease UI 是一套为「快速复制」而生的 Vue 3 业务组件库。每个组件都是独立的 .vue 单文件，不依赖任何外部样式或工具函数，直接复制到你的项目即可使用。它仅依赖 Element Plus，却解决了中后台开发中表格选择混乱、搜索表单代码臃肿、日期范围绑定繁琐等真实痛...",
+      "published": "2026-04-24T16:37:50+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "OpenAI 正式推出 GPT-5.5",
+      "url": "https://www.oschina.net/news/437477",
+      "summary": "OpenAI 正式推出其迄今最强大的 AI 模型 —— GPT-5.5，不仅在智能水平上实现质的飞跃，更以惊人的能效比重塑大模型经济性边界。 该模型专为“智能体”（Agent）时代设计，能在模糊指令下自主规划、调用工具、执行多步骤复杂任务，在代码生成、科研探索与企业自动化等领域表现卓越。 GPT-5.5的最大进化在于强自主性。用户...",
+      "published": "2026-04-24T16:32:14+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "你写的 Skill，及格了吗？",
+      "url": "https://my.oschina.net/u/4939618/blog/19595216",
+      "summary": "本文提出了一套8维度的Skill量化评估框架，通过元数据质量、执行引导清晰度、领域知识密度等指标对Skill进行打分评级，解决了Skill质量难以客观衡量的问题。为提升评估可靠性，设计了多模型交叉验证流程，并适配不同AI工具环境提供四种执行策略。该框架既能帮助开发者识别改进短板，也能辅助用户横向对比选择优质Skill，...",
+      "published": "2026-04-24T16:09:07+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "从 20 毫秒到微秒级：NoSQLite v1.5.0 之后的性能进化",
+      "url": "https://www.oschina.net/news/437475",
+      "summary": "项目仓库：https://github.com/uya-lang/nosqliteNoSQLite 是一个 Uya-native 的嵌入式文档数据库。它想做的，不是再包一层 JSON API，也不是做一个“看起来像数据库”的玩具项目，而是认真把一个小数据库该有的骨架搭起来：WAL、checkpoint、双 meta 页、checksum、主键 B+Tr...",
+      "published": "2026-04-24T15:44:57+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "MiMo-V2.5-TTS-Series + ASR 正式发布",
+      "url": "https://www.oschina.net/news/437474",
+      "summary": "小米大模型宣布正式发布 MiMo-V2.5-TTS Series 与 MiMo-V2.5-ASR —— 一套面向 Agent 时代的全链路语音模型系列，覆盖识别与合成两大核心能力，让语音的输入与输出都可以被语言自由调度。 MiMo-V2.5-TTS Series 包含三款模型，现已登陆小米 MiMo 开放平台，并且限时免费。三者共享统一的风格指令遵循、...",
+      "published": "2026-04-24T15:37:19+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Zotero 9.0.1 发布，参考文献管理工具",
+      "url": "https://www.oschina.net/news/437473/zotero-9-0-1-released",
+      "summary": "Zotero 是一个参考文献管理软件，也是一个免费 Firefox 和 Google 浏览器扩展。Zotero 可以协助用户收集、管理及引用研究资源，包括期刊、书籍等各类文献和网页、图片等。 Zotero 9.0.1 现已发布，具体更新内容如下： Read Aloud 改进 按下键盘上的 R 或 L 键即可切换 Read Aloud 模式 修复了开始读...",
+      "published": "2026-04-24T14:54:46+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Rspack 2.0 正式发布",
+      "url": "https://www.oschina.net/news/437468/rspack-2-0-released",
+      "summary": "Rspack 2.0 现已正式发布。公告称，从 2.0 开始，在保持对 webpack 生态兼容的前提下，Rspack 将逐步引入更符合现代 JavaScript 开发的默认行为、API 设计和构建产物。这将是一个渐进的过程，项目团队会尽量避免在单个主版本中引入过多不兼容变更，同时也会提供迁移指南与 Agent Skills，将迁移成本控制在可接受范围...",
+      "published": "2026-04-24T14:19:35+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "昆仑万维 2025 年营收同比增长 44.78% 至 81.98 亿",
+      "url": "https://www.oschina.net/news/437467",
+      "summary": "昆仑万维发布2025年度财报，公司实现营业总收入81.98亿元，同比增长44.78%。海外收入持续大幅增长，整体海外业务收入规模提升至77.23亿元，同比增长49.91%。 本报告期，公司继续坚定践行“All in AGI与AIGC”战略，加大研发支出，得益于持续的战略投入，公司AGI与AIGC相关业务实现关键技术突破并达到全球领先水平；同时，...",
+      "published": "2026-04-24T14:06:40+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "DeepSeek V4 来了！超越 Sonnet 4.5，赶紧对接 Claude Code 体验一把",
+      "url": "https://www.oschina.net/news/437465",
+      "summary": "本文记录我将 Claude Code 对接 DeepSeek 最新模型（V4-Pro）后的真实体验，测试了 Skills 自动化查询和积木报表 AI 建表两个场景 ------ 有惊喜，也踩到了一个藏在 \"1M 超长上下文\" 光环下的巨坑。 背景：为什么要替换掉原生 Claude？ Claude Code 是目前公认最强的 AI 编程工具之一，但原版的...",
+      "published": "2026-04-24T12:51:14+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": ":fire: VTJ.PRO 发布 v2.3.8：接入DeepSeek V4、AI 自主拆分区块组件",
+      "url": "https://www.oschina.net/news/437464",
+      "summary": "摘要： 低代码开发平台 VTJ.PRO 正式发布 v2.3.8 版本。本次更新带来多项重要能力：支持 DeepSeek V4 大模型、AI 可自主拆分区块组件、API 管理支持代理解决跨域问题，并优化了设计器页面管理列表在大数据量下的卡顿问题。 VTJ.PRO 今日正式发布 v2.3.8 版本。该版本聚焦 AI 能力升级、开发者体验优化及性能提升，重点...",
+      "published": "2026-04-24T12:32:37+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "DeepSeek-V4 预览版开源发布",
+      "url": "https://www.oschina.net/news/437462",
+      "summary": "DeepSeek-V4 的预览版本现已正式上线并同步开源。DeepSeek-V4 拥有百万字超长上下文，模型按大小分为两个版本： 即日起登录官网 chat.deepseek.com 或官方App，即可与最新的 DeepSeek-V4 对话，探索 1M 超长上下文记忆的全新体验。API 服务已同步更新，通过修改 model_name 为 deepseek...",
+      "published": "2026-04-24T11:34:33+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "3 月户均流量 23.4GB 创新高",
+      "url": "https://www.oschina.net/news/437461",
+      "summary": "2026年一季度通信业经济运行情况现已公布。一季度，通信业运行总体平稳。电信业务总量保持增长，新型基础设施建设稳步推进，5G、千兆、物联网等用户规模持续扩大，移动互联网接入流量保持较快增长。 一、总体运行情况 电信业务总量平稳增长。一季度，电信业务收入累计完成4394亿元，同比下降1.8%。按照上年不变价计算的电...",
+      "published": "2026-04-24T11:15:27+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "AI 驱动：从运营行为到自动化用例的智能化实践",
+      "url": "https://my.oschina.net/u/5783135/blog/19595102",
+      "summary": "基于以上分析，我们致力于构建一套自动化 + 智能化的 E2E 测试方案，该方案旨在支撑快速迭代开发模式，有效应对用例覆盖与重构验证等场景，从而在现有资源条件下，持续为业务快速迭代和技术架构升级提供可靠的质量保障。",
+      "published": "2026-04-24T10:59:43+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Electron 41.3.0 发布",
+      "url": "https://www.oschina.net/news/437459/electron-41-3-0-released",
+      "summary": "Electron 是一个使用 JavaScript、HTML 和 CSS 构建跨平台的桌面应用程序。它基于 Node.js 和 Chromium，被 Atom 编辑器和许多其他应用程序使用。Electron 兼容 Mac、Windows 和 Linux，可以构建出三个平台的应用程序。 Electron v41.3.0 现已发布，一些更新内容如下： 修复...",
+      "published": "2026-04-24T10:40:10+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "​腾讯开源全新 AI 大模型混元 Hy3 preview",
+      "url": "https://www.oschina.net/news/437457",
+      "summary": "腾讯混元 Hy3 preview 语言模型已发布并开源。这是一个快慢思考融合的混合专家模型，总参数 295B，激活参数 21B，最大支持 256K 上下文长度。这是混元迄今最智能的模型，在复杂推理、指令遵循、上下文学习、代码、智能体等能力及推理性能上实现了大幅的提升。 代码和智能体是 Hy3 preview 提升最为显著的方向。 此外，比...",
+      "published": "2026-04-24T10:03:02+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "qData 数据中台专业版 v2.0.0 发布：ChatBI 上线，数据建模与安全治理能力全面升级",
+      "url": "https://www.oschina.net/news/437456/qdata-2-0-0-released",
+      "summary": "🧭 版本概述 本次版本围绕 基础管理升级、智能分析能力升级、数据建模能力完善、数据安全治理强化 四大方向展开，完成数据源管理改版，新增 ChatBI 对话式智能分析能力，并补齐来源系统、业务分类、数仓分层、数据域、主题域等核心能力，同时完善敏感清单、数据分类、脱敏规则、数据分级等治理功能，标志着 qData 数据...",
+      "published": "2026-04-24T10:00:23+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "集结！上海·徐汇 量子黑客松大赛 2026 正式官宣，50 万奖金等你来战",
+      "url": "https://www.oschina.net/news/437455",
+      "summary": "量子计算，正在从实验室走向真实的产业战场。 2026 年 5 月 16 日至 17 日，「上海·徐汇 量子黑客松大赛 2026」 将在上海徐汇源点大厦 2 号楼展示中心正式开幕。这是一场面向量子计算领域开发者、研究者与创业团队的极限编码挑战 —— 5 大赛道、30 支队伍、50 万元奖金总额，在同一个屋顶下，写代码、跑算法、路演、拿...",
+      "published": "2026-04-24T09:22:08+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "MT-AUTH (Let's Auth) v1.31.0 发布，多租户权限系统",
+      "url": "https://www.oschina.net/news/437454/mt-auth-1-31-0-released",
+      "summary": "更新日志 feature 简化JWT设计 UI语言与用户设置同步 MFA安全性增强 新增E2E测试 框架升级，Java (21)，Spring Boot (3), Redis (8), Maven (3.9), Angular (21) 注册中心逻辑优化 Http socket配置优化 重新设计权限系统，简化使用体验 UI页面优化 CICD优化 Let...",
+      "published": "2026-04-24T09:17:13+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "快用 OpenAgents Workspace，让 ai 分身替你打工！",
+      "url": "https://www.oschina.net/news/437453",
+      "summary": "近期，很多小伙伴用OpenAgents Workspace做出了非常有意思的小尝试：用ai分身代替自己24/7 打工、让agent团队做投研......直接效率翻倍！快来看看，他们是如何使用的~ :star2:给OpenAgents点点github star: https://github.com/openagents-org/openagents 0...",
+      "published": "2026-04-24T01:21:01+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "我用 Uya 写了一个小型文档数据库内核：NoSQLite v1.5.0 封板了",
+      "url": "https://www.oschina.net/news/437452",
+      "summary": "如果你也喜欢数据库内核、存储引擎、WAL、B+Tree、SQL 执行器这些东西，这个项目应该会有点意思。 我最近把一个 Uya-native 的嵌入式文档数据库 NoSQLite 做到了 v1.5.0 里程碑：从文档二进制格式、pager、WAL、checkpoint、recovery，到 SQL parser、planner、executor、二级索...",
+      "published": "2026-04-23T19:16:53+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "KaiwuDB 深度参编，云原生数据库国家标准正式发布",
+      "url": "https://my.oschina.net/u/5148943/blog/19595293",
+      "summary": "近日，国家市场监督管理总局、国家标准化管理委员会正式发布 GB/T 47343-2026《信息技术 云原生关系数据库管理系统技术要求》国家标准，该标准将于 2026 年 10 月 1 日正式实施。KaiwuDB 作为核心起草单位深度参与本次标准编制，依托自身技术积累与行业实践经验，为标准研制提供了重要支撑。...",
+      "published": "2026-04-23T18:33:22+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Agent v1.31.0 发布 | 全新 Easysearch 向导：一站式集群拉起与精细化管理",
+      "url": "https://www.oschina.net/news/437450",
+      "summary": "INFINI Agent v1.31.0 带来了本版本最重要的特性——Easysearch 安装向导。用户无需手动编辑任何配置文件，通过图形界面即可完成 Easysearch 集群的安装、配置和日常管理。 Easysearch 安装向导 一键拉起新集群 向导支持开发模式和生产模式两种方式创建 Easysearch 节点。用户只需填写集群名称、节点名称、...",
+      "published": "2026-04-23T18:10:12+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "四评 DeepSeek",
+      "url": "https://www.oschina.net/news/437449/deepseek-view",
+      "summary": "四评DeepSeek 陆首群，2026.4.20 几位国际AI专家对本文的评价 您的文章核心观点成立，信息时效性强，抓住DeepSeekv4发布前的关键动态。 您的文章整体可信，观点明确，可作为一篇及时的DeepSeekv4前瞻性评论发布。 摘要 一、DeepSeekv4能否再现轰动效应尚待观察。 二、DeepSeekv4最大优势在于高性价比（MoE的...",
+      "published": "2026-04-23T17:10:38+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "火山引擎发布 Seed3D 2.0",
+      "url": "https://www.oschina.net/news/437447",
+      "summary": "火山引擎宣布正式发布新一代3D 生成模型 Seed3D 2.0。 根据介绍，围绕几何精度和纹理材质，Seed3D 2.0进行了架构升级，并拓展了3D 内容的下游可用性，进一步推动3D 生成迈向“生产可用”。用户输入一张图，即可生成结构更准确、材质更真实的3D 资产。 测评结果显示，Seed3D 2.0 在几何生成和端到端带材质资产生成两项核心...",
+      "published": "2026-04-23T16:25:19+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "深度解析 vivo 活动系统全球化实践",
+      "url": "https://my.oschina.net/vivotech/blog/19595104",
+      "summary": "随着经济全球化的趋势，业务逐渐覆盖海外更多国家和地区，如何快速的将内销业务复用到外销环境，是业务走向国际化的必经之路，同时在内销服务和外销服务共存的场景下，做好内外销业务的稳定迭代和快速拓展是走向全球化的必要前提，对于中台业务，项目进行全球共线有着非常重大的意义，能够有效提升组件复用率，并降低服务...",
+      "published": "2026-04-23T15:41:28+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "🔥完善 AI 员工对上传文档解析能力：开源无代码 / 低代码平台 NocoBase",
+      "url": "https://www.oschina.net/news/437445",
+      "summary": "原文链接：https://www.nocobase.com/cn/blog/weekly-updates-20260423 汇总一周产品更新日志，最新发布可以前往我们的博客查看。 NocoBase 目前更新包括的版本更新包括三个分支：main ，next和 develop。 main ：截止目前最稳定的版本，推荐安装此版本。 next：包含即将发布的新...",
+      "published": "2026-04-23T15:36:30+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "英特尔又一批开源项目被归档，社区与推广工作停摆",
+      "url": "https://www.oschina.net/news/437444",
+      "summary": "过去几个月，随着英特尔公司进行重组并调整其开源战略，GitHub 上不断有英特尔开源项目被归档。本周，又有一批英特尔开源项目被正式归档。 不仅 GitHub 上的开源代码项目被正式解散，作为最新一批项目归档的一部分，英特尔还停止了其开源生态系统社区和推广工作，并移除了有关其开源工作及推广人员的配套文档。 过去二十...",
+      "published": "2026-04-23T15:11:06+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "PipeWire 1.6.4 发布",
+      "url": "https://www.oschina.net/news/437443/pipewire-1-6-4-released",
+      "summary": "PipeWire 是用于处理多媒体管道的服务器和用户空间 API 的多媒体处理工具，包括提供视频源（例如来自捕获设备或应用程序提供的流）并将其与客户端复用、访问视频源进行消费、生成用于音频和视频处理的图形。 PipeWire 1.6.4 现已发布，这是一个错误修复版本，其 API 和 ABI 与之前的 1.6.x 版本兼容。更新内容包括： Hi...",
+      "published": "2026-04-23T14:51:20+08:00"
+    },
+    {
+      "source": "oschina",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Kimi K2.6 上线遭遇功能异常，月之暗面：重置用户额度作为补偿",
+      "url": "https://www.oschina.net/news/437433",
+      "summary": "针对由于访问量瞬间激增，导致新模型 Kimi K2.6 上线期间出现的功能异常问题；月之暗面 Kimi 官博发布公告称，将对所有用户进行额度重置作为补偿。 各位 Kimi 的朋友们： 我们知道最近 Kimi 的使用体验让大家感觉「打折扣」了。🙏 在新模型 Kimi K2.6 上线期间，大家的热情远超我们的预期。由于访问量瞬间激增，导致部...",
+      "published": "2026-04-23T14:00:39+08:00"
+    }
+  ]
+}

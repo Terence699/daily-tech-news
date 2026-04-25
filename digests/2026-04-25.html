@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-25</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-25</h1>
+<p>AI 领域今日迎来多项重磅发布与资本动向，OpenAI 推出 GPT-5.5，DeepSeek 发布 V4 开源模型，谷歌更计划向 Anthropic 注资高达 400 亿美元，大模型竞争进入白热化阶段。与此同时，AI 对软件开发的重塑已成定局，谷歌内部 75% 新代码由 AI 生成的数据引发行业对开发者未来的深度思考。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.oschina.net/news/437477">OpenAI 正式推出 GPT-5.5</a> (开源中国)
+  OpenAI 发布迄今最强大的模型 GPT-5.5，专为“智能体”时代设计，具备自主规划与调用工具能力，在代码生成与企业自动化领域表现卓越。该模型在智能水平飞跃的同时，大幅优化了能效比，重塑了大模型的经济性边界。</p>
+</li>
+<li>
+<p><a href="https://www.oschina.net/news/437462">DeepSeek-V4 预览版开源发布</a> (开源中国)
+  DeepSeek-V4 正式上线并开源，拥有百万字超长上下文，分 Pro 和 Flash 两个版本。该模型不仅性能强劲，更首次打通了华为 Ascend 芯片适配，实现了英伟达与国产芯片的双重支持，进一步夺回了国产模型的话语权。</p>
+</li>
+<li>
+<p><a href="https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic">Google plans to invest up to $40B in Anthropic</a> (Hacker News)
+  谷歌计划向 Anthropic 投资高达 400 亿美元，这一巨额注资显示了科技巨头在 AI 领域持续加码的决心。此举将进一步加剧 AI 大模型市场的竞争格局，巩固 Anthropic 作为 OpenAI 主要竞争对手的地位。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1208284">占比大幅提升！谷歌：公司内部 75%的新代码已由 AI 生成</a> (V2EX)
+  谷歌透露公司内部超过 75% 的新代码由 AI 生成，标志着软件开发模式发生根本性转变。这一数据引发了关于程序员职业前景的广泛讨论，AI 的普及既降低了编程门槛，也对资深工程师利用 AI 提效提出了新要求。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/6iDjLwYiOXIVwjl4taOP">GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了</a> (InfoQ)
+  在 GPT-5.5 发布之际，Anthropic 承认 Claude 模型在特定任务上表现下降，引发用户对模型维护稳定性的担忧。这一现象揭示了在大模型快速迭代背景下，如何平衡模型能力进化与基础性能保持成为厂商面临的新挑战。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/ur7bvh7ayrDBPY1rTVtP">Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人</a> (InfoQ)
+  Meta 开始记录员工的详细操作数据以训练 AI 模型，反映了企业试图通过数据积累实现工作流程自动化的趋势。这引发了关于职场隐私与 AI 伦理的争议，也表明 AI 接管复杂工作的前提是对人类行为的深度数字化监控。</p>
+</li>
+<li>
+<p><a href="https://itsfoss.com/news/firefox-ships-brave-adblock-engine/">Firefox Has Integrated Brave's Adblock Engine</a> (Hacker News)
+  Firefox 浏览器正式集成了 Brave 的广告拦截引擎，显著提升了其隐私保护能力。这一举措不仅是浏览器技术层面的优化，更反映了在隐私日益受重视的当下，开源社区通过共享核心技术来对抗网络追踪的趋势。</p>
+</li>
+<li>
+<p><a href="https://gigazine.net/gsc_news/en/20260424-filco-diatec/">Diatec, known for its mechanical keyboard brand FILCO, has ceased operations</a> (Hacker News)
+  知名机械键盘品牌 FILCO 的母公司 Diatec 宣布停止运营，标志着外设行业一个时代的落幕。这一事件折射出随着客制化键盘市场的兴起与竞争加剧，传统外设品牌若缺乏创新，将难以维持市场地位。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1208365">我做了个工具让 8GB 显卡跑 30B 模型从 3 tok/s 提到 21 tok/s</a> (V2EX)
+  作者针对本地运行大模型时 Ollama 等工具默认参数低效的问题，开发了一款自动寻找最优配置的工具。文章详细记录了 MoE 模型 offload 等技术细节，为本地大模型部署提供了极具价值的性能优化实践参考。</p>
+</li>
+<li>
+<p><a href="https://www.oschina.net/news/437468/rspack-2-0-released">Rspack 2.0 正式发布</a> (开源中国)
+  Rspack 2.0 正式发布，在保持 webpack 生态兼容的前提下，引入了更符合现代 JavaScript 开发的默认行为。新版本提供了详细的迁移指南与 Agent Skills，旨在帮助开发者以更低成本享受更快的构建速度。</p>
+</li>
+<li>
+<p><a href="https://lightwhale.asklandd.dk/">Show HN: I've built a nice home server OS</a> (Hacker News)
+  开发者发布了 Lightwhale 3，这是一款免费的、不可变的 Linux 系统，专为自托管 Docker 容器设计。该系统支持直接从 Live CD 启动运行，极大地降低了家庭服务器的搭建门槛，适合想要快速部署私有服务的极客用户。</p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/2604.21691">There Will be a Scientific Theory of Deep Learning</a> (Hacker News)
+  这篇论文探讨了深度学习科学理论的可能性，试图从理论层面解释神经网络的运作机制。对于希望深入理解 AI 黑盒背后的数学原理的研究者和高级开发者来说，这是一篇值得深读的前沿学术文章。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
