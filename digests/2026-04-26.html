@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-26</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-26</h1>
+<p>今日科技圈迎来多项重磅发布，DeepSeek-V4 正式开源并打通华为 Ascend 芯片，以百万级上下文和国产算力生态引发行业关注。监管层面，新出台的金融产品网络营销管理办法对支付工具营销设限，可能重塑互联网巨头的金融业务格局。此外，北京车展带动智能驾驶与座舱技术集中亮相，大模型上车成为行业新趋势。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/wUUPEzvNajcaVN0k7HPF">DeepSeek-V4 重磅开源，打通华为 Ascend 芯片</a> (InfoQ)
+    DeepSeek-V4 正式发布并开源，拥有百万 Token 超长上下文，分为 Pro 和 Flash 版本。该模型首次打通了华为 Ascend 芯片适配，实现国产算力生态的重大突破，百度千帆与国家超算互联网已同步上线支持，试图夺回国产模型话语权。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1208526">央行等发布新规，余额宝与花呗支付选项面临调整</a> (V2EX)
+    央行等八部门发布《金融产品网络营销管理办法》，规定非银行支付机构不得将贷款、资管产品列入支付工具选项。这意味着余额宝和花呗可能无法再作为默认支付选项，这一政策变动被视为对支付与金融产品捆绑营销行为的严厉监管。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3783054579326213?f=rss">美国太空军授出 32 亿美元“金穹”合同</a> (36氪)
+    美国太空军宣布向 SpaceX、洛克希德·马丁等 12 家公司授出总价值最高 32 亿美元的合同，用于开发天基导弹防御拦截系统。此举旨在推进“金穹”计划，强化太空防御能力，商业航天公司在国防订单中的地位日益凸显。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/109032">OpenAI 发布 GPT-5.5 系列模型</a> (少数派)
+    OpenAI 发布 GPT-5.5 系列模型，被部分观点视为技术登顶时刻。与此同时，Anthropic 被指承认 Claude 模型性能出现波动，引发社区关于大模型能力瓶颈与迭代方向的讨论，开发者对 Token 成本与模型性能的关注度持续升高。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/">业余爱好者借 ChatGPT 解决 Erdős 数学难题</a> (Hacker News)
+    一位业余数学爱好者利用 ChatGPT 辅助解决了一个困扰数学界 60 年的 Erdős 问题。这标志着 AI 工具正在从单纯的代码生成向辅助高难度科研探索延伸，降低了深奥学科的研究门槛，展现了“AI for Science”在非专业群体中的应用潜力。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3782028988882178?f=rss">元戎启行全面转向大模型自动驾驶路线</a> (36氪)
+    元戎启行宣布全面押注大模型自动驾驶，认为传统小模型存在“跷跷板效应”无法覆盖全场景。随着多模态大模型在 2026 年初取得突破，自动驾驶技术栈正在经历从规则驱动向数据驱动的范式转移，行业竞争进入新阶段。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3781548853533959?f=rss">工业智能体获资本青睐，打通 AI 进厂最后一公里</a> (36氪)
+    智用开物完成近亿元融资，致力于建设“工业语义引擎”及高价值岗位智能体。这反映了 AI 应用正从消费端向工业端纵深发展，解决制造业数据孤岛和场景碎片化痛点，资本开始重注能够实际落地并产生价值的工业 AI 解决方案。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/ur7bvh7ayrDBPY1rTVtP">Meta 记录员工点击行为引发 AI 时代监控争议</a> (InfoQ)
+    Meta 开始记录员工每一次点击行为以分析工作模式，引发了关于 AI 时代职场隐私与效率监控的激烈讨论。随着企业试图量化员工产出以适配 AI 工作流，这种“数字泰勒主义”做法可能引发新的劳资矛盾与伦理挑战。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3782954220608512?f=rss">DeepSeek-V4-Pro 开启 API 限时优惠</a> (36氪)
+    DeepSeek 官网宣布 V4-Pro 模型 API 限时 2.5 折优惠，优惠后百万 tokens 输入价格低至 0.25 元（缓存命中）。国家超算互联网也推出了限时免费对话服务，开发者可利用该平台体验百万 Token 超长上下文对话，大幅降低开发成本。</p>
+</li>
+<li>
+<p><a href="https://openai.com/index/introducing-openai-privacy-filter/">OpenAI 推出 Privacy Filter 隐私过滤器</a> (Hacker News)
+    OpenAI 推出 Privacy Filter，旨在帮助用户在使用 AI 服务时更好地保护敏感数据。对于企业级用户而言，数据隐私一直是采用大模型的主要顾虑之一，该工具的推出有助于缓解数据泄露风险，推动 AI 在更敏感业务场景中的合规应用。</p>
+</li>
+<li>
+<p><a href="https://fabiensanglard.net/usbcheat/index.html">USB 接口与协议速查表</a> (Hacker News)
+    开发者 Fabien Sanglard 制作了一份详尽的 USB 速查表，清晰梳理了各种 USB 接口类型、传输速度及协议标准。对于硬件开发者和极客来说，这是一份极具参考价值的工具文档，有助于解决设备连接与调试中的接口识别难题。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1208476">开发者制作 Token 比价网站避坑</a> (V2EX)
+    针对市面上 ChatGPT 账号及 Token 价格混乱、层层加价的现象，有开发者制作了 Token 比价网站。该工具汇总了多个渠道的价格信息，帮助用户在购买 API 服务或账号时识别溢价，避免被“割韭菜”，实用性强。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
