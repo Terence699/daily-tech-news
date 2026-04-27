@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-27</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-27</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-27</h1>
+<p>OpenAI 正式进军手机硬件领域，计划与联发科、高通合作开发处理器，意图掌控 AI Agent 的终端入口。DeepSeek V4 重磅开源并适配华为 Ascend 芯片，国产大模型在成本与生态上双双突破。与此同时，随着 GPT-5.5 的发布与 SWE-bench 基准的“过时”，AI 行业的竞争重心正从单纯的模型参数转向端侧落地与工程化应用。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3784514046926081?f=rss">郭明錤：OpenAI 正与联发科、高通合作开发手机处理器</a> (36kr)
+    知名分析师郭明錤透露，OpenAI 计划自研手机，正与联发科、高通合作开发处理器，预计 2028 年量产。此举旨在完全掌控系统与硬件，以提供全面性的 AI Agent 服务，标志着 AI 巨头正式向终端硬件领域延伸。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/wUUPEzvNajcaVN0k7HPF?utm_source=rss&amp;utm_medium=article">DeepSeek V4 重磅开源，打通华为 Ascend 芯片</a> (InfoQ)
+    DeepSeek V4 正式开源，不仅支持英伟达，还首次打通华为 Ascend 芯片，实现国产芯片 Day 0 适配。该模型支持百万上下文，有开发者反馈切换后月账单降低 90%，显著夺回了国产模型的话语权。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/109032">OpenAI 发布 GPT-5.5 系列模型</a> (少数派)
+    OpenAI 正式发布 GPT-5.5 系列模型。与此同时，Anthropic 承认 Claude 近期表现变笨，引发网友热议。在模型能力飞速迭代的当下，如何客观评估模型性能成为新的行业挑战。</p>
+</li>
+<li>
+<p><a href="https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/">OpenAI 宣布不再使用 SWE-bench Verified 评估前沿编程能力</a> (Hacker News)
+    OpenAI 官方宣布 SWE-bench Verified 基准测试已无法有效衡量前沿模型的编程能力，暗示现有测试标准已滞后于模型发展。这反映了大模型编程能力的快速进化，亟需更难、更全面的新基准来定义“智能”。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3782901034785801?f=rss">润芯微发布“国产软硬一体AI智能基座”</a> (36kr)
+    润芯微在北京车展期间发布“国产软硬一体AI智能基座”，作为稀缺的“芯片+操作系统+AI”全栈方案商，展示了从百万量产上车到 openvela 兼容认证的成果，旨在解决行业稀缺难题，推动多端智能变革。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3784492331638022?f=rss">灵光App将世界模型搬上移动端</a> (36kr)
+    蚂蚁灵光 App 上线“体验世界模型”功能，成为业界首个可在移动端体验世界模型的 AGI 产品。用户上传一张图片即可在手机上探索 60 秒的 3D 世界，并支持手游式操控，大幅降低了世界模型的体验门槛。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/QyeZg05iakideMTGCQKi?utm_source=rss&amp;utm_medium=article">Anthropic 推出面向 Claude Code 的智能体代码审查功能</a> (InfoQ)
+    Anthropic 为 Claude Code 推出基于智能体的代码审查功能，进一步强化 AI 辅助编程的自动化程度。与此同时，Cloudflare 公布 MCP 架构方案应对安全风险，Snowflake 也在推进智能体运行时建设，显示 AI Agent 工程化基础设施正在快速完善。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/ur7bvh7ayrDBPY1rTVtP?utm_source=rss&amp;utm_medium=article">Meta 开始记录员工每一次点击，AI 时代引发监控焦虑</a> (InfoQ)
+    Meta 被曝开始记录员工每一次点击，以监测工作流程，引发了关于 AI 时代职场监控的伦理争议。此外，Copilot 注册受限、Token 榜单逼疯打工人等现象，揭示了企业在追求 AI 效率与控制成本、员工隐私之间的激烈博弈。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/WjIGlEGAJUmNw8e3JeXO?utm_source=rss&amp;utm_medium=article">北京车展直击：斑马智能甩出车载 Agent 短剧</a> (InfoQ)
+    在北京车展上，斑马智行展示了车载 Agent 短剧，比亚迪率先落地应用。AI 技术正让智能座舱从传统的“被动响应执行”向“主动全域智能”进阶，成为车企在下半场竞争中的核心差异化卖点。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1208616">国产大模型编程能力排名引热议</a> (V2EX)
+    V2EX 网友对 GLM5.1、Kimi2.6、DeepSeek V4 等国产模型的编程能力进行了实测排名，认为 GLM5.1 和 DeepSeek V4 表现优异。这反映了国产大模型在代码生成领域已形成多强格局，且开发者社区对模型迭代速度的关注度极高。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://developer.chrome.com/docs/ai/prompt-api">Chrome 浏览器内置 Prompt API</a> (Hacker News)
+    Chrome 浏览器推出 Prompt API，允许开发者在浏览器端直接调用内置 AI 模型。这意味着 Web 应用可以更低延迟、更隐私安全地实现翻译、摘要、生成等功能，无需依赖云端大模型，为前端开发开辟了新的可能性。</p>
+</li>
+<li>
+<p><a href="https://github.com/evanklem/evanflow">EvanFlow：Claude Code 的 TDD 反馈循环工具</a> (Hacker News)
+    这是一个开源工具，为 Claude Code 提供测试驱动开发（TDD）的反馈循环。它能帮助开发者在使用 AI 编程助手时保持代码质量，通过自动化测试反馈引导 AI 生成更符合预期的代码，提升开发效率。</p>
+</li>
+<li>
+<p><a href="https://notepad-plus-plus-mac.org/">Notepad++ for Mac：独立社区移植版</a> (Hacker News)
+    Notepad++ 虽然官方不支持 macOS，但独立社区推出了移植版本，让 Mac 用户也能使用这款经典的编辑器。对于习惯 Windows 平台开发环境的程序员来说，这提供了一个熟悉的代码编辑选择。</p>
+</li>
+<li>
+<p><a href="https://dystroy.org/blog/box-to-save-memory/">Rust 中使用 Box 节省内存</a> (Hacker News)
+    这篇博客文章深入探讨了 Rust 语言中 Box 类型的使用场景，特别是如何通过堆分配来优化栈内存使用。对于追求高性能和内存安全的系统级开发者，这是一篇极具参考价值的技术深读文章。</p>
+</li>
+<li>
+<p><a href="https://arkaung.github.io/interactive-turboquant/">TurboQuant：量化交易原理演练</a> (Hacker News)
+    这是一个交互式的量化金融教程，通过第一性原理的方式讲解 TurboQuant。适合对量化交易感兴趣的开发者阅读，能够帮助读者理解复杂的金融模型构建过程，是技术与金融交叉领域的优质学习资源。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
