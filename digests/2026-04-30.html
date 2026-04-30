@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-04-30</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-04-30</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-04-30</h1>
+<p>人形机器人商业化进程显著加速，Figure 宣布生产效率提升至每小时一台，宇树科技新品更是将售价下探至 2.69 万元起，量产与降本成为行业关键词。AI 领域，DeepSeek V4 引发从业者对模型训练“克制美学”的热议，而开源社区对 AI 生成代码的审慎态度也通过 Zig 项目的政策引发关注。资本市场上，寒武纪股价刷新历史新高，显示出市场对算力基础设施的持续看好。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3788779581299719?f=rss">Figure：生产效率大幅提升，可每小时生产1台机器人</a> (36kr)
+    Figure 创始人宣布，过去 120 天里公司生产效率扩大了 24 倍，从每天 1 台提升至每小时 1 台。这一突破标志着人形机器人正加速走出实验室，迈向规模化量产阶段，更多部署将反哺 AI 模型训练。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3788788364581893?f=rss">宇树发布宇树双臂人形机器人，售价2.69万元起</a> (36kr)
+    宇树科技发布新款双臂人形机器人，起售价仅为 2.69 万元。这一极具竞争力的定价策略，有望进一步降低人形机器人的准入门槛，加速其在教育和科研等场景的普及。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3788715529985026?f=rss">寒武纪盘中涨超12%，股价刷新历史新高</a> (36kr)
+    AI 芯片概念股寒武纪盘中涨超 12%，总市值突破 6700 亿元，科创 50 指数随之大涨。市场资金的大幅流入，反映了投资者对国产 AI 算力芯片未来增长潜力的高度认可。</p>
+</li>
+<li>
+<p><a href="https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79">Craig Venter has died</a> (Hacker News)
+    基因组学先驱、J. Craig Venter 研究所创始人 Craig Venter 去世，享年 79 岁。他曾领导团队完成人类基因组计划私人版本的测序，是合成生物学和基因组学领域的奠基人之一。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3788151000751364?f=rss">别急着All-in DeepSeek V4，先看看这10位从业者的真心话</a> (36kr)
+    DeepSeek V4 的发布引发行业热议，其“模型训练的克制美学”挑战了传统的 Scaling Law 暴力美学。文章通过 10 位从业者的视角，解读了工程优化与算力堆叠之外的第三条路径，对开发者选择模型具有重要参考价值。</p>
+</li>
+<li>
+<p><a href="https://simonwillison.net/2026/Apr/30/zig-anti-ai/">The Zig project's rationale for their firm anti-AI contribution policy</a> (Hacker News)
+    Zig 项目官方解释了其坚持拒绝 AI 生成代码贡献的政策原因，引发关于开源项目质量与维护成本的讨论。在 AI 编程工具普及的当下，该项目强调人类审查与代码质量的重要性，代表了开源社区的一种审慎态度。</p>
+</li>
+<li>
+<p><a href="https://github.com/cauchy221/Alignment-Whack-a-Mole-Code">Finetuning Activates Verbatim Recall of Copyrighted Books in LLMs</a> (Hacker News)
+    最新研究发现，对大模型进行微调可能会激活其对受版权保护书籍的逐字回忆能力。这一发现揭示了模型训练中的潜在法律风险，对于企业部署私有化模型和合规性审查具有重要的警示意义。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/O9hWJ1JZYBPF9PZKkY3Q?utm_source=rss&amp;utm_medium=article">谷歌云推出 Agents CLI，简化 AI 智能体开发全流程</a> (InfoQ)
+    谷歌云推出 Agents CLI 工具，旨在降低 AI 智能体的开发门槛。随着 Agent 逐渐成为 AI 应用的新范式，各大云厂商正在通过工具链的完善，推动 AI 从“回答问题”向“完成任务”转变。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://zed.dev/blog/zed-1-0">Zed 1.0</a> (Hacker News)
+    高性能代码编辑器 Zed 正式发布 1.0 版本。该编辑器由 Rust 编写，主打极致启动速度与协作体验，被视为 VS Code 的有力竞争者，适合追求极致性能的开发者尝试。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/ArGDWKczgdQlQ3G6shk7?utm_source=rss&amp;utm_medium=article">Altman 投的 Agent 终端 Warp 开源了！斩获3.5万star</a> (InfoQ)
+    AI 驱动的终端工具 Warp 宣布开源，迅速获得社区关注。该项目将自然语言处理引入命令行界面，帮助开发者通过自然语言生成复杂的 Shell 命令，极大提升了终端操作效率。</p>
+</li>
+<li>
+<p><a href="https://github.com/GliaX/Stethoscope">An open-source stethoscope that costs between $2.5 and $5 to produce</a> (Hacker News)
+    一个开源听诊器项目公布，其硬件成本仅需 2.5 至 5 美元。该项目旨在通过开源设计降低医疗诊断工具的成本，对于医疗资源匮乏地区或 DIY 硬件爱好者具有极高的实用价值。</p>
+</li>
+<li>
+<p><a href="https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies">FastCGI: 30 years old and still the better protocol for reverse proxies</a> (Hacker News)
+    文章深入探讨了 FastCGI 协议在反向代理场景下的优势，尽管该协议已有 30 年历史，但在处理持久连接和进程管理方面仍优于 HTTP。这是一篇值得后端工程师阅读的硬核技术回顾。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
