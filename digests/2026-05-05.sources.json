@@ -1,0 +1,820 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T11:46:23.395492+08:00",
+  "v2ex": [
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "吐槽一下外卖不送货上门，怎么就成众矢之的了？",
+      "url": "https://www.v2ex.com/t/1210229",
+      "summary": "点了个外卖，我小区是人车分流的，只能走路。 骑手直接说自己是众包，不能骑车进去，所以不给送上门，只能给放小区门口。 这事我本来就随口吐槽了一下——我既没投诉骑手，也没申请退款，东西也送骑手了。 我在一个技术群里就吐槽了下，结果全是骂我的。后来我有在某论坛发了下，结果评论区还是清一色开始骂我，给我整不会了，我现在说服不了自己，我觉得我没问题，兄弟们评论下...",
+      "published": "2026-05-04T21:38:01+08:00",
+      "score": 116
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "城巴佬——城市中产在消费劳动表演",
+      "url": "https://www.v2ex.com/t/1210190",
+      "summary": "1. 无法理解露营,开个车跑十几公里跑到修的某个河道边边,厕所都没有,就在那露营,不嫌热还是不嫌有蚊子,也不嫌河边那臭哄哄的味 2. 无法理解挖野菜的,见到一个路边挖野菜的,说挖的地软,瞅了一眼起码一半都是小时候喂猪的.还有几次在碰见在地里挖野菜的,说实话真的不怕打药了吗?小时候放自家羊,都知道要看人家地头有没有打药的袋子.吃中毒了是不是又要去讹人家种...",
+      "published": "2026-05-04T15:12:23+08:00",
+      "score": 82
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "26 年是 llm 泡沫崩破之年还是又冲高之年？",
+      "url": "https://www.v2ex.com/t/1210221",
+      "summary": "算力、能源、商业模式、安全、隐私、政治政策等等因素 26 年的 llm 是否会降温。",
+      "published": "2026-05-04T19:16:12+08:00",
+      "score": 38
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "正确使用 claude 的姿势是什么？怎么能降低 Token 消耗",
+      "url": "https://www.v2ex.com/t/1210195",
+      "summary": "## RT 开的 claude pro ； 平时只用 claude opus4.7 写页面。codex 写后端； 目前使用的姿势。 桌面端的 desktop ，模型 opus4.7 high ，从写这个项目开始，一直都是一个对话框来对话。 举例做个功能，让他修改一个 vue 项目，一页面增加一个按钮，点击按钮弹出对话框。 这一个功能要用掉 70%。 1...",
+      "published": "2026-05-04T16:35:13+08:00",
+      "score": 33
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "大疆 Pocket 4 好难抢，是饥饿营销还是真缺货？",
+      "url": "https://www.v2ex.com/t/1210171",
+      "summary": "每天都是秒没，比我 24 年抢 Mac mini 还难……难道只能加价从第三方商家购买了么",
+      "published": "2026-05-04T11:55:06+08:00",
+      "score": 31
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "现在这个形势，推荐备一个 CMHK 的流量卡",
+      "url": "https://www.v2ex.com/t/1210180",
+      "summary": "10GB 流量，68 HKD 可以用半年，后续还能充值 是个 eSIM 卡，我测过速度还行，当备用以防失联 官网就能直接购买: esim.cmlink.com ![]( https://i.imgur.com/LolqwRu.png)",
+      "published": "2026-05-04T13:42:56+08:00",
+      "score": 31
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "微信输入法这么扯淡都没有切换输入法的选项的吗？",
+      "url": "https://www.v2ex.com/t/1210181",
+      "summary": "我不懂具体这个东西有没有什么规范和标准，但是我印象中，你一个输入法，肯定要有切换到别的输入法的选项或者按钮对吧。比如 Google 的 Gboard ，那个地球图标，长按就能切换到比如微信输入法、讯飞、搜狗之类的。 但是微信输入法（ Android ）居然连这个选项和按钮都没有，我首先是在键盘上找，没找到，工具栏上找，没找到，然后进输入法 app 选项...",
+      "published": "2026-05-04T13:43:10+08:00",
+      "score": 30
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "因为炒币合约亏太多了，用 ai 做了一个裸 K 实盘训练的网页，不用登陆欢迎大家来玩",
+      "url": "https://www.v2ex.com/t/1210177",
+      "summary": "灵感来源是在抖音刷到有博主用这种训练软件来教学裸 K 盘感和一些指标技巧，自己也跟着弄了一个；用的 nextjs 做的小训练平台，地址： https://trade-me.vercel.app/training ；支持限价市价止盈止损，内置排行榜功能=。=",
+      "published": "2026-05-04T12:55:15+08:00",
+      "score": 28
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "关于失业 关于创业",
+      "url": "https://www.v2ex.com/t/1210218",
+      "summary": "2023 年公司倒闭之后就一直自己在单干了，几年下来发现路走的不对，做的是独立游戏。 我发现一个人的精力是有限的，不能自己写代码，自己设计人物，设计规则，交互，写剧本，写动作脚本，调试服务器。。。的同时，自己去宣传，搭资料网站，自己做视频，应付审核，和玩家互动，听取意见。。。 秉持着自己会写代码就能无成本创业这件事是不行的，一个人的能力是有限的，时间是...",
+      "published": "2026-05-04T18:54:05+08:00",
+      "score": 27
+    },
+    {
+      "source": "V2EX",
+      "source_type": "v2ex",
+      "title": "联通宽带速率不达标",
+      "url": "https://www.v2ex.com/t/1210226",
+      "summary": "坐标重庆，千兆宽带测试下来下载只有 400M 的样子，找装维，装维给了个本地测速服务器。。。测出来没问题就不管了，但是实际使用体验根本就达不到 1000M ，只有 200M 的样子，坛友们见多识广，有啥解决办法吗？我投诉的话，还是这个装维来处理，感觉死循环了。。 ![image]( https://img2.pixhost.to/images/7653...",
+      "published": "2026-05-04T21:03:41+08:00",
+      "score": 24
+    }
+  ],
+  "hackernews": [
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Bun is being ported from Zig to Rust",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "summary": "",
+      "published": "2026-05-05T09:08:17+08:00",
+      "score": 230
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "What I'm Hearing About Cognitive Debt (So Far)",
+      "url": "https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/",
+      "summary": "",
+      "published": "2026-05-05T10:08:21+08:00",
+      "score": 50
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Pulitzer Prize Winner in International Reporting",
+      "url": "https://www.pulitzer.org/winners/dake-kang-garance-burke-byron-tau-aniruddha-ghosal-and-yael-grauer-contributor-associated",
+      "summary": "",
+      "published": "2026-05-05T10:22:21+08:00",
+      "score": 24
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "summary": "",
+      "published": "2026-05-05T03:42:47+08:00",
+      "score": 320
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Agent Skills",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "summary": "",
+      "published": "2026-05-05T05:40:42+08:00",
+      "score": 153
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "When Networking Doesn't Work",
+      "url": "https://www.os2museum.com/wp/when-networking-doesnt-work/",
+      "summary": "",
+      "published": "2026-05-05T04:56:19+08:00",
+      "score": 19
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
+      "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
+      "summary": "",
+      "published": "2026-05-05T01:46:32+08:00",
+      "score": 179
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Testing macOS on the Apple Network Server 2.0 ROMs",
+      "url": "http://oldvcr.blogspot.com/2026/05/testing-macos-on-apple-network-server.html",
+      "summary": "",
+      "published": "2026-05-03T23:49:33+08:00",
+      "score": 69
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
+      "url": "https://www.nber.org/papers/w35117",
+      "summary": "",
+      "published": "2026-05-04T23:32:46+08:00",
+      "score": 232
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "The Car That Watches You Back: The Advertising Infrastructure of Modern Cars",
+      "url": "https://nobodyaskedforthis.lol/posts/connected-car/",
+      "summary": "",
+      "published": "2026-05-05T10:01:15+08:00",
+      "score": 6
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Redis array: short story of a long development process",
+      "url": "https://antirez.com/news/164",
+      "summary": "",
+      "published": "2026-05-04T22:23:07+08:00",
+      "score": 249
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Y Combinator's Stake in OpenAI (0.6%)",
+      "url": "https://daringfireball.net/2026/05/y_combinators_stake_in_openai",
+      "summary": "",
+      "published": "2026-05-05T08:09:01+08:00",
+      "score": 150
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Talking to strangers at the gym",
+      "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym/",
+      "summary": "",
+      "published": "2026-05-04T19:41:02+08:00",
+      "score": 1228
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
+      "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
+      "summary": "",
+      "published": "2026-05-05T02:22:42+08:00",
+      "score": 455
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "1966 Ford Mustang Converted into a Tesla with Working 'Full Self-Driving'",
+      "url": "https://electrek.co/2026/05/02/tesla-1966-mustang-ev-conversion-full-self-driving/",
+      "summary": "",
+      "published": "2026-05-04T23:22:53+08:00",
+      "score": 143
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "I am worried about Bun",
+      "url": "https://wwj.dev/posts/i-am-worried-about-bun/",
+      "summary": "",
+      "published": "2026-05-05T00:45:00+08:00",
+      "score": 432
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "How Monero’s proof of work works",
+      "url": "https://blog.alcazarsec.com/tech/posts/how-moneros-proof-of-work-works",
+      "summary": "",
+      "published": "2026-05-04T22:10:50+08:00",
+      "score": 254
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Formatting a 25M-line codebase overnight",
+      "url": "https://stripe.dev/blog/formatting-an-entire-25-million-line-codebase-overnight-the-rubyfmt-story",
+      "summary": "",
+      "published": "2026-05-05T04:11:53+08:00",
+      "score": 136
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "PyInfra 3.8.0",
+      "url": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0",
+      "summary": "",
+      "published": "2026-05-04T20:53:46+08:00",
+      "score": 237
+    },
+    {
+      "source": "Hacker News",
+      "source_type": "hackernews",
+      "title": "Pomiferous: The most extensive apples (pommes) database",
+      "url": "https://pomiferous.com/",
+      "summary": "",
+      "published": "2026-05-04T22:47:41+08:00",
+      "score": 107
+    }
+  ],
+  "rss": [
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "五月，适合想清楚一件事｜幕启",
+      "url": "https://36kr.com/p/3794961189821698?f=rss",
+      "summary": "图源：公众号「有三思 U Sense」 5月4日，一个被默认为“青年专属”的日期。 但在我看来，“青年”一词从来不只和年龄挂钩，每一个还在试探人生的节拍与正轨的人，身体里都住着一位渴望力量的青年。 [1] 敲定新品牌命名的那一刻其实很轻。在讨论方案的脑暴会上，我夸了实习生一句“有Sense”，他眼神一亮：“这个词好诶。” 许多年前，我还是一个初入职场的...",
+      "published": "2026-05-04T20:41:30+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线",
+      "url": "https://36kr.com/p/3794799114476809?f=rss",
+      "summary": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。 豆包 目前，尚未在豆包产品中看到...",
+      "published": "2026-05-04T17:49:40+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "科氪 | 张雪机车再夺冠军！荣耀宣布推出张雪机车冠军联名款手表",
+      "url": "https://36kr.com/p/3792228036615430?f=rss",
+      "summary": "在2026世界超级摩托车锦标赛（WSBK）匈牙利站WorldSSP组别第一回合正赛中，中国摩托车制造商张雪机车的法国车手瓦伦丁·德比斯通过最后时刻的反超绝杀夺得冠军。赛后，荣耀CEO李健发文祝贺，并宣布作为张雪机车WSBK的首席战略合作品牌，荣耀将推出双方的冠军联名款手表，以庆祝这一夺冠时刻。 此前在4月初，荣耀已正式成为张雪机车WSBK首席战略合作品...",
+      "published": "2026-05-02T22:14:23+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "卓驭于贝贝：向物理AI转型，是生存法则的必然选择 | 最前线",
+      "url": "https://36kr.com/p/3789475357400068?f=rss",
+      "summary": "文｜肖漫 编辑｜李勤 当下的智能汽车领域，物理 AI 已成为高频词汇，绝大多数智能驾驶算法厂商都在往“物理AI”转型。 卓驭在北京车展上也发布了面向移动物理 AI 的原生多模态基础模型。在卓驭科技副总裁于贝贝看来，算法厂商向物理AI转型不是为了迎合资本市场而编织的想象空间，而是一条关乎厂商存亡的生存法则。 “如果不上这条技术路线，很可能今后就跑不出来了...",
+      "published": "2026-05-02T21:17:06+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "在硅谷，中美具身公司聊了聊了4个问题的解法",
+      "url": "https://36kr.com/p/3792155815304450?f=rss",
+      "summary": "文｜周鑫雨 编辑｜杨轩 规模化落地，今年的具身公司都在谈这个。 数字竞速，不约而同出现在具身公司的产线、招股书、出货量上——2026年4月以来，智元机器人宣布第1万台机器人量产下线，5000到10000，只用了三个多月；宇树科技的IPO招股书也摊开了激进商业化的一角：2025年营收17.07亿元，出货量超过5500台。 激进的数字背后，是“低价、高性能...",
+      "published": "2026-05-02T21:01:36+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "周杰伦伙伴，要被卖了",
+      "url": "https://36kr.com/p/3791838183234816?f=rss",
+      "summary": "图片来源：视觉中国 作者/吴琼 报道/投资界PEdaily 音乐顶流也迎来了卖身结局。 近日，华尔街大佬比尔·阿克曼旗下潘兴广场正式向环球音乐（UMG）发出一份收购要约——以现金加股票的方式收购环球音乐。由此，后者估值高达约640亿美元（约合人民币4300亿元）。 你或许不熟悉环球音乐，但一定听过来自这里的歌——周杰伦、陈奕迅、泰勒·斯威夫特、贾斯汀·...",
+      "published": "2026-05-02T17:37:20+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "茶颜悦色 , 装不下去了",
+      "url": "https://36kr.com/p/3791800373664772?f=rss",
+      "summary": "以慢著称，不爱出省的奶茶界“初代网红”茶颜悦色，终于又向外迈出了一步。 近日，茶颜悦色深圳门店开业，两家门店分别坐落于深圳万象城与深圳万象天地。据媒体报道，开业首日，门店外就聚集了大批顾客，等位队伍已经排至商场外围，提示牌显示，“排队需要5小时”。 图源：二手交易平台截图 黄牛们也闻风而动，据二手交易平台数据，原价十几元一杯的茶颜悦色奶茶，代购价格均被...",
+      "published": "2026-05-02T16:06:53+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "又一算力独角兽，冲击IPO",
+      "url": "https://36kr.com/p/3791796527602951?f=rss",
+      "summary": "作者丨韦香惠 来源丨东四十条资本 A股即将迎来一只“算力独角兽”，估值已站上500亿元门槛。 主角是来自河南的超聚变数字技术股份有限公司。从今年1月提交上市辅导备案，到IPO辅导工作完成，仅用四个多月时间。 这家公司并非“从零起步”，其前身是华为X86服务器业务，2021年受外部环境影响被整体剥离，并独立运营。随后，河南超聚能科技有限公司成为控股股东，...",
+      "published": "2026-05-02T15:38:58+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "苹果官方App误打包了Claude.md，这么大的公司也Vibe Coding啊？",
+      "url": "https://36kr.com/p/3791662444911617?f=rss",
+      "summary": "梦晨 发自 凹非寺 苹果大失误！把自用的Claude.md打包到了官方App里。 这下直接被坐实了： 苹果内部在使用Claude Code构建生产级应用 。 这么大的公司，也在Vibe Coding？ 苹果内部在使用Claude Code构建生产级应用 项目级的Claude.md通常用来告诉AI这个项目是什么、怎么构建、要遵循哪些规范、避免哪些雷区……...",
+      "published": "2026-05-02T14:52:34+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "9.35万, 威马破产大甩卖",
+      "url": "https://36kr.com/p/3791546608049152?f=rss",
+      "summary": "作者 | 冯晓亭 编辑 | 吾人 来源 | 融中财经 4月28日下午，淘宝阿里拍卖平台上，一场持续近24小时的竞拍结束了。 拍卖标的并不复杂——威马新能源汽车采购（上海）有限公司破产清算后，账面上列出的24笔对外应收款项，金额合计127,591,590.42元。起拍价只有100元。100人报名竞拍，经过332次出价、近24小时的激烈角逐，一位竞买人以“...",
+      "published": "2026-05-02T11:24:44+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "今天全国铁路预计发送旅客2300万人次",
+      "url": "https://36kr.com/newsflashes/3795716010793990?f=rss",
+      "summary": "假期接近尾声，铁路迎来返程客流高峰，客流持续保持高位运行。今天，全国铁路预计发送旅客2300万人次，计划加开旅客列车2225列。昨天，全国铁路发送旅客2038.3万人次，运输安全平稳有序。（央视新闻）",
+      "published": "2026-05-05T11:27:11+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "去哪儿旅行：五一“宝藏小城串游”预订量增121%",
+      "url": "https://36kr.com/newsflashes/3795826320645121?f=rss",
+      "summary": "5月5日，去哪儿旅行数据显示，2026年“五一”假期整体旅游出行热度稳中有升。平台上人均打卡城市达2.1个，入住2个及以上城市酒店的“宝藏小城串游”预订量同比增长121%，3天以上租车订单占比超六成，异地租还车订单量同比增80%。",
+      "published": "2026-05-05T11:14:12+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "英派药业：拟全球发售4197.70万股H股，发售价不超21.75港元",
+      "url": "https://36kr.com/newsflashes/3795711742778632?f=rss",
+      "summary": "5月5日早间，英派药业在港交所公告，公司拟全球发售41,977,000股H股，香港发售股份4,197,800股H股，国际发售股份37,779,200股H股；最高发售价为每股21.75港元；预期股份将于2026年5月13日开始在香港联交所买卖。（界面新闻）",
+      "published": "2026-05-05T11:01:06+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "4月份中国大宗商品价格指数为132.1点 同比上涨20.2%",
+      "url": "https://36kr.com/newsflashes/3795710248361225?f=rss",
+      "summary": "中国物流与采购联合会5月5日公布4月份中国大宗商品价格指数。4月份中国大宗商品价格指数为132.1点，环比上涨1.7%，同比上涨20.2%。在中国物流与采购联合会重点监测的50种大宗商品中，4月价格环比上涨的大宗商品有38种。其中，对二甲苯、甲醇和聚丙烯涨幅居前，较上月环比分别上涨22.4%、14.5%和11.8%。（央视新闻）",
+      "published": "2026-05-05T10:34:05+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "百威亚太：一季度收入14.93亿美元 同比下降0.7%",
+      "url": "https://36kr.com/newsflashes/3795706009934851?f=rss",
+      "summary": "百威亚太5日早间披露一季度业绩，2026年第一季度总销量增长0.1%，为19737十万公升啤酒，这得益于集团在印度的强劲表现及中国行业状况的改善，但被韩国的发货安排时间差所抵销。由于中国额外投资，2026年第一季度收入14.93亿美元，同比下降0.7%，而每百升收入减少0.8%。（财联社）",
+      "published": "2026-05-05T10:11:37+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "港股汽车股持续走低，赛力斯跌超5%",
+      "url": "https://36kr.com/newsflashes/3795751638539522?f=rss",
+      "summary": "5月5日，港股汽车股持续走低，赛力斯跌超5%，小鹏集团跌超4%，广汽集团、比亚迪股份跌超3%。",
+      "published": "2026-05-05T09:58:14+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "剂泰科技寻求通过香港IPO募资21.1亿港元",
+      "url": "https://36kr.com/newsflashes/3795702003981319?f=rss",
+      "summary": "根据提交给香港交易所的文件，剂泰科技（北京）股份有限公司香港上市拟发行2.01亿股股票，每股发行价10.50港币。据估算，该公司势将融资21.1亿港元（2.69亿美元）。该公司将于5月13日挂牌上市，Jefferies、德意志银行和中信证券是联席保荐人。（新浪财经）",
+      "published": "2026-05-05T09:48:04+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "马斯���就推特持股披露诉讼与美证监会达成和解",
+      "url": "https://36kr.com/newsflashes/3795700018093317?f=rss",
+      "summary": "当地时间5月4日，埃隆·马斯克已就美国证券交易委员会提起的民事诉讼达成和解。该诉讼指控其在2022年未及时披露其初始购买推特（现称X）持股的行为。根据当天华盛顿特区联邦法院披露的和解协议，以马斯克名义设立的信托将支付150万美元民事罚款。马斯克未承认存在不当行为，且无需退还其因延迟披露而声称节约的1.5亿美元资金。（界面新闻）",
+      "published": "2026-05-05T09:27:36+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "抖音集团副总裁：网传所谓红果短剧收费的消息不实",
+      "url": "https://36kr.com/newsflashes/3795699085417736?f=rss",
+      "summary": "5月4日深夜，抖音集团副总裁李亮在社交平台发文表示，网传所谓红果短剧收费的消息不实，实际情况是：为持续丰富平台视频内容生态，满足大家多样化的观看需求，红果短剧陆续引入了一些影视内容。依据相关影视版权方合规要求与行业惯例，该部分少数影视内容需开通VIP权限观看。而免广告会员服务，只是满足用户差异化体验的自愿选项，不会强制收费，也不会改变用户免费追剧的核心...",
+      "published": "2026-05-05T09:04:46+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "全球最大汽车滚装船首靠上海港",
+      "url": "https://36kr.com/newsflashes/3794774353796105?f=rss",
+      "summary": "5月4日13时30分，全球首艘万辆级汽车滚装船——巴拿马籍“格罗领航”轮缓缓靠泊上海南港码头。这是该轮4月28日下水运营后首次挂靠上海港，本航次将在南港码头装载3700余辆各类乘用车、商用车后驶离出境。（澎湃）",
+      "published": "2026-05-04T17:45:02+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "陈发树一季度新进伊利股份，持股市值近16亿元",
+      "url": "https://36kr.com/newsflashes/3794771402185991?f=rss",
+      "summary": "随着上市公司一季报披露结束，陈发树一季度末的持仓数据也随之出炉。一季度，陈发树新进伊利股份前十大股东，继续持有云南白药等个股。具体来看，陈发树新进伊利股份前十大股东名单，持有约6044万股，持股比例0.96%，以伊利股份3月31日收盘价计算（下同），持股市值近16亿元。另外，陈发树继续持有雷电微力，持股市值约10亿元；继续持有云南白药，持股市值逾6亿元...",
+      "published": "2026-05-04T17:27:06+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "印度数据中心公司Yotta：公司在IPO前寻求60亿美元的估值",
+      "url": "https://36kr.com/newsflashes/3794749752728585?f=rss",
+      "summary": "印度数据中心公司Yotta的CEO表示，公司在IPO前寻求60亿美元的估值。（新浪财经）",
+      "published": "2026-05-04T17:05:02+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "港交所拟重启黄金期货交易",
+      "url": "https://36kr.com/newsflashes/3794732876700931?f=rss",
+      "summary": "据香港电台网站消息，港交所正准备未来数月内重启黄金期货交易。港交所市场主管余学勤出席立法会一个委员会会议时表示，会征询市场参与者及持份者的意见，优化合约设计和完善机制。他表示，因地缘政治影响，投资者就黄金买卖和储备时要分散风险，因此认为黄金期货的设计和香港实体黄金生态圈的连动绝对有必要。港交所会继续研究，迎合投资者需求，让新的期货产品交易有更显著增长。...",
+      "published": "2026-05-04T16:41:54+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "恒指收涨1.24%，恒生科技指数涨2.16%",
+      "url": "https://36kr.com/newsflashes/3794703326616837?f=rss",
+      "summary": "36氪获悉，恒指收涨1.24%，恒生科技指数涨2.16%；半导体、硬件设备、机械板块领涨，富通科技涨超63%，潍柴动力涨超12%，华虹半导体涨超6%；石油石化、电信服务、煤炭板块跌幅居前，中港石油跌超6%，中国电信、蒙古能源跌超1%。",
+      "published": "2026-05-04T16:11:50+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "“五一”假期第四天，全社会跨区域人员流动量预计超2.9亿人次",
+      "url": "https://36kr.com/newsflashes/3794667784018951?f=rss",
+      "summary": "记者从交通运输部了解到，今天（4日）全社会跨区域人员流动量预计29379.4万人次，同比增长4.2%。其中：铁路客运量预计2030万人次，同比增长2.6%；公路人员流动量预计26971万人次，同比增长4.4%；水路客运量预计162.4万人次；民航客运量预计216万人次。（央视新闻）",
+      "published": "2026-05-04T15:35:41+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "2026年五一档电影票房破6亿元",
+      "url": "https://36kr.com/newsflashes/3794645689359363?f=rss",
+      "summary": "36氪获悉，据灯塔专业版，截至5月4日14时57分，2026年五一档（5月1日—5月5日）档期总票房（含预售）突破6亿元，影片《消失的人》《寒战1994》《穿普拉达的女王2》《10间敢死队》《门牙》暂列档期票房前五名。",
+      "published": "2026-05-04T15:13:12+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "比特币一度升破8万美元，触及逾三个月高位",
+      "url": "https://36kr.com/newsflashes/3794632593677316?f=rss",
+      "summary": "在亚洲股市涨至纪录高位的同时，比特币三个多月来也首次升破8万美元。这种最早的加密货币周一一度上涨2.1%，至80594美元，创1月31日以来盘中最高水平。以太币等规模较小的加密货币也上涨。（新浪财经）",
+      "published": "2026-05-04T14:59:53+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "韩国KOSPI指数收盘上涨5.12%，刷新历史新高",
+      "url": "https://36kr.com/newsflashes/3794606254398728?f=rss",
+      "summary": "36氪获悉，韩国KOSPI指数收盘上涨5.12%，报6936.99点，刷新历史新高。",
+      "published": "2026-05-04T14:33:05+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "巴克莱预计美联储将在2026年维持利率不变",
+      "url": "https://36kr.com/newsflashes/3794592047013122?f=rss",
+      "summary": "巴克莱预计美联储将在2026年维持利率不变，此前的预测是9月降息25个基点。（财联社）",
+      "published": "2026-05-04T14:18:38+08:00"
+    },
+    {
+      "source": "36kr",
+      "source_type": "rss",
+      "category": "product",
+      "title": "SK海力士股价涨幅扩大至12%",
+      "url": "https://36kr.com/newsflashes/3794574058363910?f=rss",
+      "summary": "36氪获悉，SK海力士股价涨幅扩大至12%。",
+      "published": "2026-05-04T14:00:20+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "iPad 用户首次体验 Android 平板：vivo Pad6 Pro",
+      "url": "https://sspai.com/post/109277",
+      "summary": "作为 vivo 今年春季推出的旗舰级平板，vivo Pad6 Pro 显然被寄予了厚望：配备 4K 超大原彩屏、第五代骁龙 8 至尊版芯片，同时搭载了 PC 级 WPS 和专业版剪映。参数之外，实际体验到底如何？和 iPad 比，安卓平板又有哪些可圈可点之处呢？ 查看全文",
+      "published": "2026-05-04T15:00:00+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "假期出门太折磨？我的 23 条经验帮你规划惬意旅行",
+      "url": "https://sspai.com/post/100006",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ... 查看全文",
+      "published": "2026-05-03T12:19:32+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "本周看什么 | 最近值得一看的 10 部作品",
+      "url": "https://sspai.com/post/109266",
+      "summary": "📅本周新预告《暗影蜘蛛侠》正式预告4月26日，剧集《暗影蜘蛛侠》发布了黑白和彩色双版本正式预告，将于5月27日上线PrimeVideo。尼古拉斯·凯奇领衔主演，聚焦1930年代纽约的一个上了年纪、倒霉 ... 查看全文",
+      "published": "2026-05-01T17:00:00+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "本月玩什么｜朋友收藏、识质存在、沙罗周期",
+      "url": "https://sspai.com/post/109257",
+      "summary": "假期预防无聊，先来找点玩的。 查看全文",
+      "published": "2026-04-30T17:30:00+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "五一假期将至，用 iPhone 轻松搞定假日出行",
+      "url": "https://sspai.com/post/88452",
+      "summary": "五一假期将至，我相信有很多派友们都会抓住难得的长假机会，策划一场期盼许久的旅行。曾几何时，我们出门旅游时要带上相机、纸质地图、旅行攻略（比如说LonelyPlanet）、纸质车票、钱包、现金等一堆东西 ... 查看全文",
+      "published": "2026-04-30T14:49:33+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "关于中年和中年危机的一些思考",
+      "url": "https://sspai.com/post/108451",
+      "summary": "关于「中年」这个极其宏大的话题，虽然可写的方面很多，但我不想把话题铺的太满。我写这篇文章本身的核心目的，不是为了说出些什么道理，而是只是想表达自己当下的一种人生处境，同时抛砖引玉，让更多的朋友去分享自己的中年收获和困境。只要有一瞬间觉得自己并不孤单，这篇文章的目的就达到了。 查看全文",
+      "published": "2026-04-30T10:17:59+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "派早报：Claude AI 接入多个创意软件生态、FILCO 生产方接手品牌等",
+      "url": "https://sspai.com/post/109235",
+      "summary": "Framework 推出 RTX 5070 GPU 显卡模块、蚂蚁集团百灵大模型开源 Ling-2.6-flash 等。 查看全文",
+      "published": "2026-04-30T09:16:28+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "移动端 Agent 的井喷或许近在眼前：以 ColorOS 抛砖引玉",
+      "url": "https://sspai.com/post/109062",
+      "summary": "我觉得手机 AI 再次爆发式发展的时间节点已经不远了，应用与安卓的底层权限开放像是 MCP，而基于自动操作的积木像是 Skills，配合不断增强的端侧模型，或许能让 GUI Agent 更进一步。 查看全文",
+      "published": "2026-04-29T15:00:00+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "先别一股脑扔进洗衣机：换季衣物洗护指南",
+      "url": "https://sspai.com/post/60247",
+      "summary": "用心呵护自己的衣物，就从这个春天做起吧(๑•̀ㅂ•́)و✧ 查看全文",
+      "published": "2026-04-29T14:41:02+08:00"
+    },
+    {
+      "source": "sspai",
+      "source_type": "rss",
+      "category": "product",
+      "title": "众测｜邀你一同探索随身 AI 硬件入口 YoooClaw C·ONE",
+      "url": "https://sspai.com/post/109207",
+      "summary": "现在AI工具正在从「能回答问题」逐渐走向「能替你完成事情」。我们不再只满足于打开一个App、输入一段提示词、等待一次回复，而是希望AI能理解我们的上下文，知道我们正在处理什么信息，并在合适的时候主动帮 ... 查看全文",
+      "published": "2026-04-29T11:34:17+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "NVIDIA 入局量子基础设施：Ising 模型主打自动校准与实时纠错",
+      "url": "https://www.infoq.cn/article/CKcQwKGvZb9oHMzbwteP?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-05T19:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Java 世界的 MCP：将架构策略应用于 LLM 集成",
+      "url": "https://www.infoq.cn/article/2m5IC7x6SxwWlEls7VWz?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-05T17:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "从“没人懂”到“不能裁”：平台团队如何证明价值",
+      "url": "https://www.infoq.cn/article/tsptrQOxS8Z9zduSV9wb?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-05T16:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "CNCF警告：仅靠Kubernetes不足以保障LLM工作负载的安全性",
+      "url": "https://www.infoq.cn/article/IR1rJFXFZbChzBuKcAVl?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-04T20:29:37+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Cloudflare 推出 Agent Memory：面向 AI 智能体的持久记忆托管服务",
+      "url": "https://www.infoq.cn/article/TPqCEvSNCh9jzivioLs8?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-04T20:22:35+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "GitLab 新增采用固定费率的代码审查服务、Free-Tier AI 访问以及支出上限设置",
+      "url": "https://www.infoq.cn/article/6dk4tEWoShjhagRdyPsX?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-04T20:12:58+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "亚马逊云科技推出S3 Files，为S3 Bucket带来文件系统访问能力",
+      "url": "https://www.infoq.cn/article/KAzBrz8uBPq3g2OxETbw?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-04T20:11:07+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Meta 开始“抗量子”迁移：一场要持续数年的基础设施重构",
+      "url": "https://www.infoq.cn/article/d0YyfiwCE6QyhoG5MZVP?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-04T19:36:55+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "大公司也这样？改完系统：先上线，再看哪儿炸",
+      "url": "https://www.infoq.cn/article/eAlept08lWEOAo1HxGFN?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-04T18:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Cloudflare推出Code Mode MCP服务器以优化AI智能体的Token使用",
+      "url": "https://www.infoq.cn/article/KSmLVsumhdf7OiLXYaj3?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-04T17:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "直播出问题，AI 不一定救得了：Netflix 的新解法",
+      "url": "https://www.infoq.cn/article/I34jAMiF0VAqVcDNxE87?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-04T16:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "微软警告称，AI 正在掏空初级开发者的培养渠道",
+      "url": "https://www.infoq.cn/article/w3Oek9aKw8lfpRZ7QBo4?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-03T21:41:35+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Sauce Labs 推出 AI 智能体，实现测试创建自动化",
+      "url": "https://www.infoq.cn/article/8k6MQWB5duEDY8wulZYk?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-03T21:37:48+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "使用AWS Lambda Extensions在响应后执行遥测刷写",
+      "url": "https://www.infoq.cn/article/fxBMtQmN3Dd29JCTOdEQ?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-03T21:33:24+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
+      "url": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-03T21:24:35+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": ".NET 11 Preview 3：JIT 再优化，HTTP/3 更快，Blazor 不一样了",
+      "url": "https://www.infoq.cn/article/6Yqj2gv31xX1IaMvbIWF?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-03T20:58:34+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "AWS Interconnect 正式发布，提供托管的多云与“最后一公里”连接能力",
+      "url": "https://www.infoq.cn/article/ptBtlcjABKHxuSjlB2h4?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-03T20:49:16+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
+      "url": "https://www.infoq.cn/article/K7hpIOogPsLlPQz4lwXu?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-01T22:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
+      "url": "https://www.infoq.cn/article/W1YiyHH4UXv05AqpiHag?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-01T18:00:00+08:00"
+    },
+    {
+      "source": "infoq",
+      "source_type": "rss",
+      "category": "tech",
+      "title": "布隆过滤器：理论、工程权衡与Go语言实现",
+      "url": "https://www.infoq.cn/article/kbM9s4hsAoT7gWQsA8JE?utm_source=rss&utm_medium=article",
+      "summary": "点击查看原文>",
+      "published": "2026-05-01T17:49:44+08:00"
+    }
+  ]
+}

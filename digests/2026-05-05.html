@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-05</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-05</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-05</h1>
+<p>科技行业正经历从模型层到应用层的深度变革。豆包推出付费订阅标志着国产大模型商业化进入新阶段，而苹果误打包 AI 配置文件则意外揭示了巨头内部开发流程的 AI 化转型。与此同时，Bun 运行时的语言迁移与 Edge 的安全漏洞，再次引发了开发者对基础设施安全与稳定性的关注。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3794799114476809?f=rss">豆包推出付费订阅服务，年费最高 5088 元</a> (36kr)
+  豆包 App 宣布在免费版基础上新增付费订阅，分标准、加强、专业三档，年费最高达 5088 元。此举标志着国产大模型应用开始从单纯的流量争夺转向更深度的商业化变现探索，旨在为专业用户提供更多增值服务。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3791662444911617?f=rss">苹果官方 App 误打包 Claude.md，证实内部使用 AI 编程</a> (36kr)
+  苹果官方应用中意外包含了 Claude.md 配置文件，证实其内部正在使用 Claude Code 构建生产级应用。这一“乌龙”事件揭示了即便是科技巨头，也已深度拥抱 AI 辅助编程，"Vibe Coding" 正成为主流开发范式。</p>
+</li>
+<li>
+<p><a href="https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730">微软 Edge 被曝明文存储所有密码</a> (Hacker News)
+  安全研究人员发现 Microsoft Edge 浏览器会将所有密码以明文形式存储在内存中，即便这些密码未被使用。这一严重的安全隐患引发了用户对浏览器密码管理机制信任度的广泛担忧，建议用户改用专业密码管理器。</p>
+</li>
+<li>
+<p><a href="https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5">Bun 运行时正从 Zig 移植至 Rust</a> (Hacker News)
+  JavaScript 运行时 Bun 被证实正在进行底层架构重构，将部分核心组件从 Zig 语言移植到 Rust。这一重大技术调整引发了社区对项目稳定性、开发动机以及未来性能表现的激烈讨论，开发者需密切关注后续版本兼容性。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3791796527602951?f=rss">算力独角兽超聚变完成 IPO 辅导，估值超 500 亿</a> (36kr)
+  前身为华为 X86 服务器业务的超聚变数字技术股份有限公司已完成 IPO 辅导，估值站上 500 亿元门槛。作为算力基础设施领域的重量级选手，其快速冲刺 IPO 反映了市场对算力资源持续高涨的需求与看好。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3789475357400068?f=rss">卓驭科技：向物理 AI 转型是生存法则</a> (36kr)
+  卓驭科技副总裁表示，智能驾驶厂商向“物理 AI”转型并非为了迎合资本，而是关乎存亡的必经之路。随着智元机器人等具身智能企业加速规模化落地，AI 技术正从数字世界加速向物理世界渗透，重塑硬件价值链。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/w3Oek9aKw8lfpRZ7QBo4">微软警告：AI 正在掏空初级开发者培养渠道</a> (InfoQ)
+  微软发出警示，AI 工具的普及虽然提升了效率，却可能切断初级开发者的成长路径。随着 AI 接管基础编码工作，企业对初级岗位需求减少，行业面临人才梯队断层风险，需重新思考工程师培养模式。</p>
+</li>
+<li>
+<p><a href="https://nobodyaskedforthis.lol/posts/connected-car/">现代汽车：时刻注视你的广告基础设施</a> (Hacker News)
+  深度报道揭示了智能汽车背后的隐私危机，现代车辆已成为移动的广告监视终端，收集大量用户数据。在智能化功能日益丰富的当下，用户隐私保护与商业变现之间的博弈愈发激烈，数据安全不容忽视。</p>
+</li>
+<li>
+<p><a href="https://openai.com/index/delivering-low-latency-voice-ai-at-scale/">OpenAI 技术解析：如何大规模交付低延迟语音 AI</a> (Hacker News)
+  OpenAI 详细阐述了其实现低延迟语音 AI 的技术架构。随着语音交互体验逼近真人水平，语音正在取代文字成为 AI 应用的新核心入口，这对实时处理能力和模型推理优化提出了更高要求。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1210221">2026 年是 LLM 泡沫破裂之年吗？</a> (V2EX)
+  社区热议 2026 年 LLM 是否会因算力、能源、商业模式等瓶颈而降温。这反映了业界从对模型能力的狂热追捧，转向对落地成本、商业闭环及可持续发展的理性审视，技术成熟度曲线正在跨越泡沫期。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://stripe.dev/blog/formatting-an-entire-25-million-line-codebase-overnight-the-rubyfmt-story">Stripe 工程实践：一夜之间格式化 2500 万行代码</a> (Hacker News)
+  Stripe 分享了如何在保持业务运行的同时，一夜之间完成 2500 万行代码库的格式化。文章详细介绍了 Rubyfmt 工具的设计理念与迁移策略，为大型遗留系统的现代化改造提供了极具参考价值的工程范本。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1210195">V2EX 经验：如何正确使用 Claude 并降低 Token 消耗</a> (V2EX)
+  开发者分享了使用 Claude Opus 4.7 的实战经验，指出在单一长对话中反复修改代码会导致 Token 消耗激增。建议合理拆分对话、管理上下文，并利用 Desktop 端优化工作流，以平衡开发效率与成本。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/TPqCEvSNCh9jzivioLs8">Cloudflare 推出 Agent Memory 服务</a> (InfoQ)
+  Cloudflare 推出面向 AI 智能体的持久记忆托管服务，旨在解决 Agent 在多轮对话或长期任务中的“失忆”痛点。该服务降低了构建复杂 Agent 应用的门槛，开发者可利用其快速构建具备长期记忆能力的 AI 应用。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1210177">开源项目：裸 K 实盘训练网页</a> (V2EX)
+  有开发者因炒币亏损，利用 Next.js 制作了一个无需登录的裸 K 线实盘训练平台。该项目支持限价、市价及止盈止损功能，适合交易爱好者在不承担真实资金风险的情况下磨练盘感，代码已开源供参考。</p>
+</li>
+<li>
+<p><a href="https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.8.0">PyInfra 3.8.0 发布</a> (Hacker News)
+  基础设施即代码工具 PyInfra 发布 3.8.0 版本。作为一款使用 Python 编写的自动化运维工具，它提供了比 Ansible 更直接的 Python DSL 语法，特别适合偏好 Python 技术栈的运维工程师进行服务器配置管理。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
