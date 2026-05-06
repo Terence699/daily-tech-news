@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-06</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-06</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-06</h1>
+<p>AI 商业化进程加速，豆包推出付费订阅模式引发行业关注；Cloudflare 赋予 AI Agent 自主开户与部署能力，智能体独立性迈出关键一步。硬件端光模块需求井喷，订单排至 2028 年，显示算力基建热度不减。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3794799114476809?f=rss">豆包推出付费订阅，最高年包 5088 元</a> (36kr)
+    豆包 App 宣布在免费版基础上推出付费订阅服务，包含标准版、加强版和专业版三档，年包价格最高达 5088 元。此举标志着国内 AI 应用开始从免费烧钱向商业化变现探索，试图通过增值服务覆盖高昂的算力成本。</p>
+</li>
+<li>
+<p><a href="https://blog.cloudflare.com/agents-stripe-projects/">Cloudflare 允许 Agent 自主创建账号并部署</a> (Hacker News)
+    Cloudflare 宣布 AI Agent 现在可以自主创建账号、购买域名并进行部署。这一更新极大地提升了 Agent 的自主性，使其能够像人类开发者一样完成基础设施的搭建，被视为 Agent 走向完全自主化的里程碑事件。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3797276458163458?f=rss">光模块巨头 Lumentum 订单排至 2028 年</a> (36kr)
+    Lumentum 总裁表示，公司营收创历史新高，产品需求远大于供应能力，订单已排至 2028 年。这一数据侧面印证了全球 AI 算力建设的狂热程度，光通信产业链的高景气度将持续数年。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3682907323150215?f=rss">AI 原生健康硬件公司「杉木SHANMU」获近亿元融资</a> (36kr)
+    该公司近日完成近亿元 A 轮融资，由石溪资本领投，韶音科技等参投。公司专注于 AI 原生健康硬件，此轮融资显示了资本市场对 AI 技术落地医疗健康硬件赛道的持续看好。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3797235635887113?f=rss">iPhone 17 成全球最畅销智能手机</a> (36kr)
+    Counterpoint Research 数据显示，iPhone 17 成为 2026 年 Q1 全球最畅销智能手机，前十机型市占率达 25%。苹果继续领跑高端市场，而小米 Redmi A5 位列第十，显示出头部品牌效应的进一步集中。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/">Chrome 被指静默安装 4GB AI 模型</a> (Hacker News)
+    谷歌 Chrome 浏览器被发现在未经用户明确同意的情况下，静默安装约 4GB 的 AI 模型。这一行为引发了关于用户知情权、磁盘空间占用及隐私安全的广泛争议，反映出科技巨头在推动端侧 AI 普及时面临的伦理挑战。</p>
+</li>
+<li>
+<p><a href="https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/">Computer Use 成本比结构化 API 高 45 倍</a> (Hacker News)
+    分析指出，使用 AI 进行 Computer Use（模拟人类操作界面）的成本是直接调用结构化 API 的 45 倍。这表明虽然 Computer Use 降低了集成门槛，但在大规模商业应用中，API 仍是性价比最优解。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/w3Oek9aKw8lfpRZ7QBo4">微软警告：AI 正掏空初级开发者培养渠道</a> (InfoQ)
+    微软发出警告，AI 辅助编程工具的普及导致初级开发者失去了通过简单任务锻炼能力的机会，可能造成人才梯队断层。这一观点揭示了 AI 提效背后的长期隐忧：如何培养下一代资深工程师。</p>
+</li>
+<li>
+<p><a href="https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63">Telus 利用 AI 修改客服口音</a> (Hacker News)
+    加拿大电信运营商 Telus 使用 AI 技术实时修改客服人员的口音，使其听起来更像“本地人”。该技术应用引发了关于文化歧视和“口音歧视”的伦理讨论，同时也展示了 AI 在语音交互领域的深度应用。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3789475357400068?f=rss">卓驭科技：向物理 AI 转型是生存法则</a> (36kr)
+    卓驭科技副总裁表示，智能驾驶算法厂商向“物理 AI”转型并非追逐热点，而是关乎存亡的必然选择。如果不转向这一技术路线，未来将难以在竞争激烈的智驾市场中生存，行业正经历新一轮技术洗牌。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/">Google 发布 Gemma 4 加速技术</a> (Hacker News)
+    Google 披露了 Gemma 4 模型推理加速细节，通过多令牌预测起草器实现更快的推理速度。该技术为开发者优化本地大模型部署提供了新思路，有助于降低高性能模型的硬件门槛。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/TPqCEvSNCh9jzivioLs8">Cloudflare 推出 Agent Memory 托管服务</a> (InfoQ)
+    Cloudflare 推出了面向 AI 智能体的持久记忆托管服务 Agent Memory，解决了 Agent 在无状态环境中难以保持上下文连续性的痛点。开发者可以利用该服务快速构建具有长期记忆能力的 AI 应用。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/2D4Ky0AYKQu2JGeUW6HN">Vercel 开源 Open Agents</a> (InfoQ)
+    Vercel 开源了 Open Agents，支持在后台运行 AI 编码工作流。这一工具允许开发者将复杂的编码任务交给 AI 异步处理，进一步提升了开发效率，是 AI 辅助编程工具链的重要补充。</p>
+</li>
+<li>
+<p><a href="https://kuber.studio/blog/Reflections/I%27m-Scared-About-Biological%20Computing">我对生物计算的恐惧与思考</a> (Hacker News)
+    一篇深度长文探讨了生物计算的前景与风险。作者表达了对这一新兴交叉学科的担忧，认为生物计算可能带来不可预测的后果，适合对前沿计算范式感兴趣的读者深入阅读。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/033vidXmEz7YaWxS9mpa">React Navigation 8.0 Alpha 发布</a> (InfoQ)
+    React Navigation 8.0 Alpha 版本发布，带来了原生底部标签、重构后的 TypeScript 类型推断以及改进的历史记录能力。对于 React Native 开发者而言，这是一个值得关注的重大更新。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
