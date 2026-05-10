@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-10</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-10</h1>
+<p>科技圈今日动态频出，DeepSeek 拟募资数百亿元引发行业高度关注，显示出 AI 大模型领域竞争进入白热化阶段。与此同时，Bun 项目的 Rust 重写取得突破性进展，固态电池与 AI 硬件领域也迎来了新的融资与产品落地里程碑。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3801348046151428">DeepSeek拟募资最高500亿元</a> (36kr)
+    据报道，DeepSeek 正寻求最高 500 亿元人民币的融资，这或将成为中国 AI 领域规模最大的融资之一。此举表明资本市场对头部大模型公司的持续看好，也预示着行业算力与人才竞争将进一步加剧。</p>
+</li>
+<li>
+<p><a href="https://twitter.com/jarredsumner/status/2053047748191232310">Bun实验性Rust重写在Linux上达成99.8%兼容性</a> (Hacker News)
+    Bun 项目的实验性 Rust 重写版本在 Linux x64 glibc 环境下达到了 99.8% 的测试兼容性。这一里程碑标志着该 JavaScript 运行时在性能优化和稳定性方面迈出了关键一步，可能改变未来前端工具链的技术底层选型。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3800022823951363">第一代全固态电池迈入规模化市场</a> (36kr)
+    「纯锂新能源」宣布完成数千万元 Pre-A+ 轮融资，其全固态电池产品已迈入规模化市场阶段。公司通过自研复合电解质破解固固接触难题，资金将用于产线落地与市场拓展，有望加速固态电池技术的商业化进程。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3801812857871876">光帆带摄像头AI耳机本月开售</a> (36kr)
+    光帆科技宣布全球首款具备视觉感知能力的主动式 AI 耳机将于 5 月 15 日开售。该产品尝试将视觉信息引入音频交互场景，拓展了 AI 硬件的感知边界，为可穿戴设备提供了新的产品形态思路。</p>
+</li>
+<li>
+<p><a href="https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/">CPanel遭遇黑色一周：4.4万台服务器受攻击后修补漏洞</a> (Hacker News)
+    主机控制面板软件 cPanel 在遭遇勒索软件攻击影响 4.4 万台服务器后，紧急修补了三个新漏洞。此次事件再次敲响服务器基础设施安全的警钟，凸显了广泛部署的基础软件供应链安全的重要性。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1211427">AI好像让人失去了阅读长文的能力</a> (V2EX)
+    一位用户分享称，长期使用 AI 总结 PDF 后，发现自己逐渐丧失了阅读长文的耐心，甚至下意识滑过长文。这反映了 AI 工具在提升效率的同时，可能带来认知能力退化的副作用，引发了关于“AI 依赖症”的讨论。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3799028783439111">小红书四年AI路：从犹豫到突然加速</a> (36kr)
+    文章复盘了小红书在 AI 领域的战略转变，从早期的克制与 FOMO（错失恐惧），到近期突然加速产品化。在社区氛围与技术落地之间寻找平衡，是小红书区别于其他大厂 AI 战略的核心特征，也决定了其 AI 功能的独特调性。</p>
+</li>
+<li>
+<p><a href="https://arxiv.org/abs/2604.15597">LLMs corrupt your documents when you delegate</a> (Hacker News)
+    一项研究指出，当用户将文档处理任务委托给大语言模型时，模型可能会产生不可预知的“损坏”或篡改。这提醒开发者在构建 RAG（检索增强生成）应用时，需警惕模型生成内容的忠实度问题，避免关键信息被隐性修改。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/FOy8AahY8bsPveNwwTq1">Chrome偷偷给数亿电脑塞4GB Gemini模型</a> (InfoQ)
+    谷歌被曝在 Chrome 浏览器中默认内置了约 4GB 的 Gemini 模型，且存在删除后自动重新下载的情况。这一举动引发了关于用户磁盘空间控制权、隐私以及浏览器“操作系统化”趋势的广泛争议。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1211434">OpenClacky 1.0发布，最省Token的开源AI Agent</a> (V2EX)
+    开发者发布 OpenClacky 1.0，宣称在完成相同任务时成本仅为竞品的六分之一。在 AI Agent 应用普遍面临高 Token 成本瓶颈的当下，此类优化方案的出现，有望降低企业落地 Agent 的门槛，推动技术普及。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/">Gemini API File Search is now multimodal</a> (Hacker News)
+    Google 宣布 Gemini API 的文件搜索功能现已支持多模态。开发者现在可以更便捷地构建支持图片、视频等多模态数据检索的 RAG 应用，大幅降低了处理复杂非结构化数据的技术门槛。</p>
+</li>
+<li>
+<p><a href="https://github.com/nooga/let-go">Show HN: I made a Clojure-like language in Go, boots in 7ms</a> (Hacker News)
+    开发者发布了一款用纯 Go 语言编写的类 Clojure 语言，冷启动仅需 7ms，且与 JVM Clojure 保持约 90% 的兼容性。对于追求启动速度和单二进制分发的函数式编程爱好者来说，这是一个值得尝试的新选择。</p>
+</li>
+<li>
+<p><a href="https://zed.dev/theme-builder">Zed Editor Theme-Builder</a> (Hacker News)
+    高性能编辑器 Zed 推出了官方主题构建工具，允许用户通过可视化界面定制编辑器配色。这填补了 Zed 在生态定制化方面的空白，有助于吸引更多追求个性化开发环境的用户迁移。</p>
+</li>
+<li>
+<p><a href="https://evilgeniuslabs.ca/blog/visual-basic-history-chapter-1-launch">I'm writing a history of Visual Basic, Chapter 1 is up</a> (Hacker News)
+    一位开发者正在撰写 Visual Basic 的历史，并发布了第一章内容。文章回顾了 VB 的诞生与辉煌，对于理解低代码开发工具的起源、RAD（快速应用开发）理念的演变具有重要的史料价值。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/w9R1DwXoM3yKbjzcV94H">DuckLake 1.0：具有SQL目录元数据的数据湖格式</a> (InfoQ)
+    DuckLake 1.0 正式发布，这是一种结合了 SQL 目录元数据的新型数据湖格式。它旨在简化数据湖架构，提供更高效的查询性能和管理能力，是数据工程领域值得关注的新兴开源项目。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
