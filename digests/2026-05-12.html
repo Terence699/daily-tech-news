@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-12</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-12</h1>
+<p>今日科技圈风云变幻，AI 安全与工程化落地成为焦点。Google 披露黑客利用 AI 发现软件漏洞，TanStack 遭遇供应链攻击，安全警钟再次敲响；与此同时，上海 AI 实验室突破光刻胶制备难题，快手计划分拆可灵 AI 融资，技术与商业竞相迸发。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://tanstack.com/blog/npm-supply-chain-compromise-postmortem">TanStack npm 供应链攻击事件复盘</a> (Hacker News)
+  TanStack 官方发布博文详细复盘了近期发生的 npm 供应链攻击事件。此类攻击日益频繁，提醒开发者必须时刻警惕第三方依赖包的安全性，建议及时检查项目依赖树并进行来源验证。</p>
+</li>
+<li>
+<p><a href="https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html">Google 称犯罪黑客利用 AI 发现重大软件漏洞</a> (Hacker News)
+  Google 安全团队披露，犯罪黑客已开始利用 AI 技术发现并利用重大软件漏洞。这标志着 AI 在网络安全领域的攻防博弈进入新阶段，防御方需加速引入 AI 能力以应对日益智能化的攻击手段。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3805700079721985?f=rss">上海 AI 实验室攻克光刻胶稳定制备难题</a> (36kr)
+  上海 AI 实验室联合团队基于“书生”科学大模型，构建了“AI 决策+自动化合成”闭环体系，成功实现高纯度 KrF 光刻胶树脂创制。这一突破解决了高端光刻胶稳定制备的“卡脖子”难题，对芯片制造产业链具有重要意义。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3805557782486785?f=rss">快手计划分拆可灵 AI，融资 20 亿美元</a> (36kr)
+  快手计划分拆其 AI 视频生成模型“可灵 AI”进行独立融资，目标金额高达 20 亿美元。此举显示出视频生成赛道持续火热，头部厂商正加速商业化布局以抢占市场先机。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3805704026775296?f=rss">腾讯张军：微信“访客功能”已焊死，不会开发</a> (36kr)
+  针对近期微信测试状态浏览人数引发的误解，腾讯公关总监张军回应称，“已读”和“访客”功能已明确不会开发。这一回应迅速平息了用户对社交压力的担忧，体现了产品对用户体验的尊重。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/FzzzoO8hcq9QUEqxEuw6?utm_source=rss&amp;utm_medium=article">企业每月烧钱却算不清账，大模型“最后一公里”何解？</a> (InfoQ)
+  许多企业虽然投入巨资购买 Token，却面临账目混乱和效率提升不明显的困境。文章指出，缺乏有效的工程化治理和成本监控是当前大模型落地的主要瓶颈，企业需建立完善的 AI 资产管理体系。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/j8rolcojYjAakoeJ3FhS?utm_source=rss&amp;utm_medium=article">38 万应用暴露！AI 编程把“内网”变公网</a> (InfoQ)
+  研究显示，AI 辅助编程可能导致大量应用意外暴露内网端口或泄露敏感信息。开发者过度依赖 AI 生成的代码而缺乏安全审查，正在制造新的攻击面，安全左移在 AI 时代更为关键。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3805699195428354?f=rss">韩国提议以 AI 产业超额利润向全民发放“公民红利”</a> (36kr)
+  韩国总统府政策室长提议设立“公民红利”，将 AI 产业产生的超额利润回馈国民。这一政策构想反映了社会对 AI 取代人类工作的担忧，以及探索 AI 时代财富再分配机制的新趋势。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1211896">老板要求用 AI 几周完成一年的工作量</a> (V2EX)
+  有开发者发帖称，老板误信 AI 能力，要求一个月内重构复杂系统。这反映了管理层对 AI 能力的过度神话与实际工程复杂度之间的认知鸿沟，盲目压缩工期可能引发严重线上事故。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://github.com/davmlaw/they_live_adblocker">They Live inspired Adblocker：电影风格的广告拦截器</a> (Hacker News)
+  一款灵感来源于电影《极度空间》的开源广告拦截器，它不仅屏蔽广告，还能以独特的视觉风格展示被拦截的内容。对于厌倦了传统拦截器体验的用户，这是一个兼具趣味与功能的尝试。</p>
+</li>
+<li>
+<p><a href="https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html">在 Swift 中训练 LLM：从 Gflop/s 到 Tflop/s 的矩阵乘法优化</a> (Hacker News)
+  系列文章第一部分，详细讲解了如何在 Swift 环境下优化矩阵乘法运算，实现从 G 级到 T 级的性能飞跃。对于希望在苹果生态中原生训练模型的开发者，这是一份极具价值的技术指南。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/73727">App+1 | 如果你的手机没有内置地震预警，这款 App 不妨常备</a> (少数派)
+  文章推荐了一款实用的地震预警应用，弥补了部分手机系统缺失该功能的短板。在自然灾害频发的当下，提前几秒的预警可能挽救生命，值得安装备用。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/UVGOeS0SrX3cCRK6Nac0?utm_source=rss&amp;utm_medium=article">攻击者在 Flippa 购买插件植入后门，供应链攻击防不胜防</a> (InfoQ)
+  攻击者通过购买合法的 WordPress 插件并在更新中植入后门，导致大量站点受控。这再次警示站长，对于第三方插件来源的变更和代码更新需保持高度警惕，防止供应链污染。</p>
+</li>
+<li>
+<p><a href="https://github.com/tsirysndr/rockbox-zig">Show HN: 基于 Rockbox 固件的现代音乐播放器守护进程</a> (Hacker News)
+  一个基于经典 Rockbox 固件开发的现代音乐播放器守护进程项目，使用 Zig 语言编写。它为老旧设备或极客玩家提供了更现代化的音频播放解决方案，适合嵌入式开发爱好者关注。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
