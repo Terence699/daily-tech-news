@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-15</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-15</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-15</h1>
+<p>AI 资本热潮持续涌动，Anthropic 估值飙升至 9000 亿美元，具身智能赛道半年融资超 550 亿元。技术层面，苹果 M5 芯片曝出首个内核级漏洞，Nginx 新漏洞引发安全关注。生态方面，微信投入 800 人团队适配鸿蒙，Bun 运行时核心代码 Rust 重写工作已合并，开发者生态正经历深刻变革。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://36kr.com/newsflashes/3809965649157639">Anthropic 同意以 9000 亿美元估值开展融资</a> (36kr)
+    投资者 Dragoneer、Greenoaks、红杉资本等已同意领投此轮融资，估值高达 9000 亿美元。这显示了资本市场对头部 AI 大模型公司的持续追捧与极高预期，进一步巩固了其在 AI 领域的巨头地位。</li>
+<li><a href="https://36kr.com/p/3809911566704388">具身智能行业前 4 月融资总规模超 550 亿元</a> (36kr)
+    2026 年上半年具身智能成为最火赛道，仅前 4 个月融资事件超 200 笔，总规模突破 550 亿元。资本密集涌入表明该领域正从概念验证加速走向产业化落地，成为 AI 之后的新增长极。</li>
+<li><a href="https://36kr.com/p/3807527591058948">阿里巴巴财报：云业务营收同比增长 38%</a> (36kr)
+    阿里 2026 第四财季营收同比增长 3%，若剔除出售业务影响同口径增长 11%。核心增长由云业务推动，AI 云服务表现亮眼，成为拉动巨头业绩增长的新引擎。</li>
+<li><a href="https://blog.calif.io/p/first-public-kernel-memory-corruption">首个公开的苹果 M5 内核内存损坏利用</a> (Hacker News)
+    安全研究人员发布了针对 Apple M5 芯片的首个公开 macOS 内核内存损坏利用代码。这一发现打破了苹果芯片在安全性上的部分“神话”，对 macOS 安全架构提出了严峻挑战。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://www.infoq.cn/article/QU5sZKgumE0oGvoHrULa?utm_source=rss&amp;utm_medium=article">Meta 员工抗议利用鼠标数据训练 AI</a> (InfoQ)
+    Meta 内部爆发抗议活动，员工在厕所和会议室张贴传单，反对公司利用员工鼠标移动数据训练 AI。这反映了 AI 数据获取与员工隐私权之间的激烈冲突，企业需重新审视内部数据使用的伦理边界。</li>
+<li><a href="https://twitter.com/tdietterich/status/2055000956144935055">arXiv 新规：AI 幻觉引用将面临一年封禁</a> (Hacker News)
+    学术预印本平台 arXiv 宣布新政策，对于论文中出现 AI 生成的虚假引用，作者将面临一年的封禁处罚。此举旨在遏制生成式 AI 对学术诚信的侵蚀，维护科研文献的真实性。</li>
+<li><a href="https://www.infoq.cn/article/NTLqPuNVk0Bs7bBzkfRX?utm_source=rss&amp;utm_medium=article">顶级 AI 科学家接连离职创业</a> (InfoQ)
+    Meta 离职大佬田渊栋与前阿里 Qwen 负责人林俊旸相继宣布创业，新 AI Lab 估值惊人。顶级人才的流动预示着 AI 竞争正从巨头博弈转向更具创新活力的初创生态，人才争夺战愈演愈烈。</li>
+<li><a href="https://36kr.com/p/3809785128869641?f=rss">微信投入 800 人团队适配鸿蒙</a> (36kr)
+    微信成立约 800 人的专项团队适配鸿蒙系统，约占开发人员一半。这一动作标志着国民级应用对国产操作系统生态的全面支持，对鸿蒙系统的商业化成功具有里程碑意义。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://github.com/oven-sh/bun/pull/30412">Bun 重写为 Rust 的 PR 已合并</a> (Hacker News)
+    Bun 项目将部分核心代码重写为 Rust 的 Pull Request 已正式合并。这将进一步提升 Bun 作为新一代 JavaScript 运行时的性能表现与稳定性，值得开发者关注后续版本发布。</li>
+<li><a href="https://github.com/gyroflow/gyroflow">Gyroflow：基于陀螺仪数据的视频防抖工具</a> (Hacker News)
+    一款开源的视频防抖软件，利用陀螺仪数据实现高精度的画面稳定。支持多种相机和无人机，是视频创作者处理运动镜头的高效工具，完全免费且跨平台。</li>
+<li><a href="https://github.com/DepthFirstDisclosures/Nginx-Rift">新 Nginx 漏洞利用代码披露</a> (Hacker News)
+    名为 "Nginx-Rift" 的新漏洞利用代码已在 GitHub 披露。运维与安全人员需密切关注该漏洞的影响范围及修复补丁，及时排查服务器安全隐患，防止潜在的恶意攻击。</li>
+<li><a href="https://sspai.com/prime/story/linux-vm-on-android">在 Android 上运行 Linux 终端体验（2026 版）</a> (少数派)
+    文章详细评测了 2026 年在 Android 手机上运行 Linux 虚拟机的体验。随着 Google 在 Pixel 设备上支持该功能，移动端开发环境正变得更加完善，适合需要在移动端进行轻量级开发的用户阅读。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
