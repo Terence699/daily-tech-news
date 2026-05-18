@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-18</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-18</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-18</h1>
+<p>SpaceX 宣布拆股并加速推进 IPO 进程，有望成为今年美股市场最重磅的上市事件。AI 领域持续震荡，Anthropic 向金融稳定委员会简报 AI 发现的网络防御漏洞，而 OpenAI 则资助了“3 人带队 100 个 AI 程序员”的激进实验，软件开发的范式正在被重写。此外，上海发布重磅规划，计划到“十五五”末推动 10 万台人形机器人进工厂，智能制造迎来政策强心剂。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://36kr.com/p/3812789087264519">史上最大IPO来袭，SpaceX加速驶入纳斯达克</a> (36kr)
+  SpaceX 宣布普通股“一拆五”方案已生效，正加速推进 IPO 进程。作为太空探索巨头，SpaceX 的上市将成为今年美股市场最受瞩目的重磅事件，其估值与市场表现备受投资者关注。</li>
+<li><a href="https://36kr.com/p/3814300899532295">Anthropic据悉将向金融稳定委员会简报AI模型Mythos发现的网络防御漏洞</a> (36kr)
+  Anthropic 将向金融稳定委员会（FSB）简报其 AI 模型 Mythos 识别出的全球金融体系网络防御脆弱性。此举标志着 AI 安全评估正式介入全球金融监管层面，FSB 据此起草的报告将于下月发布。</li>
+<li><a href="https://36kr.com/p/3814218883391232">上海市经济信息化委主任：到“十五五”末推动10万台人形机器人进工厂</a> (36kr)
+  上海提出面向“十五五”的制造业智能化转型目标，计划推动 10 万台人形机器人进工厂，并培育智能原生工厂。该政策将极大推动具身智能与工业智能体的落地应用，规上工业企业智能体普及率目标超 80%。</li>
+<li><a href="https://36kr.com/p/3814221657218569">韩国法院要求三星电子罢工行动不得影响产量</a> (36kr)
+  韩国法院批准三星电子部分禁令请求，责令工会罢工不得影响产量或导致生产原料受损。这一裁决给三星史上最大规模罢工踩了“急刹车”，对全球存储芯片供应链的稳定性至关重要。</li>
+<li><a href="https://36kr.com/p/3813040859258373">又诞生一位千亿女富豪</a> (36kr)
+  立讯精密股价近期大涨，市值创历史新高，掌舵者王来春身价突破千亿人民币。股价上涨与其拟收购京西智行集团的公告有关，显示了市场对其业务拓展的积极预期。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://36kr.com/p/3812925591887368">3个人带100个AI程序员，一个月烧掉130万美元</a> (36kr)
+  OpenClaw 之父展示了极端的软件开发流水线：3 个人指挥 100 个 AI Agent，单月成本高达 130 万美元，由 OpenAI 买单。这一实验揭示了软件开发从“人力密集”向“算力与资金密集”转变的可能性，引发对开发成本结构的重新思考。</li>
+<li><a href="https://www.v2ex.com/t/1213387">AI 时代，程序员被清楚地分为了两类人</a> (V2EX)
+  社区热议 AI 对程序员职业热情的影响，观点认为程序员正分化为“热爱编程本身”和“热爱用编程实现想法”两类。前者可能因“古法编程”的衰落而感到失落，后者则因 AI 降低了实现门槛而更加兴奋，这反映了技术变革下的职业心态分野。</li>
+<li><a href="https://www.infoq.cn/article/QU5sZKgumE0oGvoHrULa">鼠标每动一下都在训练AI，Meta员工“造反”了</a> (InfoQ)
+  Meta 员工因不满工作时的鼠标移动等数据被用于 AI 训练，在办公室张贴抗议传单。这一事件凸显了科技巨头在推进 AI 数据采集时面临的内部伦理冲突与员工隐私担忧。</li>
+<li><a href="https://sspai.com/post/109870">提交未经核实 AI 内容的论文作者将被 arXiv 封禁一年</a> (少数派)
+  学术预印本平台 arXiv 宣布严厉措施，将对提交未经核实 AI 生成内容的作者实施封禁。这表明学术界正在建立更严格的 AI 使用规范，强调科研诚信与 AI 辅助写作的边界。</li>
+<li><a href="https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/">I don't think AI will make your processes go faster</a> (Hacker News)
+  一篇热门文章指出，AI 本身并不一定能加快业务流程，除非流程本身已经经过优化。文章提醒管理者，盲目引入 AI 并不能解决低效流程的根本问题，反而可能增加复杂性，强调了流程再造先于技术引入的重要性。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://36kr.com/p/3812800346742274">6.4k Stars！用Claude Code写论文的全套流水线</a> (36kr)
+  开源项目 academic-research-skills（ARS）在 GitHub 上迅速走红，提供了一套基于 Claude Code 的论文写作技能包。该工具直击学生党痛点，能够辅助完成从文献整理到撰写的全流程，极大提升了学术研究的效率。</li>
+<li><a href="https://github.com/MinishLab/semble">Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep</a> (Hacker News)
+  Semble 是一款专为 AI Agent 设计的代码搜索工具，号称比传统 grep 节省 98% 的 Token 消耗。它解决了大模型在处理大型代码库时上下文窗口受限的问题，让 Agent 能更高效地定位代码逻辑。</li>
+<li><a href="https://github.com/tech4bot/rk3562deb">I turned a $80 RK3562 Android tablet into a Debian Linux workstation</a> (Hacker News)
+  开发者分享了将廉价的安卓平板（RK3562 芯片）改装成 Debian Linux 工作站的教程。该项目为极客提供了低成本搭建 Linux 环境的实践指南，展示了 ARM 设备的无限可玩性。</li>
+<li><a href="https://sspai.com/prime/story/zhuanglesha-260515">装了啥：编辑部用什么转写音视频内容？</a> (少数派)
+  少数派编辑部分享了各自使用的音视频转录工具方案。随着播客和长视频内容的兴起，“先转录、再阅读”已成为高效信息消费的主流工作流，文章对比了多种工具的优劣与适用场景。</li>
+<li><a href="https://unplannedobsolescence.com/blog/prolog-basics-pokemon/">Prolog Basics Explained with Pokémon</a> (Hacker News)
+  一篇趣味教程，利用宝可梦的属性克制关系来讲解 Prolog 语言基础。这种寓教于乐的方式降低了逻辑编程的入门门槛，适合对逻辑推理和编程语言感兴趣的读者阅读。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
