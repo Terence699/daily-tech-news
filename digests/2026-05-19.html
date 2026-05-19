@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-19</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-19</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-19</h1>
+<p>今日科技圈迎来多项重磅动态，Anthropic 收购 Stainless 加码开发者生态，马斯克起诉 OpenAI 一案尘埃落定。国内方面，阿里云稳居 AI 云市场份额第一，字节跳动番茄小说探索 AI 动漫院线化，AI 技术正加速向产业深处渗透。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/">马斯克输掉针对 Sam Altman 和 OpenAI 的诉讼</a> (Hacker News)
+  备受关注的马斯克起诉 OpenAI 案件今日宣判，马斯克最终输掉了这场诉讼。该案件涉及 OpenAI 的转型及其与微软的关系，判决结果对 AI 行业的竞争格局和非营利组织的商业化路径具有重要参考意义。</p>
+</li>
+<li>
+<p><a href="https://www.anthropic.com/news/anthropic-acquires-stainless">Anthropic 收购 Stainless</a> (Hacker News)
+  AI 独角兽 Anthropic 宣布收购 Stainless，后者是一家专注于 API 开发者工具的公司。此次收购表明 Anthropic 正在大力补强开发者生态建设，意图为 AI 模型的落地应用提供更强大的基础设施支持。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3815679486909954">报告：2025年中国AI云市场规模超567亿元，阿里云双料冠军</a> (36kr)
+  Omdia 发布报告显示，2025 年中国 AI 云市场规模达 567 亿元。阿里云在 AI IaaS 和 MaaS 两大领域均位列第一，总份额上涨至 38.1%，稳居市场头名，显示出其在算力基础设施与模型服务上的综合优势。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3810598875307780?f=rss">番茄小说正推动 AI 动漫上院线，开放头部IP改编权限</a> (36kr)
+  字节跳动旗下番茄小说正在积极探索 AI 动漫的商业化路径，计划推动 AI 生成动漫进入院线。为此，平台将开放头部 IP 的改编权限，试图解决文字 IP 缺乏视觉形象、难以衍生变现的痛点，挖掘 IP 商业价值。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3814337101111044?f=rss">对话万成云商：发文章≠GEO优化，大模型不是喂什么就推什么</a> (36kr)
+  随着用户搜索入口从传统搜索引擎转向 AI 工具，GEO（生成式引擎优化）正取代 SEO 成为营销新焦点。文章指出，大模型具有自主判断能力，简单的内容堆砌已失效，品牌需要调整策略以适应 AI 时代的推荐逻辑。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3814860909600261?f=rss">鲸跃动力获星海图数千万元种子轮投资</a> (36kr)
+  鲸跃动力致力于打造可订阅、弹性扩容的 Robo Labor（机器人劳动力），替代人类从事高危、繁重工作。该趋势表明，机器人产业正从单一设备销售转向“劳动力即服务”的商业模式，物理劳动力的云端化指日可待。</p>
+</li>
+<li>
+<p><a href="https://andonlabs.com/blog/andon-fm">We let AIs run radio stations</a> (Hacker News)
+  Andon Labs 进行了一项实验，让 AI 完全自主运营广播电台，无需人类干预。这一尝试展示了 AI Agent 在内容生成与实时运营方面的能力，同时也揭示了在无人监管下 AI 可能出现的问题，为自动化运营提供了警示。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3815634489433865?f=rss">矩阵超智发布MATRIX-3全能旗舰级人形机器人</a> (36kr)
+  矩阵超智发布 MATRIX-3 人形机器人，搭载 WAVE 物理基座模型，并宣布面向全球发售。人形机器人硬件与物理基座模型的结合，预示着具身智能正在加速从实验室走向商业化落地，通用机器人竞争愈发激烈。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://simonwillison.net/2026/May/19/5-minute-llms/">The last six months in LLMs in five minutes</a> (Hacker News)
+  Simon Willison 撰写了一份简明扼要的指南，帮助开发者快速了解过去六个月大模型领域的最新进展。对于希望快速跟上 AI 技术迭代节奏的从业者来说，这是一份不可多得的高效阅读材料。</p>
+</li>
+<li>
+<p><a href="https://github.com/zakirullin/files.md">Show HN: Files.md – Open-source alternative to Obsidian</a> (Hacker News)
+  一款名为 Files.md 的开源工具发布，旨在成为 Obsidian 的替代品。它基于文件系统管理笔记，强调数据的自主掌控权，为注重隐私和本地化存储的知识管理者提供了新的选择。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/kNkrHGzRvA7r6pRtlGB5">Kubernetes v1.36 发布：安全默认配置强化，AI 工作负载支持日趋成熟</a> (InfoQ)
+  Kubernetes v1.36 正式发布，新版本显著强化了安全默认配置，并优化了对 AI 工作负载的支持。对于运维和开发人员而言，升级至新版本将有助于提升集群安全性和 AI 任务的调度效率。</p>
+</li>
+<li>
+<p><a href="https://archestra.ai/blog/only-responsible-ai">We stopped AI bot spam in our GitHub repo using Git's –author flag</a> (Hacker News)
+  Archestra 分享了一个巧妙的技巧，利用 Git 的 <code>--author</code> 标志成功阻止了 AI 机器人在 GitHub 仓库中的垃圾提交。这是一个实用的技术案例，展示了如何利用现有工具特性解决自动化带来的治理难题。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1213663">做了一个免费的 AI 公益站，今天重新开放注册</a> (V2EX)
+  有开发者基于自建的大模型中转站搭建了公益站点，开放注册并赠送 50 美元额度，目前支持 GPT-5.3 等模型。对于想要免费体验最新模型能力的个人用户，这是一个值得关注的资源渠道。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
