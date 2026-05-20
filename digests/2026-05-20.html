@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-20</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-20</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-20</h1>
+<p>今日科技圈动态频出，AI 领域迎来模型与硬件的双重革新。阿里发布 Qwen3.7-Max 登顶国产模型榜首，谷歌 Gemini 3.5 Flash 亮相并重构搜索体验；与此同时，Karpathy 宣布加入 Anthropic，平头哥新款芯片亮相，为这场 AI 竞赛再添变数。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3817070340342921">阿里发布 Qwen3.7-Max 模型</a> (36kr)
+    阿里巴巴发布新一代旗舰模型 Qwen3.7-Max，在 Arena 全球盲测中位列国产第一。该模型专为 Agent 设计，支持 35 小时超长程复杂任务，展现了在编程与推理能力上的重大突破，标志着国产大模型在智能体应用领域的进一步成熟。</p>
+</li>
+<li>
+<p><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/">谷歌推出 Gemini 3.5 Flash 并改版搜索</a> (Hacker News)
+    谷歌正式发布 Gemini 3.5 Flash 模型，同时对 Google Search 进行重大改版，将 AI 模式与代理助手全面嵌入搜索框。这一举措不仅提升了模型的响应速度与能力，更彻底改变了用户获取信息的方式，向“搜索即 AI”时代迈出关键一步。</p>
+</li>
+<li>
+<p><a href="https://twitter.com/karpathy/status/2056753169888334312">Karpathy 宣布加入 Anthropic</a> (Hacker News)
+    前 OpenAI 创始成员、知名 AI 科学家 Andrej Karpathy 宣布加入 Anthropic。作为 AI 领域的顶级大神，他的这一动向备受关注，可能预示着 Anthropic 在 AGI 研究或下一代 Claude 模型研发上将迎来新的突破。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3817080294999168">平头哥发布新一代 AI 芯片真武 M890</a> (36kr)
+    阿里平头哥在云峰会上发布新一代训推一体 AI 芯片真武 M890，性能达上一代 3 倍，支持 64 卡全带宽互联。目前真武系列芯片累计出货已超 56 万片，服务电信、一汽等 400 多家客户，显示出国产 AI 芯片在算力基础设施中的强劲增长势头。</p>
+</li>
+<li>
+<p><a href="https://twitter.com/github/status/2056884788179726685">GitHub 正在调查内部仓库未授权访问</a> (Hacker News)
+    GitHub 官方确认正在调查内部仓库的未授权访问事件，此前有消息称 CISA 管理员在 GitHub 上泄露了 AWS GovCloud 密钥。安全事件频发为开发者社区敲响警钟，代码托管平台的安全性与密钥管理再次成为关注焦点。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://sspai.com/post/109889">AI Agent 硬件化趋势加速</a> (sspai)
+    YoooClaw C·ONE 等专为 AI Agent 设计的硬件开始涌现，试图打破 AI 仅存于屏幕的局限。与此同时，联想发布天禧 AI 4.0，实现“机机协同”与主动任务执行。这表明 AI 正从 Chatbot 向具身化、主动式的硬件载体演进，交互方式面临重构。</p>
+</li>
+<li>
+<p><a href="https://openai.com/index/advancing-content-provenance/">OpenAI 采纳 SynthID 水印技术</a> (Hacker News)
+    OpenAI 宣布采用谷歌的 SynthID 技术为 AI 生成图片添加水印，并提供验证工具。然而社区同时也出现了 Remove–AI–Watermarks 等对抗工具。这种“魔高一尺道高一丈”的博弈，反映了 AI 内容溯源在版权与安全领域的复杂性与长期性。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/uLLYdtZdZu9sCQSyUcst">Vibe Coding 与专业 Agent 工程的融合</a> (InfoQ)
+    文章探讨了“Vibe Coding”（氛围编程）这一新兴概念与专业 Agent 工程走向融合的趋势。Cursor 等工具的更新使得开发者能以极低成本追平顶尖模型效果，这改变了传统软件工程范式，让非专业开发者也能通过自然语言构建复杂系统。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3817084193866889">具身智能与机器人赛道持续火热</a> (36kr)
+    “贝塔无限”连续完成两轮数亿元融资，专注于消费级通用具身智能。结合地瓜机器人与千寻智能的战略合作，可以看出资本市场与产业界正加速布局机器人“大脑”与“小脑”的结合，推动具身智能从实验室走向商业化落地。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://github.com/antoinezambelli/forge">Forge：提升 Agent 任务可靠性的开源护盾</a> (Hacker News)
+    Forge 是一个开源的可靠性层工具，专门用于自托管 LLM 的工具调用。通过添加护栏，它能将 8B 模型在 Agent 任务上的表现从 53% 提升至 99%，为开发者构建高可靠性的 AI Agent 提供了极具价值的解决方案。</p>
+</li>
+<li>
+<p><a href="https://github.com/wiltodelta/remove-ai-watermarks">Remove–AI–Watermarks：AI 图片水印移除工具</a> (Hacker News)
+    这是一个发布在 GitHub 上的命令行工具和库，专门用于移除图片中的 AI 水印。虽然涉及伦理争议，但它为研究人员测试水印鲁棒性提供了技术参考，也直观展示了当前水印技术的脆弱性。</p>
+</li>
+<li>
+<p><a href="https://fivethirtyeightindex.com/">FiveThirtyEight 文章索引</a> (Hacker News)
+    开发者 Ben Welsh 制作了一个索引，收录了互联网档案馆中 FiveThirtyEight 的所有文章。对于数据新闻爱好者、统计学研究者以及政治分析人士来说，这是一个不可多得的高质量数据集与历史资料库。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/109625">Kindle 生僻字自动补全教程</a> (sspai)
+    这篇文章分享了如何修改 Kindle 底层配置，挂载花园明朝字体以解决生僻字显示问题。教程详细且硬核，适合深度 Kindle 用户折腾，能有效提升阅读古籍时的视觉体验，极具实用价值。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/yxuH0IZNUvwPGdAEKCFX">Anthropic 工程事故报告解读</a> (InfoQ)
+    Anthropic 发布报告解释了 Claude Code 近期质量下降的原因，源于三项产品调整。这份报告不仅解释了问题，更向外界展示了顶级 AI 公司在模型迭代、数据清洗与产品调优背后的工程挑战与思考过程，值得一读。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
