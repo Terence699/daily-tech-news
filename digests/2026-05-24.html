@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-24</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-24</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-24</h1>
+<p>AI 领域今日动态频出，DeepSeek 宣布 API 永久降价，进一步加剧大模型价格战；AMD 率先量产 2nm 制程 CPU，硬件算力迈入新纪元。与此同时，行业焦点正从单纯的模型能力转向应用落地与人才转型，开发者工具链也在 Rust 化与安全加固中持续进化。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3821591669166214">DeepSeek-V4-Pro API 宣布永久降价</a> (36kr)
+  DeepSeek 官方宣布 V4-Pro 模型 API 价格将于 5 月 31 日后调整为原定价的 1/4，此举打破了原有的优惠活动限制，大幅降低了开发者调用顶尖模型的成本，对行业价格体系构成新的冲击。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3822607641841801">AMD 宣布量产代号为 Venice 的第 6 代 EPYC CPU</a> (36kr)
+  AMD 携手台积电开启 2nm 工艺量产，标志着数据中心 CPU 正式迈入 2nm 时代。该处理器计划未来在台积电亚利桑那州晶圆厂生产，将显著提升服务器算力与能效比。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3821371042877575">国内首家原生机器人“大脑芯片”企业获数亿元融资</a> (36kr)
+  孵化自北大类脑芯片实验室的维泛智能完成数亿元种子轮融资，专注于具身智能“大小脑”融合芯片研发。这表明资本正加速布局机器人核心硬件底层技术，补齐产业短板。</p>
+</li>
+<li>
+<p><a href="https://www.space.com/space-exploration/launchs-spacecraft/spacex-starship-v3-megarocket-first-test-flight">SpaceX 成功发射 Starship v3 火箭</a> (Hacker News)
+  SpaceX 的 Starship v3 成功完成首飞测试，作为下一代重型运载火箭，其运载能力的提升对于未来的深空探索和商业航天运输具有里程碑意义。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3821521291038856">对话王小川：离开通用 AGI 主干道，All in 医疗大模型</a> (36kr)
+  百川智能战略大转向，大幅缩减通用模型团队，全力投入医疗大模型研发。王小川表示这是回归创业初心，旨在打造 AI 医生，在特定垂直领域寻求 AGI 的落地突破。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3821542483857801">圆桌对话：未来最稀缺的是懂业务的人才</a> (36kr)
+  行业共识认为，单纯“懂 AI”的技术能力正在贬值，而能在关键低频决策中做出判断的业务人才成为稀缺资源。企业 AI 转型的最大瓶颈已从技术转向应用场景的挖掘与落地。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1214914">AI 时代 Commit 数量是否还适合衡量开发效率</a> (V2EX)
+  随着 AI 辅助编程的普及，代码提交变得高频且碎片化，传统的 Commit 数量指标已难以真实反映开发效率。行业需要建立新的评估体系，以区分“AI 生成的堆砌”与“有效价值的产出”。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/VZ4KvkToY57zj0ycsdBF">GitHub 面临生存之战，内部曝出封杀 Claude Code 乱象</a> (InfoQ)
+  多位员工爆料 GitHub 内部因竞争压力限制竞品工具使用，折射出被微软收购后独立文化的消逝。这反映了在 AI 编程工具爆发期，大厂产品面临的内部博弈与创新困境。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3821714896408713">下一个杀手级 AI 产品将出现在物理世界入口</a> (36kr)
+  纯粹的套壳应用注定短命，AI 眼镜、具身智能等能连接物理世界、完成交互闭环的硬件产品，有望成为下一个百亿级赛道。未来的竞争将围绕“入口”展开，而非单纯的软件功能。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1214981">开发者自费买 Token 干公司工作的焦虑</a> (V2EX)
+  许多开发者为提升效率自掏腰包使用 AI 工具，却面临成本不可控和自身编码能力退化的双重焦虑。这揭示了企业 AI 基础设施建设的滞后，以及个人生产力工具与企业供给之间的断层。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/9gN7a2Dw8MOKN3WXqvxC">Vite 8.0 发布：基于 Rust 统一打包工具</a> (InfoQ)
+  Vite 8.0 引入基于 Rust 的打包工具，构建速度最高提升 30 倍。这一更新标志着前端构建工具正在全面拥抱 Rust 生态，为开发者带来极致的性能体验。</p>
+</li>
+<li>
+<p><a href="https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet-gets-union-types/">.NET 终于迎来了联合类型</a> (Hacker News)
+  在 .NET 11 预览版 2 中，C# 终于引入了开发者期待已久的联合类型。这一特性的加入将极大增强类型系统的表达能力，简化复杂业务逻辑的代码实现。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/tO2sQc7DtKWpXMpMbC1">Pip 26.1 发布：上线依赖冷却机制抵御供应链攻击</a> (InfoQ)
+  Python 包管理器新版本引入了依赖冷却机制和实验性锁定文件功能，旨在防止恶意包快速传播，提升 Python 生态的供应链安全性，值得开发者关注与升级。</p>
+</li>
+<li>
+<p><a href="https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/">微软开源迄今发现的最早 DOS 源代码</a> (Hacker News)
+  微软开放了早期 DOS 的源代码，对于计算机历史研究和技术考古具有重要意义，让开发者能一窥操作系统早期的实现细节与编程智慧。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/110044">浏览器扩展合集：6 款实用有趣的新工具</a> (sspai)
+  少数派整理了近期值得尝试的 6 款浏览器扩展，涵盖效率提升、界面优化等功能，为用户优化浏览器使用体验提供了实用的工具参考。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
