@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-25</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-25</h1>
+<p>今日科技圈热点纷呈，阿里云宣布将结束 DNS 免费午餐，引发开发者社区对基础设施成本的关注；RISC-V 架构迎来里程碑，阿里玄铁处理器成功适配最新安卓系统，加速商业化落地。AI 领域争议与突破并存，C++ 之父对 AI 编码提出尖锐批评，而 DeepSeek 等厂商则持续推动智能体技术演进。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1215176">阿里云云解析 DNS 免费版将实施流量管控</a> (V2EX)
+  阿里云通知将于 2026-06-24 起对免费版 DNS 进行限速管控，原因是用户规模增长导致解析总量攀升，需保障链路稳定性。这对使用免费 DNS 的个人开发者和小型项目将产生直接影响，可能迫使部分用户转向付费服务或其他服务商。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3824113690546567?f=rss">阿里玄铁 9 系列处理器适配安卓 16</a> (36kr)
+  达摩院宣布玄铁 9 系列高性能处理器已完成对 Android 16 的适配，这是全球首款运行最新安卓系统的 RVA23 兼容 RISC-V 处理器。此举标志着 RISC-V 在安卓生态中从功能移植迈入规范兼容与产品化交付的新阶段。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3824126045933704?f=rss">摩根士丹利预测 2030 年半导体市场规模达 1.5 万亿美元</a> (36kr)
+  报告指出，到 2030 年全球半导体产业规模或达 1.5 万亿美元，其中 AI 相关产品将占据半壁江山。云资本支出依然强劲，预计 2026 年接近 8110 亿美元，代理式 AI 的发展将进一步推动 CPU 和 GPU 的应用机遇。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/VZ4KvkToY57zj0ycsdBF?utm_source=rss&amp;utm_medium=article">GitHub 被曝面临生存之战，内部乱象频发</a> (InfoQ)
+  多位员工爆料微软治下的 GitHub 独立文化丧失，甚至出现封杀 Claude Code 等竞品工具的现象。文章指出 GitHub 正面临技术和人员流失困境，引发了开发者社区对这一全球最大代码托管平台未来走向的担忧。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3824136947437704?f=rss">ima Copilot 全面开放并支持发布 Skill</a> (36kr)
+  ima 宣布 Copilot 功能结束排队全面开放，此前排队人数超 10 万。同时上线“知识号”支持发布 Skill，允许用户在 Copilot 任务中调用沉淀的知识资料，首批接入微信读书等服务，进一步降低了 AI Agent 的应用门槛。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/51fCFjwWFtJBDh04sLVQ?utm_source=rss&amp;utm_medium=article">C++ 之父开撕 AI Coding，称宁愿退休也不伺候 AI 代码</a> (InfoQ)
+  Bjarne Stroustrup 对当前 AI 生成的代码质量提出严厉批评，认为其缺乏架构思维且难以维护。与此同时，DeepSeek 推出原生编码智能体 Reasonix，试图在低成本高缓存下解决代码生成问题。这反映了业界对 AI 辅助编程从“效率提升”转向“工程质量”的深层思考。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3824053061652616?f=rss">机器人力传感器龙头蓝点触控获数亿融资</a> (36kr)
+  蓝点触控半年完成三轮融资，股东阵容包括上汽、中芯聚源等。随着具身智能爆发，作为机器人“触觉”核心的力传感器成为资本宠儿。同日，具身智能大脑公司“具脑磐石”也获亿元级融资，显示出资本正密集布局机器人的感知与决策层。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3822747968196993?f=rss">《和平精英》AI 队友数据披露，开启游戏 AI 新范式</a> (36kr)
+  数据显示，该游戏 AI 队友周末活跃玩家突破 1770 万，麦克风开启率超 75%。这表明玩家已不满足于 AI 仅作为工具，更倾向于与其进行情感交互。游戏正在成为 AI 技术落地和变现的最佳试验场，推动“游戏+AI”从功能辅助走向情感陪伴。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3820241871409543?f=rss">欧洲地图商 TomTom 称中国辅助驾驶订单暴涨 10 倍</a> (36kr)
+  随着中国车企出海从“性价比”转向“智能化”，海外地图与数据合规成为核心壁垒。TomTom 作为欧洲头部地图商，接到的中国订单激增。这揭示了中国智驾出海的新趋势：硬件易造，数据难懂，本地化地图服务成为决胜海外的关键基础设施。</p>
+</li>
+<li>
+<p><a href="https://epoch.ai/data-insights/ai-chip-component-cost-shares">内存成本已占 AI 芯片组件成本近三分之二</a> (Hacker News)
+  数据分析显示，随着模型参数量的爆炸式增长，内存在 AI 芯片成本中的占比急剧攀升，已接近三分之二。这一趋势表明，算力瓶颈正在向内存墙和成本墙转移，未来的硬件竞争可能更多围绕高带宽、低成本的存储解决方案展开。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://audiomass.co/?multitrack=1">Audiomass：免费开源的网页端多轨音频编辑器</a> (Hacker News)
+  这是一个完全运行在浏览器中的音频编辑工具，支持多轨编辑，无需安装任何软件。作为开源项目，它提供了轻量级、跨平台的音频处理解决方案，非常适合需要快速剪辑音频但不想安装大型 DAW 软件的用户。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/109741">capcap：免费开源的 macOS 截图与图床工具</a> (少数派)
+  一款常驻菜单栏的 macOS 小工具，支持双击 Command 键快速截图、标注、长截及上传图床。其特点是纯 AppKit 开发、零依赖、零订阅费且无遥测，为追求高效和隐私的 Mac 用户提供了一个极佳的轻量级选择。</p>
+</li>
+<li>
+<p><a href="https://corrode.dev/learn/migration-guides/go-to-rust/">从 Go 迁移到 Rust 的实战指南</a> (Hacker News)
+  该文章详细介绍了从 Go 语言迁移到 Rust 的技术细节和注意事项。随着系统编程对安全性和性能要求的提高，越来越多的开发者开始尝试 Rust，这篇指南为想要转型的开发者提供了宝贵的参考路径和最佳实践。</p>
+</li>
+<li>
+<p><a href="https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/">微软开源迄今发现的最早 DOS 源代码</a> (Hacker News)
+  微软开源了迄今为止发现的最早版本的 DOS 源代码，这对于计算机历史研究和技术考古具有重要意义。开发者可以借此一窥早期操作系统的设计思路，了解 PC 软件工业的起源与演进。</p>
+</li>
+<li>
+<p><a href="https://ohwr.org/projects/white-rabbit/">White Rabbit：大型分布式系统的亚纳秒级同步技术</a> (Hacker News)
+  该项目提供了一种能够实现亚纳秒级同步精度的技术方案，专为大型分布式系统设计。在需要极高时间精度的科学实验或金融交易系统中，精确的时间同步至关重要，该工具为解决此类难题提供了开源方案。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
