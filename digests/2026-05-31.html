@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-05-31</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-05-31</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-05-31</h1>
+<p>软银豪掷 750 亿欧元布局欧洲 AI 算力，OpenRouter 获 1.13 亿美元融资助推模型路由生态；小米大模型宣布降价并公开技术路径，AI 商业化竞争进入深水区。与此同时，关于 AI 时代编程范式的变革与教育价值的反思，正成为开发者社区的热议焦点。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://36kr.com/newsflashes/3832585694193541?f=rss">软银斥资 750 亿欧元在法国建设 AI 数据中心</a> (36kr)
+    软银承诺最高投入 750 亿欧元在法国打造大型 AI 计算集群网络，这将是欧洲规模最大的数据中心工程，也是软银在美国以外的单笔最大 AI 投资。项目计划到 2031 年建成 3.1 吉瓦算力规模，旨在抢占欧洲 AI 基础设施高地。</li>
+<li><a href="https://openrouter.ai/announcements/series-b">OpenRouter 完成 1.13 亿美元 B 轮融资</a> (Hacker News)
+    AI 模型路由平台 OpenRouter 宣布完成 1.13 亿美元 B 轮融资。作为连接用户与多种大模型的中间层，OpenRouter 致力于降低开发者接入不同模型的门槛，此次融资显示了资本市场对 AI 中间件及模型分发赛道的高度认可。</li>
+<li><a href="https://36kr.com/p/3830254963517318?f=rss">载人航天公司「穿越者」完成亿元级融资</a> (36kr)
+    北京穿越者载人航天科技有限公司完成 Pre-A 轮亿元融资，由头部互联网战投领投。资金将用于「穿越者壹号」载人飞船核心系统研发及试验验证，标志着商业载人航天领域持续受到资本关注，产业化进程加速。</li>
+<li><a href="https://36kr.com/newsflashes/3832525007284097?f=rss">小米 MiMo-V2.5 宣布 API 永久降价</a> (36kr)
+    小米 MiMo 大模型团队公布 MiMo-V2.5 系列 API 永久降价背后的技术路径，通过 KVCache 优化、分布式缓存等五大核心突破，实现了降价后的收支平衡。此举不仅提升了模型性价比，也展示了国产大模型在推理成本控制上的技术进步。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://www.v2ex.com/t/1216691">AI 编程时代，MVP 思维失效了？</a> (V2EX)
+    开发者在用 Rust 编写 AI Agent 内核时提出，AI 编程改变了传统“快速原型验证”的逻辑。AI 能够处理复杂代码结构，使得直接构建稳健系统的成本降低，传统的 MVP（最小可行性产品）思维可能不再适用，引发了社区对开发范式的深度讨论。</li>
+<li><a href="https://www.v2ex.com/t/1216703">Gemini 深聊四小时，大学生质疑上课浪费时间</a> (V2EX)
+    一名 985 毕业生通过与 Gemini 深聊 4 小时掌握了虚拟化平台知识，感叹大学教育“专科水平”。这反映了生成式 AI 在知识传递效率上对传统高等教育的冲击，个性化、即时反馈的 AI 辅导正在重塑学习者的知识获取路径。</li>
+<li><a href="https://www.infoq.cn/article/oDaj3oKLwc8MiprLcxhs?">编程 Agent 可能是软件开发史上最昂贵的错误之一</a> (InfoQ)
+    文章对当前火热的编程 Agent 提出质疑，认为过度依赖 AI 生成代码可能导致软件架构腐化和维护成本激增。这一观点警示开发者，在享受效率红利的同时，需警惕技术债务的累积，重新审视人类工程师在系统设计中的核心价值。</li>
+<li><a href="https://36kr.com/p/3831071878358659?f=rss">卫星迈向“太空智驾”时代</a> (36kr)
+    中科创星科学沙龙提出“太空智驾”概念，未来卫星将像 L4 级自动驾驶汽车一样具备自主感知与决策能力。这一趋势意味着卫星将从地面的被动响应转向在轨智能处理，将极大提升太空任务的实时性与效率，是商业航天技术演进的重要方向。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://www.v2ex.com/t/1216713">TypeRelay：macOS 输入法自动切换工具</a> (V2EX)
+    一款 macOS 菜单栏应用，旨在解决输入法在不同应用间自动切换的痛点。用户可为不同 App 设定专属输入法规则，避免频繁手动切换，提升多任务处理时的输入效率，适合经常在中英文环境切换的开发者使用。</li>
+<li><a href="https://blog.racket-lang.org/2026/05/racket-v9-2.html">Racket v9.2 发布</a> (Hacker News)
+    编程语言 Racket 发布 v9.2 版本，带来了多项性能改进和库更新。作为 Lisp 家族的重要成员，Racket 以其强大的宏系统和语言构建能力著称，新版本进一步优化了开发者体验，适合编程语言爱好者和研究人员探索。</li>
+<li><a href="https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf">A Gentle Introduction to Lattice-Based Cryptography</a> (Hacker News)
+    一份关于格密码学的入门教程 PDF。随着量子计算威胁的逼近，基于格的密码学被认为是后量子时代的重要安全基石。该文档深入浅出地介绍了相关数学原理，是安全从业者了解未来加密技术趋势的优质资料。</li>
+<li><a href="https://github.com/kristapsdz/openrsync">Openrsync：OpenBSD 团队实现的 rsync</a> (Hacker News)
+    OpenBSD 团队推出的 rsync 实现，专注于安全性和代码简洁性。相比传统 rsync，它去除了部分历史遗留代码，更适合在对安全性要求极高的系统环境中进行文件同步和备份操作。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
