@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-05</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-05</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-05</h1>
+<p>微信与主流手机厂商打通A2A助手能力，标志着超级App与系统级AI的深度融合；腾讯披露内部大部分代码已由AI生成，开发者角色正加速向架构设计转型。与此同时，字节跳动确立世界模型等四大AI命题，Anthropic探讨AI递归自我改进，科技巨头正全力押注AI原生生态。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3839575253993985?f=rss">微信联合华为小米等推出A2A助手能力</a> (36kr)
+  腾讯客服确认微信正与华为、小米、荣耀、OPPO、vivo等厂商合作推出A2A助手能力，用户可通过系统AI助手发起微信通话或发送消息。该功能基于Agent-to-Agent协作机制，通过双重授权保障隐私，标志着超级应用与系统级AI生态的深度融合。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3839702186838530?f=rss">腾讯高管称今年大部分代码由AI生成</a> (36kr)
+  腾讯高级执行副总裁汤道生透露，今年腾讯大部分代码由AI生成，工程师重心转向架构设计，仅负责指导修正AI产出。此外，腾讯云TokenHub日Token消耗量已突破5万亿，显示出大模型应用规模的爆发式增长。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3838454229027072?f=rss">字节跳动确立2026年AI四大关键命题</a> (36kr)
+  字节跳动计划加大世界模型训练投入，目标年底性能达到Google Genie 3的SOTA水平；同时保持视频模型领先，探索动态生成，并夯实Coding地基。这显示了字节在多模态和基础能力上的全面追赶与超越策略。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3839505332161026?f=rss">分析师曝苹果Vision Pro产品线被移除</a> (36kr)
+  分析师指出苹果Vision Pro产品线已被移除，智能眼镜推迟至2029年，无显示屏AI眼镜则计划于2027年推出。这一调整反映了苹果在空间计算硬件落地上的战略摇摆与重新评估。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.anthropic.com/institute/recursive-self-improvement">Anthropic发布AI递归自我改进进展报告</a> (Hacker News)
+  Anthropic发布文章探讨AI构建自身的进展，分析了递归自我改进的现状与挑战。这标志着AI发展从单纯依赖人类数据反馈，转向探索模型自主优化与进化的新阶段，对AGI安全与进化路径具有重要意义。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/video/7yCbAPpT1xWSJPBfDLIJ?utm_source=rss&amp;utm_medium=article">AI Agent凌晨自动修复数据库P0故障</a> (InfoQ)
+  文章展示了AI Agent在凌晨3点自动诊断并修复数据库P0级故障的案例，体现了运维领域从“老师傅经验驱动”向“AI Agent自动化驱动”的范式转移，大幅提升了系统稳定性与运维效率。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/GdZXtOelATVOX4HIcPc6?utm_source=rss&amp;utm_medium=article">Spring创始人称当前是人类亲自选择的最后一代框架</a> (InfoQ)
+  Spring创始人重回一线开发AI框架时表示，当前可能是人类亲自选择或编写的最后一代框架。随着AI编程能力的提升，未来的开发工具链将由AI主导生成，开发者需重新审视自身在工具链中的定位。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1217897">五年后的程序员：从写代码到Vibe Coding</a> (V2EX)
+  V2EX网友热议程序员职业前景，对比6年前的乐观预期，如今Claude Code、Cursor等工具已重塑开发流程。结合腾讯内部代码AI化趋势，未来程序员的核心竞争力将从代码实现转向需求理解、架构设计与AI协作能力。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://github.com/anthropics/defending-code-reference-harness">Anthropic开源AI漏洞发现框架</a> (Hacker News)
+  Anthropic发布了用于AI驱动漏洞发现的开源框架，旨在利用AI能力自动化识别代码中的安全隐患。该工具为安全研究人员提供了新的自动化测试手段，有助于提升软件供应链的安全性。</p>
+</li>
+<li>
+<p><a href="https://github.com/alibaba/open-code-review">阿里开源AI代码审查工具Open Code Review</a> (Hacker News)
+  阿里巴巴开源了一款AI驱动的代码审查CLI工具，旨在辅助开发者自动检测代码质量与潜在问题。该工具接入便捷，能有效提升团队代码审查效率，适合集成到CI/CD流程中。</p>
+</li>
+<li>
+<p><a href="https://github.com/huawei-csl/KVarN">华为开源KVarN：原生vLLM后端</a> (Hacker News)
+  华为开源了KVarN项目，这是一个针对vLLM的原生后端，专注于KV-cache量化技术。该工具能有效降低大模型推理过程中的显存占用，提升推理吞吐量，对大模型部署优化极具实用价值。</p>
+</li>
+<li>
+<p><a href="https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/">微软发布首个通用Linux系统Azure Linux 4.0</a> (Hacker News)
+  微软正式发布Azure Linux 4.0，这是其首个通用目的Linux发行版。此举标志着微软对开源生态的拥抱进入新阶段，旨在为云原生和AI工作负载提供更高效、更安全的底层操作系统支持。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
