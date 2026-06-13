@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-13</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-13</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-13</h1>
+<p>今日科技圈风起云涌，SpaceX以2万亿美元市值创史上最大IPO，马斯克身价破万亿；Anthropic因美国政府指令全球停用Claude Fable 5及Mythos 5外籍访问权限引发震动；此外，FFmpeg爆出21个零日漏洞，开源与安全议题再度成为焦点。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://36kr.com/p/3850902095336449?f=rss">SpaceX 2万亿美元市值创史上最大IPO</a> (36kr)
+    SpaceX正式登陆纳斯达克，市值突破2万亿美元，创下史上最大IPO纪录。马斯克成为首位身价达万亿美元的富豪，这也标志着商业航天进入全新资本阶段，国内商业航天赛道也随之升温。</li>
+<li><a href="https://36kr.com/p/3851015329027336?f=rss">Anthropic因美国政府指令全球停用Claude Fable 5</a> (36kr)
+    因美国政府指令，Anthropic突然下线地表最强模型Claude Fable 5及Mythos 5，全面禁止外籍人士访问，即使在美国境内的外国公民和自家外籍员工也不例外，凸显了AI前沿技术的地缘政治风险。</li>
+<li><a href="https://36kr.com/p/3851006669427716?f=rss">阿里合伙人周靖人上任首席科学家6天后拟离职</a> (36kr)
+    据报道，阿里合伙人周靖人已提交离职申请。6天前他刚被任命为阿里首席科学家并牵头成立AI未来研究院。此时离职不仅引发内部震动，也折射出大厂在AI战略与组织架构调整期的剧烈波动。</li>
+<li><a href="https://depthfirst.com/research/21-zero-days-in-ffmpeg">FFmpeg被爆出21个零日漏洞</a> (Hacker News)
+    研究人员在开源多媒体框架FFmpeg中发现了21个零日漏洞。作为全球最广泛使用的音视频处理底层库之一，这些漏洞可能对无数依赖它的应用和系统造成严重安全威胁，亟需相关团队紧急修复与排查。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://opensourceaimustwin.com/?share=v2">开源AI必须赢</a> (Hacker News)
+    文章呼吁开源AI必须在当前的技术与资本博弈中胜出。在闭源巨头受地缘政治影响频繁限制访问的背景下，开源不仅是技术共享的诉求，更是保障AI技术不被少数实体垄断、确保全球开发者平等访问权的关键防线。</li>
+<li><a href="https://www.infoq.cn/article/g0gwDH3edWuateVXqp6N?utm_source=rss&amp;utm_medium=article">硅谷大厂员工人均月花5万养AI</a> (InfoQ)
+    硅谷大厂员工平均每月花费约5万元在AI工具和算力上，反映出AI已深度融入研发工作流。这种高昂的“AI税”既是提升生产力的必要投入，也预示着未来企业竞争的门槛正从人力成本向算力与AI资源倾斜。</li>
+<li><a href="https://36kr.com/p/3849942472512769?f=rss">Waymo推出30美元月费会员计划</a> (36kr)
+    Alphabet旗下自动驾驶公司Waymo推出30美元月费会员计划。这一举措标志着自动驾驶出行服务正从单次计费向订阅制商业模式演进，有望加速Robotaxi的日常化和普及率，是自动驾驶商业闭环的重要探索。</li>
+<li><a href="https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-wor...">恶意软件开发者在间谍软件中加入核与生物武器文本</a> (Hacker News)
+    恶意软件开发者故意在代码中添加核武器和生物武器相关文本。这种反常操作可能是为了触发安全审查系统的警报，利用“狼来了”效应制造噪音以掩盖真实恶意行为，反映出攻防对抗中社工与心理战的新趋势。</li>
+<li><a href="https://36kr.com/newsflashes/3851097260004610?f=rss">摩尔线程完成MiniMax M3大模型适配</a> (36kr)
+    MiniMax开源新一代多模态模型M3，国产GPU厂商摩尔线程随即完成Day-0适配。这表明国产算力生态正在加速追赶前沿模型迭代速度，软硬协同的工程能力提升对打破海外算力垄断具有重要意义。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos">如何在macOS上设置本地编程智能体</a> (Hacker News)
+    详细教程指导开发者在macOS环境下部署本地Coding Agent。随着AI编程助手普及，本地化部署不仅能降低延迟和API调用成本，还能有效保护核心代码资产不外泄，是开发者掌控AI工具的实用指南。</li>
+<li><a href="https://github.com/DanMcInerney/architect-loop">/architect：减少80% Fable tokens的AI编程工作流</a> (Hacker News)
+    该项目展示了一种优化AI编程工作流的方法，通过让Fable负责编排和审查，Codex负责构建，成功减少了80%的Token消耗。为开发者提供了在保证代码质量的前提下大幅降低大模型使用成本的有效思路。</li>
+<li><a href="https://github.com/rvaiya/keyd">keyd：Linux下的按键重映射守护进程</a> (Hacker News)
+    一款专为Linux设计的按键重映射守护进程工具。对于追求极致效率的开发者而言，它能实现高度自定义的键盘映射，解决不同键盘布局带来的痛点，是提升Linux开发环境体验的利器。</li>
+<li><a href="https://www.infoq.cn/article/QC1mkdEzZRL1FFpvfukC?utm_source=rss&amp;utm_medium=article">打破向量检索的局限：RAG混合检索实践</a> (InfoQ)
+    文章深入探讨了RAG中的混合检索技术，指出纯向量检索的局限性。结合关键词与向量检索的混合方案能显著提升召回率和准确度，是构建企业级高可用RAG应用的必读实战指南。</li>
+<li><a href="https://sspai.com/post/110973">除了AI，iOS 27首个开发者测试版中不能错过的新功能</a> (少数派)
+    少数派对iOS 27首个开发者测试版进行了深度体验，梳理了除AI之外值得关注的新功能与特性。对于开发者和果粉而言，这篇文章是快速了解新系统API变化及交互演进的优质深读材料。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
