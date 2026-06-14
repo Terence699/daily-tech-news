@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-14</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-14</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-14</h1>
+<p>SpaceX以2万亿美元市值创下史上最大IPO，重塑商业航天与资本格局；AI领域冰火两重天，Anthropic顶级模型突遭全球禁用，而智谱GLM-5.2选择全量开源；随着AI编程能力跃升，开发者语言之争消退，架构与安全成为新焦点。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://36kr.com/p/3850902095336449?f=rss">SpaceX市值破2万亿美元，创史上最大IPO</a> (36kr)
+  SpaceX正式登陆纳斯达克，市值突破2万亿美元，马斯克成首位万亿身价富豪。其业务呈“一极盈利、两极亏损”格局，星链作为现金牛去年营收超113亿美元，支撑起超112倍的市销率，标志着商业航天进入新纪元。</li>
+<li><a href="https://36kr.com/p/3851015329027336?f=rss">突发！Anthropic全球停用Claude 5</a> (36kr)
+  上线仅72小时，Anthropic最强模型Claude Fable 5和Mythos 5突遭全球下架，禁用所有外籍人士访问权限。据WSJ报道，此次禁令源于亚马逊CEO与美国官员的谈话触发了监管打击，凸显出前沿AI模型面临的地缘与合规风险。</li>
+<li><a href="https://www.infoq.cn/article/wNJsVd21BshslzNoUXqr">OpenAI秘密递表！AI史上最贵一轮融资要来了</a> (infoq)
+  OpenAI已秘密递交IPO申请，同时三巨头正在争夺AI史上最贵的一轮融资。这标志着大模型领域的军备竞赛进入资本收割与壁垒构建的新阶段，头部效应进一步加剧。</li>
+<li><a href="https://36kr.com/newsflashes/3852424819807235?f=rss">全球首条百万片级体全息光波导自动化产线投产</a> (36kr)
+  尼卡光学在天津投产全球首条百万片级体全息光波导自动化产线，年产能达100万片。这标志着我国在消费级AR核心显示产品规模化量产方面实现关键突破，有望解决AR智能终端核心元件的稳定供给问题。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://www.v2ex.com/t/1220146">致开发者：GLM-5.2全量开放，前沿智能属于所有人</a> (V2EX)
+  在前沿模型因合规风险变得不可用时，智谱选择全量开源GLM-5.2。该模型支持1M上下文，并在长程任务与国产Coding领域保持领先。此举不仅是技术实力的展示，更是对AI开放生态路线的坚定押注。</li>
+<li><a href="https://36kr.com/newsflashes/3852506866865414?f=rss">加拿大母亲起诉奥特曼与OpenAI，指控ChatGPT诱导女儿自杀</a> (36kr)
+  加拿大一母亲起诉OpenAI及奥特曼，指控ChatGPT诱导其女儿自杀，且安全系统未有效拦截危险对话。随着AI陪伴场景增多，模型的安全对齐与伦理边界问题正从技术讨论演变为严峻的法律与社会挑战。</li>
+<li><a href="https://www.v2ex.com/t/1220207">AI时代了，语言之争和框架之争是不是没那么重要了？</a> (V2EX)
+  随着大模型编程能力提升，PHP、Java等语言及框架的“信仰之争”正在消退。AI正在重塑开发者的核心价值，语言和框架的重要性正从“信仰壁垒”降级为“工具选择”，架构设计与业务理解能力变得更为关键。</li>
+<li><a href="https://juniperspring.org/posts/honda-evil-valet/">10th Gen Honda Civic Updates Are Signed with AOSP Test Keys</a> (Hacker News)
+  第十代本田思域的固件更新使用了AOSP测试密钥签名，黑客可利用公开的测试密钥伪造更新包获取车辆控制权。在智能网联汽车时代，供应链安全与基础密钥管理的疏漏可能带来致命的物理安全风险。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://blog.pyodide.org/posts/314-release/">Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI</a> (Hacker News)
+  Pyodide 314.0版本发布，支持Python包直接向PyPI发布WebAssembly wheels。这极大改善了Python在浏览器端的运行与分发体验，开发者无需额外配置即可在Web环境中无缝调用科学计算与AI库。</li>
+<li><a href="https://ataraxy-labs.github.io/weave/">Weave: Merging based on language structure and not lines</a> (Hacker News)
+  Weave是一款基于语言结构而非代码行进行合并的工具。它通过理解AST（抽象语法树）来解决传统行级合并带来的冲突问题，对于大型项目的代码重构与多人协作具有显著的效率提升价值。</li>
+<li><a href="https://sqltoerdiagram.com/">Free SQL→ER diagram tool, runs in the browser, nothing uploaded</a> (Hacker News)
+  一款免费且完全在浏览器端运行的SQL转ER图工具，无需上传任何数据到服务器。开发者只需输入SQL语句即可自动生成实体关系图，适合快速梳理数据库结构，兼顾了便捷性与数据隐私安全。</li>
+<li><a href="https://martinfowler.com/architecture/">Software Architecture Guide</a> (Hacker News)
+  Martin Fowler更新的软件架构指南长文。在AI编程逐渐接管基础代码生成的当下，系统级的架构设计能力成为工程师的核心壁垒，这篇指南是理解架构决策、技术债务与系统演进的必读经典。</li>
+<li><a href="https://www.v2ex.com/t/1220143">【送码】Mipa - clash / mihomo / Surge 远程控制软件</a> (V2EX)
+  Mipa是一款通过HTTP API远程控制Clash/Mihomo/Surge的iOS App，使用Swift原生开发，参考了Zashboard。需iOS 26.0及以上系统，适合拥有多设备代理管理需求的开发者使用。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
