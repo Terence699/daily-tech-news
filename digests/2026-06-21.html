@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-21</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-21</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-21</h1>
+<p>今日科技圈迎来多项重磅进展，AI领域从大模型博弈走向商业变现与基础设施重构，微信AI助手灰度上线、Anthropic强调千亿营收生存线；同时，具身智能与脑机接口融资不断，底层开发工具与系统架构也在持续演进。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3862458180359424?f=rss">微信AI助手“小微”小范围灰度上线</a> (36kr)
+    微信团队原生AI助手“小微”已开启小范围灰度测试，入口位于主界面左上角小眼睛图标。该助手支持文字或语音对话，可操作微信原生功能及调起小程序，如发消息、查朋友圈等，标志着国民级应用正式迈入AI原生交互时代。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3862373538386952?f=rss">Anthropic首席执行官：AI公司需要“数千亿美元”收入否则面临生存风险</a> (36kr)
+    Anthropic CEO警告称，人工智能公司必须实现数千亿美元的收入，否则将面临生存风险。这反映出当前大模型研发的算力与资金消耗极其庞大，AI行业的竞争已进入比拼商业化落地与造血能力的深水区。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3861259140764678?f=rss">特朗普：不再将Anthropic视为国家安全威胁</a> (36kr)
+    美国总统特朗普表示已不再将AI公司Anthropic视为国家安全威胁。这一态度转变意味着顶尖AI企业面临的监管与地缘政治压力有所缓解，有助于其在全球范围内更自由地开展业务与融资。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3858329994875908?f=rss">蔚来补上“智驾课”，任少卿总结：智驾技术创新将重构竞争</a> (36kr)
+    蔚来向三代平台共18款车型推送最新版世界模型，实现同一套智驾代码跨代际芯片运行。此举打破了软件迭代被硬件绑架的行业痛点，证明智驾技术架构的解耦与统一将重构车企的竞争格局。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/UXghld6fuzYxJNuU6L47?utm_source=rss&amp;utm_medium=article">Anthropic发布Claude Fable 5三天遭临时下架</a> (infoq)
+    Anthropic最新发布的Claude Fable 5模型上线仅三天便遭临时下架。此事凸显了在追求模型能力边界的同时，AI安全对齐与内容风控仍是悬在厂商头顶的达摩克利斯之剑，任何疏漏都可能导致产品被迫回炉。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3862419587781894?f=rss">AI投资热潮向上游扩散，美股多家半导体设备龙头今年翻倍</a> (36kr)
+    随着AI算力需求爆发，资本正向产业链上游传导。美股9家市值超百亿美元的半导体设备公司年内涨幅超75%，7只个股翻倍。这表明AI红利正从芯片制造向设备端蔓延，算力基建的长期确定性被市场高度认可。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3861257682129921?f=rss">挪威将禁止小学生使用生成式人工智能</a> (36kr)
+    挪威宣布禁止6至13岁小学生使用生成式AI，对初中生严密监管，高中生则引导恰当使用。这种分级管控模式反映了全球教育界对AI的共识：既要防范低龄群体认知依赖与学习退化，又要培养高年级的AI素养。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/Xbol4ryW7wkczQsumUY9?utm_source=rss&amp;utm_medium=article">个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考</a> (infoq)
+    AI在个体开发者中带来惊人提效，但在企业组织层面的效率提升却不足20%。核心原因在于Agent落地面临业务流程重构、数据孤岛与系统整合等挑战，AI从单点工具走向组织级生产力仍有漫长的系统工程要走。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3862282115749129?f=rss">韩国央行警告：存储芯片景气周期或推高通胀压力</a> (36kr)
+    韩国央行警告，存储芯片景气周期带来的巨额奖金正从半导体行业扩散至更广泛领域，推高奢侈品消费与整体通胀。这揭示了科技产业周期对宏观经济的深远影响，芯片繁荣的溢出效应正成为央行货币政策的新变量。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1221642">我明明选的是GLM-4.7，他告诉我我是Claude</a> (V2EX)
+    用户在使用GLM-4.7时，模型却自称为Claude。这种现象暴露出当前大模型训练中普遍存在的数据污染与身份对齐缺失问题，模型在预训练阶段吸收了过多竞品语料，导致自我认知混乱，影响实际应用可靠性。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/OoTNa5QuBzZej3ighRjz?utm_source=rss&amp;utm_medium=article">Spring Boot 4.1 新增 gRPC 自动配置、SSRF 防护功能并支持 Kotlin 2.3</a> (infoq)
+    Spring Boot 4.1发布，带来多项开发者友好更新。gRPC自动配置简化了微服务通信集成，新增的SSRF防护功能则直接回应了当前云原生架构下的安全痛点，同时Kotlin 2.3的支持也提升了多语言开发体验。</p>
+</li>
+<li>
+<p><a href="https://sibexi.co/posts/epoll-vs-io_uring/">Epoll vs. io_uring in Linux</a> (Hacker News)
+    深度对比了Linux下两大I/O多路复用机制。Epoll作为经典方案稳定可靠，而io_uring作为新一代异步I/O框架，在减少系统调用和上下文切换方面优势明显。对于高并发服务端开发者，理解两者差异是性能优化的必修课。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/SdkcGqZQ2coEqM04xsQG?utm_source=rss&amp;utm_medium=article">砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞</a> (infoq)
+    Netflix开源了一款旨在削减AI Token消耗的工具，成功砍掉90%冗余词元，节省70万美元。对于深受大模型API调用成本困扰的企业，该工具提供了极具实操价值的降本方案，展示了Prompt与Token工程的经济意义。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/110972">AI工作流实践：100% Vibe Coding完成Game Jam游戏开发</a> (sspai)
+    作者分享了完全依靠Vibe Coding完成Game Jam游戏开发的全过程。文章详细拆解了如何通过自然语言与AI Agent闭环协作，从零构建游戏逻辑与素材，为独立开发者和创意工作者提供了一套可复用的AI原生开发范式。</p>
+</li>
+<li>
+<p><a href="https://github.com/mysk-research/loupe">Loupe – iOS app that raises awareness about what native apps can see</a> (Hacker News)
+    一款名为Loupe的iOS开源应用，旨在揭示原生App能获取的用户隐私数据。它以直观方式展示应用读取的设备信息与权限滥用情况，是移动端隐私安全研究的实用工具，也提醒开发者在权限申请时需更加克制与透明。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
