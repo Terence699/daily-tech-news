@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-25</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-25</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-25</h1>
+<p>2026年6月25日，科技行业迎来多项重磅事件：OpenAI发布首款自研推理芯片，高通收购Modular加码AI基础设施，Anthropic指控阿里非法提取模型能力引发行业震动。同时，AI Agent工程化落地挑战、企业Token考核乱象及新一代开发工具链的演进，共同勾勒出当下技术狂热与务实并存的图景。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/">OpenAI unveils its first custom chip, built by Broadcom</a> (Hacker News)
+  OpenAI发布首款代号为Jalapeño的自研AI推理芯片，由博通合作打造。这标志着OpenAI正式进军芯片领域，旨在摆脱对第三方硬件的绝对依赖，降低大规模推理成本，掌控算力基础设施的核心话语权。</p>
+</li>
+<li>
+<p><a href="https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/">Qualcomm to Acquire Modular</a> (Hacker News)
+  高通宣布收购AI初创公司Modular。Modular由LLVM之父Chris Lattner创立，致力于构建下一代AI开发者平台。此次收购将极大增强高通在端侧AI推理框架和开发者生态的竞争力，加速AI向移动端落地。</p>
+</li>
+<li>
+<p><a href="https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/">Anthropic says Alibaba illicitly extracted Claude AI model capabilities</a> (Hacker News)
+  Anthropic指控阿里巴巴非法提取其Claude AI模型能力。此事件再次凸显了大模型时代下，数据安全、知识产权与模型防蒸馏保护的严峻性，可能引发中美AI公司在模型版权与合规层面的新一轮博弈。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3868029247034371?f=rss">实现光学载荷批量化交付，苏州商业航天企业再获数亿元融资｜36氪首发</a> (36kr)
+  宇航级光学载荷研发制造商吉天星舟完成数亿元B轮融资。商业航天投资正从火箭卫星的宏大叙事向上游核心部件转移，具备自研技术壁垒和批产交付能力的供应商更受资本青睐，推动产业链国产替代。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3867827741086728?f=rss">8点1氪丨SK海力士已提交美国IPO申请；马斯克身家蒸发3400亿美元，已不是万亿富豪</a> (36kr)
+  SK海力士正式提交美国IPO申请；马斯克因特斯拉和SpaceX股价下跌，财富跌破万亿美元大关；消息称苹果将于7月下旬量产首款可折叠iPhone。半导体与消费电子巨头正加速资本与产品双重布局。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1222513">公司搞 token 调用排名了，使用率低的影响绩效考核。</a> (V2EX)
+  有公司推行自建32B模型调用排名，调用量低者影响绩效。这反映了AI落地企业时的畸形管理：为推自建模型而强制考核，却忽视模型能力与实际需求匹配度，AI时代程序员面临沦为“Token生产牛马”的困境。</p>
+</li>
+<li>
+<p><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/">Computer use in Gemini 3.5 Flash</a> (Hacker News)
+  谷歌在Gemini 3.5 Flash中引入Computer use功能。AI从纯文本对话走向直接操作图形界面，标志着Agent自主执行任务能力的重大升级，未来AI将能像人类一样操控各类软件完成复杂工作流。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/zod9SeNbe75T8YtrIcEC?utm_source=rss&amp;utm_medium=article">为什么大量企业Agent死在原型阶段？亚马逊云科技储瑞松：Agent工程是关键</a> (InfoQ)
+  大量企业AI Agent停留在原型阶段难以落地，核心缺失在于Agent工程。构建可靠Agent不仅需要大模型，更需在评测、调度、容错等系统工程层面发力，揭示出AI应用从Demo走向生产必须跨越的鸿沟。</p>
+</li>
+<li>
+<p><a href="https://www.economist.com/business/2026/06/21/zombie-unicorns-are-haunting-silicon-valley">Zombie unicorns are haunting Silicon Valley</a> (Hacker News)
+  “僵尸独角兽”正困扰硅谷。在AI狂热与高息环境下，部分估值虚高但缺乏盈利能力的初创企业进退维谷。这警示市场，技术爆炸期虽催生泡沫，但最终商业本质仍需回归健康的现金流与商业闭环。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3867032586867972?f=rss">氪星晚报 ｜豆包专业版正式上线</a> (36kr)
+  字节跳动豆包专业版正式上线，采用三级阶梯定价方案。国内大模型厂商正从烧钱圈地转向商业化变现，阶梯定价试图平衡C端用户付费意愿与高算力成本，大模型价格战正演变为商业模式验证战。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://blog.cloudflare.com/oauth-for-all/">Cloudflare launched self-managed OAuth for all</a> (Hacker News)
+  Cloudflare面向所有用户推出自托管OAuth服务。开发者无需再为身份验证的复杂配置头疼，极大降低了SaaS应用集成安全认证的门槛，让小型团队也能快速构建企业级安全的登录与授权体系。</p>
+</li>
+<li>
+<p><a href="https://rubyllm.com/">RubyLLM: A Ruby framework for all major AI providers</a> (Hacker News)
+  RubyLLM发布，这是一个支持所有主流AI提供商的Ruby框架。它为Ruby开发者提供了统一的API接口，无需为不同大模型单独适配SDK，大幅降低了Ruby生态接入多模型AI能力的开发成本。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/JW7bom70PQ14N2OlVRLt?utm_source=rss&amp;utm_medium=article">ArrowJS 发布 1.0 版，转型为“代理时代”的首个 UI 框架</a> (InfoQ)
+  ArrowJS发布1.0版本，定位为“代理时代”的首个UI框架。该框架专为AI Agent动态交互设计，打破了传统前端基于固定状态的模式，为构建高度自适应、由AI驱动的下一代用户界面提供了新思路。</p>
+</li>
+<li>
+<p><a href="https://kobzol.github.io/rust/2026/06/21/optimizing-sqlx-test-rebuild-time.html">Optimizing 【sqlx:test】 rebuild time</a> (Hacker News)
+  深度长文解析如何优化Rust中sqlx:test的编译重建时间。针对Rust项目测试编译慢的痛点，作者分享了底层编译缓存机制的调优经验，对受困于大型Rust项目构建效率的开发者极具参考价值。</p>
+</li>
+<li>
+<p><a href="https://www.jimmont.com/llm-style-token-costs">What I'm Finding About LLM Code Style and Token Costs</a> (Hacker News)
+  探讨LLM代码风格与Token成本关系的实践文章。作者发现不同提示词生成的代码风格会显著影响Token消耗，为开发者在日常使用AI编程辅助时，如何通过优化Prompt来降低API成本提供了实用指南。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
