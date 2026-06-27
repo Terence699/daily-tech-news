@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-06-27</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-06-27</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-06-27</h1>
+<p>今日科技圈迎来AI模型与监管的双重震荡：OpenAI发布GPT-5.6系列并引入政府审查机制，Anthropic则指控阿里进行大规模蒸馏攻击。同时，我国核聚变技术取得国际领先突破，电子行业利润受AI算力需求拉动大幅增长，开发者工具生态也在加速向Agent化与安全化演进。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://36kr.com/newsflashes/3870811056821506?f=rss">OpenAI发布GPT-5.6系列模型</a> (36kr)
+    OpenAI发布GPT-5.6系列，包含旗舰Sol、均衡Terra及低成本Luna。Terra性能与GPT-5.5相当但价格减半，Luna主打高性价比。美国政府将参与该模型使用者的审查，标志着前沿AI模型监管进入实质阶段。</li>
+<li><a href="https://www.v2ex.com/t/1223127">Anthropic指控阿里巴巴对Claude进行大规模蒸馏攻击</a> (V2EX)
+    Anthropic致信美国会议员，指控阿里创建近2.5万个虚假账户，对Claude发起已知最大规模的蒸馏攻击以获取模型能力。此事件凸显了闭源与开源大模型之间日益激烈的知识产权与数据安全博弈。</li>
+<li><a href="https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies">Anthropic Mythos 5获准重新部署至部分美国机构</a> (Hacker News)
+    在与美国政府紧密合作后，Anthropic的Mythos 5模型获准重新部署至一批受信任的美国机构。公司正继续争取扩大访问范围并恢复Fable 5的公众使用，反映出AI巨头与监管机构的协同与博弈。</li>
+<li><a href="https://36kr.com/newsflashes/3870821042312192?f=rss">国家统计局：1-5月电子行业利润同比增长103.9%</a> (36kr)
+    受全球AI技术变革带来的高端算力与存储芯片需求爆发推动，1-5月份电子行业利润实现103.9%的高速增长，拉动规上工业企业利润增长。AI底层算力需求正切实转化为电子产业的强劲业绩支撑。</li>
+<li><a href="https://36kr.com/newsflashes/3870820130018562?f=rss">我国核聚变堆超导磁体研发取得重要突破</a> (36kr)
+    国家重大科技基础设施聚变堆主机关键系统设施取得突破，目前全球尺寸最大的聚变堆超导磁体环向场磁体完成制备，高温超导中心螺管线圈磁体核心性能达国际领先，为未来商用聚变堆奠定基础。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/">美国政府将决定谁能使用GPT-5.6</a> (Hacker News)
+    OpenAI宣布美国政府将对GPT-5.6的用户进行审查。前沿AI模型的分发权开始受到政府强监管，这意味着国家级力量正在深度介入最先进AI技术的商业化进程，行业准入门槛被大幅重塑。</li>
+<li><a href="https://36kr.com/p/3866837793952769?f=rss">对话张亚勤：AI不是泡沫，但AI公司有泡沫</a> (36kr)
+    张亚勤院士指出当前具身智能与AI投资创业需要降温冷静。他认为AI技术本身不是泡沫，但部分AI公司存在估值泡沫。随着行业狂热，投资者与创业者需回归理性，关注技术落地与真实商业价值。</li>
+<li><a href="https://www.v2ex.com/t/1223057">该如何致敬这轮操蛋的 AI 革命？</a> (V2EX)
+    社区热议AI革命对普通人的负面冲击：打工人面临裁员与双倍工作量，小老板被焦虑绑架狂充Token，消费者承担硬件涨价成本。这反映出AI降本增效的红利尚未普惠，转型阵痛正由普通人承担。</li>
+<li><a href="https://www.infoq.cn/article/tDY9pS7LlrVIBq1pPotd">AI 智能体的身份与权限挑战：Uber 和 Auth0 如何重新思考访问控制</a> (InfoQ)
+    随着AI Agent成为系统新核心用户，传统的身份与访问管理面临重构。Uber和Auth0的实践表明，如何为Agent分配权限、隔离风险并防止越权，已成为AI深度应用时代必须解决的安全架构难题。</li>
+<li><a href="https://www.infoq.cn/article/btKbO3iHbVM3p5WOVtqJ">从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout</a> (InfoQ)
+    微软发布常驻型企业智能体Scout，标志着AI从辅助工具向自主执行任务的Autopilot转变。企业级Agent不再仅提供建议，而是深度参与业务流程执行，这将极大改变未来的企业组织与工作形态。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://www.infoq.cn/article/GaAsWkrJQW2NFf06kgyG">GitHub 推出 Copilot 桌面应用，支持并行 Agent 开发工作流</a> (InfoQ)
+    GitHub推出Copilot桌面应用，支持并行Agent开发工作流。开发者可通过该应用更高效地与多个AI Agent协同，处理复杂编码任务，进一步降低AI编程的接入门槛并提升开发效率。</li>
+<li><a href="https://github.com/workweave/router">Show HN: Smart model routing directly in Claude, Codex and Cursor</a> (Hacker News)
+    Workweave开源了一款模型路由工具，可直接插入Claude Code、Codex和Cursor等编程Agent，智能将请求路由至最适合的模型。该工具帮助开发者在成本与性能间取得平衡，优化AI编程体验。</li>
+<li><a href="https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/">MicroVMs: Run isolated sandboxes with full lifecycle control</a> (Hacker News)
+    AWS Lambda引入MicroVMs功能，允许用户运行具有完整生命周期控制的隔离沙箱。这为运行不可信代码、AI Agent执行环境等提供了更安全的底层基础设施，提升了云端任务隔离的安全级别。</li>
+<li><a href="https://www.infoq.cn/article/iZskGZVEV04jivWZtR00">VS Code 1.123 新增两小时插件更新缓冲，防范供应链恶意攻击</a> (InfoQ)
+    VS Code 1.123版本引入两小时插件更新缓冲机制，以防范供应链攻击。新机制为安全团队留出审查恶意插件更新的时间窗口，有效提升了开发者工具链的安全性，应对日益猖獗的开源投毒风险。</li>
+<li><a href="https://sspai.com/prime/story/create-webview-in-shortcuts">探索快捷指令的上限：用网页视图创建丰富界面与交互</a> (sspai)
+    少数派发文探讨如何利用网页视图突破iOS快捷指令的界面限制。通过结合HTML/CSS/JS，开发者与高级用户可在快捷指令中构建更丰富的交互界面，极大拓展了这一原生自动化工具的可能性。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
