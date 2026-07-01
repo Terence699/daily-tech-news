@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-01</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-01</h1>
+<p>今日科技圈迎来 AI 模型与产品的密集发布，Anthropic 连推 Claude Sonnet 5 与 Fable 5，DeepSeek V4 也宣布即将上线。同时，物理 AI 与具身智能持续火热，多起相关融资与底层技术突破标志着产业正加速走向现实世界。开发者工具方面，AI 编程与云原生领域也迎来了新的范式演进。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.anthropic.com/news/claude-sonnet-5">Anthropic 发布 Claude Sonnet 5</a> (Hacker News)
+  Anthropic 正式发布 Claude Sonnet 5 模型，标志着其模型矩阵的进一步迭代，将为开发者和用户带来更强大的推理与生成能力。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3876522131386372?f=rss">Claude Fable 5 全球上线及出口管制解除</a> (36kr)
+  Anthropic 宣布 Fable 5 在 Claude 平台全球上线，同时美国商务部解除对该模型及 Mythos 5 的出口管制，将在各大云平台重新启用访问。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/111707">DeepSeek V4 正式版 7 月中旬上线</a> (少数派)
+  DeepSeek V4 正式版确认将于 7 月中旬上线，国产大模型竞争持续白热化，预计将在性能与效率上带来新突破。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3873626697470985?f=rss">Kimi 估值升至 315 亿美元，ARR 突破 3 亿美元</a> (36kr)
+  月之暗面旗下 Kimi 智能助手估值攀升至 315 亿美元，年经常性收入突破 3 亿美元，显示出市场对国产 AI 应用商业化潜力的强烈认可。</p>
+</li>
+<li>
+<p><a href="https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1">Meta 实现无创脑波转文字</a> (Hacker News)
+  Meta 发布 Brain2Qwerty 技术，通过非侵入式脑机接口结合 AI，实现从脑电波到文字的转换，为无法手术的患者开辟了全新的无创沟通路径。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3875047283659777?f=rss">物理 AI 元年：具身智能与触觉感知成新解法</a> (36kr)
+  产业界共识 2026 为物理 AI 元年。从端侧原生到具身智能，中国 AI 公司正提供新解法，苏大教授获融资做机器人触觉系统，纽娲机器人也获天使轮推进“世界通行模型”。</p>
+</li>
+<li>
+<p><a href="https://thereallo.dev/blog/claude-code-prompt-steganography">Claude Code 被发现使用隐写术标记请求</a> (Hacker News)
+  开发者发现 Claude Code 在请求中进行了隐写术标记。这一行为引发关于 AI 工具隐私、数据追踪及用户信任的广泛讨论，提示开发者在接入 AI 编程工具时需关注数据流向。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/6WCaAMdgSR8r46j3OZd4?utm_source=rss&amp;utm_medium=article">口袋编程时代：AI Agent 重塑开发流程</a> (InfoQ)
+  Cursor、OpenClaw 等工具推动“口袋编程”时代到来，程序员只需动嘴即可完成编码。同时，AI 正向软件生命周期上游延伸，从代码审查扩展到 PRD 治理，重构 Agent 时代范式。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/QODhrm0I3LSV0uGhFdWt?utm_source=rss&amp;utm_medium=article">AI 接入企业后的 API 安全盲区</a> (InfoQ)
+  随着 AI 深度接入企业业务，API 安全成为新盲区。Agent 狂吞 Token 的背后不仅是模型之争，更是底层煤电博弈，企业在享受 AI 便利时需警惕新型安全与能耗风险。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1223954">30+ 程序员裁员困境与 AI 依赖反思</a> (V2EX)
+  社区热议 30+ 基层 CRUD 程序员被裁后的出路，外卖滴滴满员折射行业饱和。同时，Claude 封号引发用户“戒断反应”，反映出大众对 AI 工具的深度依赖及服务稳定性焦虑。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://ngrok.com/blog/i-ported-kubernetes-to-the-browser">将 Kubernetes 移植到浏览器运行</a> (Hacker News)
+  开发者成功将 Kubernetes 移植到浏览器中运行（Webernetes），并提供了在线 Demo。这一项目极大降低了 K8s 的学习门槛，方便开发者在无服务器环境下进行本地测试与实验。</p>
+</li>
+<li>
+<p><a href="https://github.com/google/copybara">Google 开源代码仓库迁移工具 Copybara</a> (Hacker News)
+  Google 开源的 Copybara 工具，专为在不同代码仓库之间迁移和转换代码而设计，对于处理大规模代码库重构和跨平台同步的开发者而言，是极具价值的底层效率工具。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/d5MOPSyGi5XPi1erhUW3?utm_source=rss&amp;utm_medium=article">Google OpenRL：LLM 后训练微调 API</a> (InfoQ)
+  Google 推出实验性自托管 API OpenRL，专用于大型语言模型的后训练微调。为开发者提供了更灵活的模型定制化方案，有助于在特定垂直场景下提升模型表现。</p>
+</li>
+<li>
+<p><a href="https://lilianweng.github.io/posts/2026-06-24-scaling-laws/">深入理解 Scaling Laws</a> (Hacker News)
+  Lilian Weng 发布关于 Scaling Laws 的深度长文，严谨探讨了缩放定律在当前大模型发展中的核心作用与边界，是理解 AI 模型演进底层逻辑不可多得的硬核技术读物。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/109932">微信读书 Skill 上手与 AI 硬件实战</a> (少数派)
+  微信读书推出 Skill 带来全新阅读体验；同时，少数派分享了 100 天从 0 到 1 打造 AI 对讲机的实战经验，为硬件创业者和 AI 产品经理提供了极具参考价值的避坑指南。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
