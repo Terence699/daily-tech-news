@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-04</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-04</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-04</h1>
+<p>今日科技圈聚焦AI安全与产业变局，阿里因后门风险全面禁用Claude Code，千问与豆包则同步下线智能体功能。同时，大模型厂商自研芯片破局与算力变现成为新趋势，开源工具持续为开发者赋能。以下是本期详细内容。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1224766">阿里内部全面禁用 Claude Code</a> (V2EX)
+    因存在植入后门风险，阿里自7月10日起全面禁止内部员工在办公环境使用Claude Code，并推荐使用Qoder替代。此举凸显了大模型代码工具在企业级应用中的数据安全与合规风险。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3880629882679301?f=rss">千问与豆包智能体功能将于7月15日下线</a> (36kr)
+    千问与豆包平台相继宣布智能体功能将于7月15日正式下线，下线后用户将无法访问配置及历史记录。两大头部AI平台同步收缩智能体业务，反映出当前AI智能体商业化落地可能面临挑战。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3879158039834629?f=rss">宇树科技科创板IPO注册获同意</a> (36kr)
+    证监会已同意“具身智能第一股”宇树科技首次公开发行股票的注册申请。这标志着具身智能及机器人赛道迎来重要资本里程碑，将极大提振该领域的产业信心与投资热度。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/MOqFJbvWYlJ9PXcfdfCC?utm_source=rss&amp;utm_medium=article">OpenAI与Anthropic自研芯片剑指英伟达</a> (InfoQ)
+    为拒绝天价算力账单，OpenAI与Anthropic开始自研芯片，试图打破英伟达在AI算力领域的垄断护城河。大模型厂商向上游芯片环节延伸，预示着AI产业链利润分配格局将发生深刻变革。</p>
+</li>
+<li>
+<p><a href="https://www.wafer.ai/blog/glm52-amd">GLM5.2在AMD芯片上运行性价比超Blackwell</a> (Hacker News)
+    GLM5.2在AMD MI355X上实现单节点2626 tok/s的速度，成本比英伟达Blackwell低两倍以上。这一测试表明AI算力市场正出现强有力的替代方案，有望缓解对单一硬件生态的依赖。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/8WD205mNH9OGrkf8BRYO?utm_source=rss&amp;utm_medium=article">GitLab调研：AI工具仅加快编码，未提升整体交付效率</a> (InfoQ)
+    GitLab调研发现，AI工具虽显著提升了代码编写速度，但整体软件交付效率并未改善。这揭示了当前AI辅助开发存在“局部加速、全局瓶颈”的困境，工程协同与流程治理仍是关键。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/vxgbzsNORRzQDz6xK1jv?utm_source=rss&amp;utm_medium=article">Meta改行卖算力与AI洪峰拐点论</a> (InfoQ)
+    Meta拟出售富余算力引发股价暴涨，德银认为这是将闲置算力变现的良策。同时V站热议第三方API价格暴跌，预示第一波AI洪峰已过，行业正从盲目扩张算力转向精细化运营与商业变现。</p>
+</li>
+<li>
+<p><a href="https://epoch.ai/data-insights/cve-severity-spike">Claude Mythos发布前后CVE严重漏洞激增</a> (Hacker News)
+    数据显示，在Claude Mythos Preview发布前后，新的严重安全漏洞数量出现飙升。这可能与AI大模型降低了恶意代码编写门槛有关，凸显出AI能力增强对网络安全的双刃剑效应。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/UoJtxVXj0d1QT1ftyjtd?utm_source=rss&amp;utm_medium=article">苹果私有云计算平台首次扩展至谷歌云</a> (InfoQ)
+    苹果将其私有云计算平台扩展至谷歌云，打破了此前仅依赖自有云和AWS的格局。这表明即使是极度重视隐私与控制的苹果，在AI算力需求爆炸式增长面前，也不得不寻求多云混合的基础设施策略。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3880659597176838?f=rss">三星Q3拟提价DRAM 20%并启动代工配额制</a> (36kr)
+    三星电子已口头通知终端厂商三季度DRAM提价20%，同时晶圆代工针对4nm等紧俏制程启动配额制。上游存储与代工的双重涨价及产能倾斜，将直接传导至终端硬件，AI硬件成本面临上升压力。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://github.com/jamesob/local-llm">Jamesob's guide to running SOTA LLMs locally</a> (Hacker News)
+    一份详尽的本地运行SOTA大语言模型指南。该项目为开发者提供了在本地环境高效部署和运行最先进大模型的实践方法与配置建议，适合关注数据隐私与离线推理的AI应用构建者参考。</p>
+</li>
+<li>
+<p><a href="https://github.com/searxng/searxng">SearXNG: 免费互联网元搜索引擎</a> (Hacker News)
+    一个开源的免费互联网元搜索引擎，它从70多个搜索引擎获取结果且不追踪用户。对于注重隐私、希望摆脱算法信息茧房的用户来说，是自建搜索服务的极佳工具。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/kY3j5x1kIEvedufYJ1rJ?utm_source=rss&amp;utm_medium=article">Vercel推出开源AI智能体开发框架Eve</a> (InfoQ)
+    Vercel发布了名为Eve的开源AI智能体开发框架，旨在简化智能体的构建流程。该框架为开发者提供了新的选择，有助于降低AI Agent应用的开发门槛并加速落地。</p>
+</li>
+<li>
+<p><a href="https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/">Soatok's Informal Guide to Threat Models</a> (Hacker News)
+    一篇关于威胁建模的非正式指南，深入浅出地讲解了如何评估和应对安全威胁。对于开发者和安全从业者而言，这是构建系统安全防线、制定防御策略前必读的实用参考。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/110950">iOS剪贴板管理工具Procut</a> (sspai)
+    一款专为iOS设计的剪贴板管理工具，解决碎片化信息随手复制后难以查找的痛点。它能帮助用户高效收藏和整理链接、文本等临时信息，适合需要频繁处理多源信息的效率工具爱好者。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
