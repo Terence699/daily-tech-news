@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-05</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-05</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-05</h1>
+<p>今日科技圈风起云涌，AI 安全与治理成为焦点，阿里内部因后门风险全面禁用 Claude Code，Anthropic 也被爆出存在会话泄露隐患；硬件与芯片领域动作频频，美光斥巨资扩产 HBM，OpenAI 与 Anthropic 则试图自研芯片打破英伟达垄断。此外，具身智能与 AI Agent 加速落地，但规模化与治理挑战仍存。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3880629882679301?f=rss">阿里内部全面禁用 Claude Code</a> (36kr)
+    因存在植入后门风险，阿里内部已全面禁用 Claude Code。此举凸显了企业在引入 AI 编程工具时面临的安全合规挑战，AI 代码生成工具的隐私与数据安全边界亟待明确。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/MOqFJbvWYlJ9PXcfdfCC?utm_source=rss&amp;utm_medium=article">OpenAI 与 Anthropic 自研芯片剑指英伟达护城河</a> (infoq)
+    为拒绝天价算力账单，OpenAI 与 Anthropic 正自研芯片。大模型厂商向底层硬件延伸，意在掌握算力自主权并打破英伟达垄断，降低长期训练与推理成本。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3882061184413701?f=rss">美光投资 93 亿美元扩建先进存储芯片项目</a> (36kr)
+    美光正式启动广岛工厂扩建工程，预计 2028 年下半年出货 HBM。面对 AI 算力带来的旺盛需求，存储巨头正加速扩充先进产能，HBM 已成为行业兵家必争之地。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3879158039834629?f=rss">宇树科技科创板 IPO 注册获同意</a> (36kr)
+    证监会同意宇树科技首次公开发行股票注册，这家具身智能领军企业即将成为“具身智能第一股”。标志着资本市场对人形机器人赛道的高度认可，行业商业化进程将进一步提速。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1224911">网传张江 AI 公司代码库被外籍员工锁定</a> (V2EX)
+    网传上海张江某 AI 公司外籍开发组长因加薪被拒，带领团队剔除其他员工代码库访问权限。该事件引发对代码仓库权限管理、企业核心技术资产安全及跨文化团队治理的深刻反思。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://github.com/anthropics/claude-code/issues/74066">Claude Code 被曝存在潜在会话与缓存泄露</a> (Hacker News)
+    Claude Code 被曝出在工作区实例或消费者账户间存在潜在的会话与缓存泄露风险。这再次敲响 AI 工具隐私警钟，多租户环境下的数据隔离机制仍是当前 AI 应用的软肋。</p>
+</li>
+<li>
+<p><a href="https://github.com/openai/codex/issues/30364">GPT-5.5 Codex 推理 token 聚类或致性能下降</a> (Hacker News)
+    GPT-5.5 Codex 的 reasoning-token clustering 可能导致性能下降。这表明大模型在追求更强推理能力时，token 生成策略的优化面临瓶颈，模型能力与计算资源分配需寻找新平衡。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/vxgbzsNORRzQDz6xK1jv?utm_source=rss&amp;utm_medium=article">Meta 改行卖算力股价暴涨：卖铲子比淘金更赚？</a> (infoq)
+    Meta 拟向外部出售算力，德银分析认为这是将闲置算力变现的明智之举。反映出 AI 基础设施领域“卖铲子”或许比直接卷模型更具短期商业确定性，也为高资本开支提供了回血渠道。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/8WD205mNH9OGrkf8BRYO?utm_source=rss&amp;utm_medium=article">GitLab 调研：AI 工具仅加快编码，整体交付效率并未提升</a> (infoq)
+    GitLab 调研发现，AI 工具虽加快了编码速度，但整体软件交付效率并未提升。这揭示了当前 AI 辅助开发的局限：代码生成只是局部优化，工程全局的沟通、测试与协作瓶颈依然存在。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3881009011945473?f=rss">两协会联合倡议规范情感陪伴人形机器人发展</a> (36kr)
+    随着人形机器人步入家庭，伦理边界与数据隐私问题日益凸显。行业在野蛮生长前建立规范引导机制至关重要，确保技术真正服务人类福祉而非引发新的社会问题。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/kY3j5x1kIEvedufYJ1rJ?utm_source=rss&amp;utm_medium=article">Vercel 推出开源 AI 智能体开发框架 Eve</a> (infoq)
+    Vercel 推出开源 AI 智能体开发框架 Eve，为开发者构建 AI Agent 提供了新的基础设施。该框架旨在降低智能体开发门槛，优化工作流编排，值得 AI 应用开发者关注与尝试。</p>
+</li>
+<li>
+<p><a href="https://ziglang.org/devlog/2026/#2026-06-30">Zig：所有包管理功能已从编译器移至构建系统</a> (Hacker News)
+    Zig 语言将所有包管理功能从编译器移至构建系统。这一架构调整解耦了包管理与编译过程，提升了构建的灵活性与可维护性，对 Zig 生态的工程化发展具有重要意义。</p>
+</li>
+<li>
+<p><a href="https://peteris.rocks/blog/htop/">Linux htop/top 命令各项指标全解释</a> (Hacker News)
+    一篇详尽解释 Linux 下 htop/top 命令各项指标含义的深度长文。对于后端开发者与运维人员而言，这是不可多得的系统性能排查指南，能帮助你彻底看懂系统资源占用状态。</p>
+</li>
+<li>
+<p><a href="https://ridgetext.com/blog/mapbox-llm-composition">使用内存层映射减少 LLM 过载</a> (Hacker News)
+    文章介绍了如何利用 In-Memory Layers 与 Mapbox 结合，以减少大模型在处理复杂空间信息时的上下文过载。为 LLM 在 GIS 等垂直领域的应用提供了实用的工程优化思路。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/QbFT0uMbBd8rcZ0zEfit?utm_source=rss&amp;utm_medium=article">亚马逊云科技推出 Lambda MicroVM</a> (infoq)
+    亚马逊云科技推出 Lambda MicroVM，为智能体与用户代码提供隔离式运行环境。该服务增强了 AI Agent 在云端执行时的安全性与隔离性，是部署生产级 AI 应用的重要基础设施。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
