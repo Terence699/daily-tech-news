@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-10</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-10</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-10</h1>
+<p>今日科技圈迎来 OpenAI GPT-5.6 系列模型的重磅发布，多模态与推理能力再次跃升；同时，具身智能与触觉仿真领域频获巨额融资，展现出 AI 向物理世界延伸的强劲势头。从欧盟隐私法案的推进到 Rust 重写 Postgres 的突破，技术演进与规则博弈正在并行加速。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li><a href="https://openai.com/index/gpt-5-6/">OpenAI 发布 GPT-5.6 系列模型</a> (Hacker News)
+    GPT-5.6 系列正式发布，包含旗舰推理模型 gpt-5.6-sol（支持1.1M超长上下文及视觉工具调用）与均衡高性能模型 gpt-5.6-terra 等，标志着大模型在长文本处理与日常开发应用上的能力再次跃升。</li>
+<li><a href="https://36kr.com/p/3888284244720131?f=rss">前传奇生物创始人新公司完成1.4亿A轮融资</a> (36kr)
+    深圳湾岛细胞近日完成1.4亿人民币A轮融资，由松禾资本领投。公司由前传奇生物创始人范晓虎创办，致力于将百万“抗癌针”CAR-T疗法平民化，显示创新药赛道在资本寒冬中仍具硬核吸引力。</li>
+<li><a href="https://36kr.com/p/3889141540370949?f=rss">英伟达全球首家触觉仿真合作伙伴再获数亿融资</a> (36kr)
+    他山科技完成数亿元B轮融资，上半年订单超去年四倍。作为英伟达全球首家触觉仿真合作伙伴，其技术突破凸显了触觉感知在具身智能及机器人商业落地中的关键价值与市场刚需。</li>
+<li><a href="https://36kr.com/newsflashes/3889229963934217?f=rss">蚂蚁灵波发布业界首个具身原生世界动作模型</a> (36kr)
+    蚂蚁灵波发布 LingBot-VA 2.0，不再依托数字世界模型能力的“嫁接”，而是从动态建模、因果预测等交互原始需求出发进行原生设计，为机器人大脑构建提供了区别于传统路线的新范式。</li>
+<li><a href="https://36kr.com/newsflashes/3889293034256903?f=rss">启境GT7开启全国交付，首发华为乾崑ADS 5</a> (36kr)
+    启境GT7正式交付，成为行业首款搭载华为乾崑ADS 5的量产车型，支持全场景智驾与车位到车位自动泊车，高阶智驾系统正加速成为新车交付的核心竞争力。</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li><a href="https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/">欧盟议会批准 Chat Control 1.0</a> (Hacker News)
+    欧盟议会为 Chat Control 1.0 扫清障碍，该法案要求对通信进行大规模监控以筛查儿童性虐待材料。此举引发隐私权倡导者的强烈担忧，标志着安全与隐私的博弈在 AI 时代正走向深水区。</li>
+<li><a href="https://www.anthropic.com/news/ben-bernanke">本·伯南克加入 Anthropic 监督信托</a> (Hacker News)
+    前美联储主席本·伯南克加入 Anthropic 监督信托。引入宏观经济与政策治理顶级专家，反映出顶级 AI 公司正试图在安全治理架构中引入更宏观的社会经济视角，以应对 AI 对社会的系统性冲击。</li>
+<li><a href="https://sspai.com/post/111975">Vibe Coding 时代，为什么降本不一定增效？</a> (sspai)
+    Vibe Coding 虽能加速代码生成，但无法替代问题定义、架构设计与结果承担。在 AI 编程热潮中，开发者需警惕效率幻觉，核心逻辑与工程判断力依然是不可替代的护城河。</li>
+<li><a href="https://www.infoq.cn/article/NIPG4kmz1lDv8DIrsZ9O">MCP 推出企业统一授权功能</a> (InfoQ)
+    模型上下文协议（MCP）推出企业统一授权功能，解决了 AI 智能体在企业级应用中面临的权限管控痛点，这标志着 AI Agent 正从概念走向合规、安全的企业级生产环境部署。</li>
+<li><a href="https://36kr.com/p/3889047503354625?f=rss">中芯国际市值超越贵州茅台</a> (36kr)
+    中芯国际市值超越贵州茅台，同时英伟达宣布与 Hugging Face 合作开发机器人开源模型。资本市场与产业巨头的双重动向表明，硬核算力与具身智能已成为当前科技产业的最大共识。</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li><a href="https://github.com/malisper/pgrust">Postgres 用 Rust 重写并通过100%回归测试</a> (Hacker News)
+    开源项目 pgrust 使用 Rust 语言重写 PostgreSQL，现已通过 100% 的 Postgres 回归测试。这为传统数据库底层注入了 Rust 的内存安全特性，是数据库基础设施演进的重要里程碑。</li>
+<li><a href="https://github.com/JustVugg/colibri">在慢速电脑上运行 GLM 5.2</a> (Hacker News)
+    开发者分享了在低配设备上运行 GLM 5.2 模型的项目 Colibri。为算力受限的开发者提供了本地部署和体验顶级大模型的可能性，降低了前沿 AI 模型的硬件体验门槛。</li>
+<li><a href="https://blog.cloudflare.com/build-your-own-vulnerability-harness/">构建你自己的漏洞利用套件</a> (Hacker News)
+    Cloudflare 发布技术文章，指导安全研究人员如何构建自己的漏洞利用测试套件。文章深入探讨了漏洞验证与防御机制，是网络安全从业者不可多得的实战指南。</li>
+<li><a href="https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/">Mitchell Hashimoto 访谈：关于 Ghostty 和 Zig</a> (Hacker News)
+    HashiCorp 联合创始人深度分享了终端模拟器 Ghostty 的开发历程及选择 Zig 语言的原因。对于关注开发工具底层优化和新兴系统编程语言的开发者而言，具有极高的参考价值。</li>
+<li><a href="https://www.infoq.cn/article/qALuq71AxiG5VLmWqSzU">百万上下文下的 DeepSeek V4：SGLang 推理优化实战</a> (InfoQ)
+    文章详细解析了在百万级上下文场景下，如何通过 SGLang 框架对 DeepSeek V4 模型进行推理优化。为处理超长文本的 LLM 部署提供了极具价值的工程实践与性能调优方案。</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
