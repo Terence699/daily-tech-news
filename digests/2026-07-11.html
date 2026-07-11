@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-11</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-11</h1>
+<p>今日科技圈波澜再起，苹果与OpenAI因商业机密对簿公堂，AI安全与伦理争议持续发酵。与此同时，GPT-5.6在数学证明上取得惊人突破，大模型正加速重塑软件开发与硬件产业格局。本期简报带你速览最前沿的科技动态与深度思考。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/">苹果起诉OpenAI窃取商业机密</a> (Hacker News)
+    苹果指控OpenAI通过协同行动窃取其未发布产品的相关信息、零部件及图纸，以开发自家全系列硬件产品。苹果要求OpenAI停止相关行为、销毁专有资料并重新设计产品，确保不含苹果技术。此举标志着两大科技巨头间矛盾公开化。</p>
+</li>
+<li>
+<p><a href="https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf">GPT-5.6 Sol Ultra证明Cycle Double Cover猜想</a> (Hacker News)
+    OpenAI最新模型GPT-5.6 Sol Ultra生成了数学界著名难题“Cycle Double Cover Conjecture”的证明过程。这一突破再次展示了大模型在高级数学推理和逻辑验证方面的巨大潜力，AI正从文本生成向严谨科学证明迈进。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3890587147238152">OpenAI安全系统负责人将离职</a> (36kr)
+    在OpenAI重组安全与研究团队之际，其安全系统负责人Johannes Heidecke宣布离职。未来安全团队将向研究与安全副总裁Mia Glaese汇报。此次人事变动反映了AI公司在加速商业化与保障安全性之间的持续博弈与架构调整。</p>
+</li>
+<li>
+<p><a href="https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/">SpaceX计划再发射10万颗星链卫星以提升百倍带宽</a> (Hacker News)
+    SpaceX提出宏大的扩网计划，拟再发射10万颗星链卫星，旨在将现有带宽提升100倍。若该计划落地，将极大改变全球卫星互联网格局，但也势必引发对近地轨道资源拥挤和太空垃圾的严重担忧。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3890551915411972">马斯克要求特斯拉员工转向使用Grok</a> (36kr)
+    马斯克在内部备忘录中要求特斯拉员工“尽可能”切换至使用Grok 4.5，理由是其Token成本低于竞争对手。他还要求工程师直接通过邮件反馈模型信息。此举不仅是对自家AI产品的强力推销，也反映了巨头内部AI生态的封闭化趋势。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3890535190444553">遭舆论抨击后Meta暂停AI图像生成功能</a> (36kr)
+    因允许用户调用公开Instagram账号素材生成图片的机制饱受批评，甚至遭好莱坞经纪公司质疑，Meta紧急停用该AI功能。此事件凸显了AI生成内容在版权与肖像权边界的模糊性，技术狂奔与创作者权益保护的冲突正成为行业核心痛点。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3890553066011401">SK海力士考虑推出“内存即服务”模式</a> (36kr)
+    SK海力士正探索销售内存芯片使用权的新模式，允许客户租赁而非购买芯片。在AI算力需求暴增导致内存短缺预期的背景下，这种“内存即服务”模式有望改变传统的硬件采购逻辑，提升资源利用效率并创造持续现金流。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3890533170248454">三菱汽车将量产人形机器人</a> (36kr)
+    三菱汽车宣布将在日本工厂启动人形机器人量产，预计2027年投产，月产能1000台，率先内部使用后考虑外销。车企跨界量产人形机器人，标志着具身智能正加速从实验室走向工业流水线，制造业劳动力结构即将迎来深刻变革。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/7ZSdewTwDBz1mrx6wmat">GitHub的旧模式被AI击穿，Cursor等各自开打</a> (InfoQ)
+    随着AI编程助手的崛起，传统的Git和代码托管模式正受到冲击。Cursor、GitLab、Zed等工具正在围绕AI原生开发构建新工作流。这表明AI不仅是辅助工具，更在底层重塑软件工程的协作范式与代码生命周期管理。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1226380">后续：老板要求用AI几周完成一年的工作量</a> (V2EX)
+    开发者反馈老板要求用AI几周完成一年工作量，最终结果为“没做完”。因未暂停常规需求，AI重构项目缺乏实质进展。这揭示了当前企业引入AI的普遍误区：高估AI短期提效能力，忽视业务连续性与需求管理的现实约束。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://mimo.xiaomi.com/blog/mimo-v2-5-inference">MiMo v2.5推理优化：将混合SWA效率推向极限</a> (Hacker News)
+    小米发布了MiMo v2.5的推理优化实践，重点针对混合滑动窗口注意力（SWA）机制进行极限压榨。文章详细解析了如何在保持模型性能的同时大幅提升推理吞吐量，对大模型部署与端侧推理优化极具参考价值。</p>
+</li>
+<li>
+<p><a href="https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/">住宅代理和爬虫情况更新</a> (Hacker News)
+    LWN发文深入探讨了当前住宅代理网络与爬虫技术的最新态势。随着反爬虫与数据采集的对抗升级，文章分析了代理服务的滥用现状及对网络生态的影响，为网络安全与数据合规从业者提供了深度的行业洞察。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/111975">Vibe Coding时代，为什么降本不一定增效？</a> (少数派)
+    文章探讨了“Vibe Coding”（氛围编程）现象，指出虽然AI能快速生成代码，但无法替代定义问题、理解用户和设计架构的职责。盲目依赖AI可能导致技术债堆积，开发者在提效的同时更需警惕“降本不增效”的陷阱。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1226505">为了省下每年几万的费用，用AI做了完整的ERP</a> (V2EX)
+    一位开发者因市面ERP昂贵且难定制，利用AI自主开发了完整的电商ERP系统。文章分享了从需求梳理到云仓对接的全过程，证明了AI在中小微企业定制化系统开发中的巨大潜力，是AI辅助编程的极佳实战案例。</p>
+</li>
+<li>
+<p><a href="https://blog.alexbeals.com/posts/the-footgun-of-right-to-left-decorative-characters">从右到左装饰字符的Footgun</a> (Hacker News)
+    文章揭示了Unicode中从右到左（RTL）装饰字符在编程和文本渲染中容易引发的隐蔽Bug。这种“Footgun”（易错陷阱）常导致代码逻辑混乱或界面显示异常，是前端开发与国际化排版中值得深读的避坑指南。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
