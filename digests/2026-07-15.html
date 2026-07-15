@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-15</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-15</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-15</h1>
+<p>今日科技领域动态频出，AI与芯片赛道融资热度不减，DeepSeek被曝筹备IPO引发行业高度关注。同时，安全漏洞频发敲响警钟，微软单月修补创纪录漏洞，AI编程工具Cursor也爆出0day。开发者生态持续演进，从端侧大模型到AI辅助编程，技术落地正不断加速。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3896253787522689?f=rss">曝DeepSeek筹备IPO，最快可能今年提交申请</a> (36kr)
+    据彭博社报道，AI大模型公司DeepSeek已开始筹备首次公开募股（IPO），规划在内地上市，最快可能于今年提交申请，2027年完成上市。目前正与会计师事务所合作力争年底前完成财务报告，此举标志着国内大模型独角兽开启资本化新阶段。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3893976502287618?f=rss">人形机器人公司逐际动力完成2亿美元Pre-IPO轮融资</a> (36kr)
+    通用人形机器人公司逐际动力宣布完成近2亿美元Pre-IPO轮融资，投后估值达150亿元。投资方包括IDG资本、蓝思科技等，阿联酋磊石资本连续多轮追投。此轮融资显示出资本市场对人形机器人商业化落地的高度期待与重仓押注。</p>
+</li>
+<li>
+<p><a href="https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/">Microsoft Patches a Record 570 Security Flaws</a> (Hacker News)
+    微软本月修补了创纪录的570个安全漏洞，反映出当前软件生态面临的严峻安全挑战。如此大规模的补丁发布提醒企业和开发者需及时更新系统，防范潜在的网络攻击风险，也凸显了系统级安全维护的沉重负担。</p>
+</li>
+<li>
+<p><a href="https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/">Data centers have hiked electricity prices on the public by $23B</a> (Hacker News)
+    数据中心的激增已导致公众电费上涨230亿美元。随着AI算力需求爆发，数据中心能耗问题正转化为直接的经济负担，凸显了AI基础设施建设与公共资源消耗之间的深层矛盾，算力成本的隐性转移值得警惕。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3896306415568771?f=rss">长鑫科技注册资本10年增超6000倍</a> (36kr)
+    长鑫科技集团IPO发行价敲定为每股8.66元，将于7月16日开启申购。作为国产存储芯片巨头，其注册资本10年增长超6000倍，标志着中国集成电路产业在资本与技术的双重驱动下正加速崛起，国产替代进程稳步推进。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left">Cursor 0day: When Full Disclosure Becomes the Only Protection Left</a> (Hacker News)
+    AI编程工具Cursor被爆出0day漏洞，且完全公开披露成为唯一保护手段。这暴露了AI辅助开发工具在快速迭代中存在的安全隐患，提醒开发者在享受AI提效的同时，需警惕供应链与工具链的安全风险。</p>
+</li>
+<li>
+<p><a href="https://tailscale.com/security-bulletins">TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access</a> (Hacker News)
+    Tailscale SSH被爆出因参数处理不安全导致可获取root权限的漏洞。作为广泛使用的组网工具，此类高危漏洞再次敲响基础设施安全的警钟，零信任架构下的组件安全与权限隔离仍需严格把控。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3896292852795269?f=rss">支付宝与OPPO达成智能体跨端互联合作</a> (36kr)
+    支付宝与OPPO达成合作，旗下智能体“阿宝”与“小布”实现跨端互联，首期集合近200项生活服务。这标志着AI智能体正从单一APP走向跨终端协同，端侧与云侧智能体的互联将成为生态建设的新趋势。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/1JIiNLEgyJ2UEPwS825r?utm_source=rss&amp;utm_medium=article">当编码不再是瓶颈：跨越 Coding Agent 规模化后的流程与成本双困局</a> (InfoQ)
+    随着AI编码助手普及，代码生成不再是瓶颈，但规模化应用后却面临流程管理和成本控制的双重困境。文章指出，企业需重构研发流程，从单纯追求代码产出转向关注AI协作的工程化治理与成本优化。</p>
+</li>
+<li>
+<p><a href="https://www.starfleetmath.com/">Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel</a> (Hacker News)
+    开发者利用20个Codex账号并行运行，成功解决了20个Erdős数学问题。这展示了AI在数学推理和科研领域的巨大潜力，多智能体并行协作模式或将成为解决复杂科学问题的新范式。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://prismml.com/news/bonsai-27b">Bonsai 27B: A 27B-Class model that runs on a phone</a> (Hacker News)
+    Bonsai 27B发布，这是一款能够在手机端运行的270亿参数级别大模型。该模型突破了端侧算力限制，为移动设备离线运行复杂AI应用提供了可能，是端侧AI部署与模型轻量化的重要参考项目。</p>
+</li>
+<li>
+<p><a href="https://www.alexedwards.net/blog/how-i-use-htmx-with-go">How I use HTMX with Go</a> (Hacker News)
+    文章详细介绍了如何将HTMX与Go语言结合使用。通过这种组合，开发者可以在不依赖复杂前端框架的情况下，利用Go的后端优势快速构建具有动态交互能力的现代Web应用，是全栈开发的实用指南。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/Pqcx0ktTdljvoQ3OMxze?utm_source=rss&amp;utm_medium=article">Claude Artifacts 一夜打通“全网公开分享+多人编辑”</a> (InfoQ)
+    Claude的Artifacts功能迎来重大更新，支持全网公开分享与多人实时编辑。这使AI生成的内容从个人草稿转变为团队协作的基石，极大缩短了从AI创意到团队交付的闭环流程，值得开发者体验。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/3ZmFy6tOFQgP7OI3BHwm?utm_source=rss&amp;utm_medium=article">Node.js 26 带来默认启用的 Temporal API、V8 14.6 和一些功能弃用</a> (InfoQ)
+    Node.js 26正式发布，默认启用了备受期待的Temporal API以优化日期时间处理，并升级至V8 14.6引擎。同时部分旧功能被弃用，开发者需关注迁移指南以适配新版本，提升异步处理效率。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/kyteEZN46mi8l0eMiKuh?utm_source=rss&amp;utm_medium=article">用 Claude 重写 SQL 解析器，性能暴涨 70 倍</a> (InfoQ)
+    文章分享了利用Claude重写SQL解析器的实战经验，实现了70倍的性能提升。作者强调，程序员的核心价值不再是单纯写代码，而是搭建验证闭环，利用AI快速试错并验证工程效果，是AI编程的深度实践参考。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
