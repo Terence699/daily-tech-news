@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-18</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-18</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-18</h1>
+<p>今日科技圈焦点聚焦于 WAIC 2026，AI 智能体加速从数字世界走向物理世界，大模型商业化与开源生态博弈加剧。同时，拼多多屏幕监控争议与 TP-Link 摄像头漏洞再次敲响隐私与安全警钟，开发者工具链则在 Rust 与 Lua 的演进中持续迭代。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3900449325287305?f=rss">月之暗面推出开源模型 Kimi K3，智谱 ARR 达 10 亿美元</a> (36kr)
+    月之暗面正式推出开源模型 Kimi K3，同时智谱 ARR 达到 10 亿美元（半年增长 15 倍），标志着国产大模型在开源生态和商业化变现上取得重大突破，AI 竞争进入深水区。</p>
+</li>
+<li>
+<p><a href="https://news.ycombinator.com/item?id=48945241">AWS 出现 17 亿美元异常账单估算</a> (Hacker News)
+    有用户发现 AWS 本月预估账单高达 17 亿美元，而其正常使用费用不到 5 美元。此类计费系统异常不仅引发信任危机，也提醒云服务用户需时刻关注账单监控与告警机制。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1228005">拼多多被指监控用户手机屏幕实现精准推送</a> (V2EX)
+    用户测试发现，在微信查看某图片后打开拼多多，首页即精准推送相关手办。这表明 App 可能存在超越常规输入法监控的屏幕读取行为，引发对隐私边界的严重担忧。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3900510926276486?f=rss">医疗 AI 独角兽 OpenEvidence 潜在估值升至 200 亿美元</a> (36kr)
+    被称为“医生版 ChatGPT”的 OpenEvidence 正在酝酿新融资，因在临床决策辅助和医学数据解析领域的强劲表现，潜在估值高达 200 亿美元，显示医疗 AI 赛道的吸金能力。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3900511572149890?f=rss">苹果在日本大范围上调 iPhone 等产品售价</a> (36kr)
+    苹果在日本市场近年首次大范围涨价，iPhone 17 Pro Max 最高存储版本上涨 2.5 万日元。此举反映出汇率波动与供应链成本压力正转嫁给消费者，可能影响其高端市场销量。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3900439867147909?f=rss">印奇在 WAIC 2026 演讲：智能体走进物理世界</a> (36kr)
+    阶跃星辰董事长印奇在 WAIC 2026 指出，AI 创业已成全球共识，当前核心趋势是智能体从数字世界走向物理世界。具身智能正从技术探索步入产业验证深水区，机器人成为 AI 落地重要载体。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3900548047177344?f=rss">日媒：印度企业越来越依赖中国 AI 大模型</a> (36kr)
+    为控制 AI 成本，印度科技初创企业正大量使用深度求索、阿里和月之暗面等中国开放权重大模型。这加剧了印度在尖端技术上对中国的依赖，也印证了中国开源模型在全球的成本与技术优势。</p>
+</li>
+<li>
+<p><a href="https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/">Kaiser 护士称 AI 与职场监控让工作和患者护理变差</a> (Hacker News)
+    医疗机构引入 AI 与职场监控本意是提升效率，但护士群体反馈这反而增加了行政负担，减少了与患者互动的时间，导致护理质量下降。这揭示了 AI 落地过程中忽视一线员工体验的负面效应。</p>
+</li>
+<li>
+<p><a href="https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md">TP-Link Kasa 摄像头被曝未授权泄露家庭 GPS 长达 6 年</a> (Hacker News)
+    安全研究员发现 TP-Link Kasa EC71 摄像头通过未认证的 UDP 协议泄露家庭 GPS 位置，漏洞存在已 6 年。这再次敲响 IoT 设备安全警钟，厂商在追求智能化的同时严重忽视了基础安全防护。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/jdBsbJXVi22iPafARSFx?utm_source=rss&amp;utm_medium=article">留给开源模型的时间只剩 6 个月？</a> (InfoQ)
+    随着闭源大模型能力快速演进与商业挤压，开源模型面临巨大生存压力。文章探讨了开源社区在算力、资金与生态上的困境，引发对大模型开源生态未来走向的深度反思。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://moonstone.sh/">Moonstone：用 Zig 编写的现代跨平台 Lua 运行时与包管理器</a> (Hacker News)
+    Moonstone 为 Lua 生态带来了现代化的包管理与跨平台运行时支持，底层使用 Zig 编写，兼具高性能与小体积。对于寻求轻量级嵌入式脚本方案的 C/C++ 开发者而言，这是一个值得尝试的新选择。</p>
+</li>
+<li>
+<p><a href="https://github.com/tokio-rs/topcoat">Topcoat：Rust 语言的完整全栈框架</a> (Hacker News)
+    Topcoat 致力于提供 Rust 生态的全栈开发体验，结合了 Tokio 异步运行时的优势。对于希望用 Rust 同时搞定前后端开发的团队，该框架能有效降低技术栈割裂带来的沟通与维护成本。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/111128">UniGetUI：可能是 Windows 下最好用的应用商店</a> (sspai)
+    UniGetUI 是一款 Windows 下的包管理器 UI 封装工具，支持 Winget、Scoop 等多种包管理器。它提供统一的更新与管理界面，极大降低了命令行包管理的门槛，特别适合需要批量配置的场景。</p>
+</li>
+<li>
+<p><a href="https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/">关于运行 SQLite 你需要知道的几件事</a> (Hacker News)
+    文章总结了在生产环境中运行 SQLite 的实践经验，涵盖并发处理、WAL 模式配置及备份策略等。作为轻量级数据库，SQLite 在边缘计算和中小规模应用中潜力巨大，此文是极佳的避坑指南。</p>
+</li>
+<li>
+<p><a href="https://curiouscoding.nl/posts/static-search-tree/">静态搜索树：比二分查找快 40 倍</a> (Hacker News)
+    文章介绍了静态搜索树的数据结构优化，通过消除分支预测和利用缓存行，在特定场景下实现了比传统二分查找快 40 倍的搜索速度。对于追求极致性能的底层开发者具有极高的参考价值。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
