@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-19</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-19</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-19</h1>
+<p>今日科技圈迎来大模型与具身智能的双重爆发。月之暗面开源 Kimi K3 并筹备赴港上市，阿里云推出世界模型 HappyOyster 1.0；同时，WAIC 2026 释放出 AI 从技术展示走向产业深水区的明确信号。开发者侧，AI 编程带来的效率提升与职业焦虑并存，而轻量级开源工具仍在持续降低技术门槛。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3900449325287305?f=rss">月之暗面发布开源模型 Kimi K3 并筹备赴港上市</a> (36kr)
+  月之暗面正式推出全球参数规模最大的开源模型 Kimi K3，在 Code Arena 上超越 Claude Fable 5 和 GPT-5.6 So。同时，公司已通知投资者调整架构筹备赴港 IPO，有望最快 6 个月内完成上市，标志着国内大模型独角兽进入资本收割期。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3901954555938437?f=rss">阿里云百炼上线开放式世界模型 HappyOyster 1.0</a> (36kr)
+  阿里云百炼正式上线可实时构建和交互的世界模型产品 HappyOyster 1.0。该模型能深度学习物理世界状态转移规律，主动推演因果链，保持长程一致性。具备世界探索和实时导演两大模式，输入一句话或图即可生成可交互内容，大幅降低虚拟世界构建门槛。</p>
+</li>
+<li>
+<p><a href="https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/">GPT-5.6 使用提示词填补凸优化30年空白</a> (Hacker News)
+  在 OpenAI 的 CDC 证明公告之后，GPT-5.6 仅使用一个提示词就成功解决了一个存在 30 年之久的凸优化问题。这一突破不仅展示了大模型在高级数学推理方面的惊人潜力，也预示着 AI 正从文本生成向硬核科学发现迈进。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3900807486293892?f=rss">国家数据局：全国已建成高质量数据集12万个</a> (36kr)
+  我国持续加大优质数据供给，已建成高质量数据集 12 万个，总体量超 1565PB，较一季度末增长超 60%，相当于国家图书馆数字资源总量的 547 倍。数据标注产业亦加快发展，为人工智能的深度训练与落地提供了坚实的底层数据支撑。</p>
+</li>
+<li>
+<p><a href="https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent">LG 显示器通过 Windows Update 静默安装软件</a> (Hacker News)
+  LG 显示器被发现在未经用户同意的情况下，通过 Windows Update 静默安装软件。这种利用系统更新机制强制推送的行为引发了严重的隐私和安全担忧，打破了用户对系统更新通道的信任底线。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3901848349165441?f=rss">WAIC 2026 聚焦：具身智能加速迈向产业应用</a> (36kr)
+  本届 WAIC 焦点已从技术展示转向产业应用。腾讯发布三大具身基座模型打通“感知-行动”闭环，工业实测成功率超 95%；模感科技获红杉等投资研发机器人全身触觉；云迹科技发布人机共生价值模型。具身智能正跨越展台，真正走进工厂与生活。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1228212">开发者困境：AI 编程带来的“空虚感”与职业焦虑</a> (V2EX)
+  开发者使用 AI 写代码虽提效，却普遍产生“空虚感”与心理没底，因未深入理解代码逻辑。同时，互联网行业“35岁斩杀线”与 AI 替代焦虑加剧，经验价值被削弱。这反映出 AI 在重塑开发效率的同时，也带来了技能退化与职业安全的深层挑战。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/secM60Za0CNxIYvQO47m">Agent 落地挑战：算力消耗过快与推理短板</a> (InfoQ)
+  AI 智能体在实际应用中面临算力消耗过快的问题，导致传统账单风控无法跟上节奏。同时，Stripe 基准测试显示，智能体虽能开发集成方案，但在校验环节存在明显短板；拿到数据却不会推理的问题也亟待解决，这些都是 Agent 走向成熟必须跨越的鸿沟。</p>
+</li>
+<li>
+<p><a href="https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3">AI Mania Is Eviscerating Global Decision-Making</a> (Hacker News)
+  文章指出当前的 AI 狂热正在摧毁全球决策能力。过度依赖 AI 系统可能导致人类丧失批判性思维和独立判断力，在复杂的现实问题面前，算法的偏见与黑盒特性反而可能带来系统性风险，值得行业在狂奔中保持警惕。</p>
+</li>
+<li>
+<p><a href="https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/">纽约市长禁止房东使用 AI 图像打广告</a> (Hacker News)
+  纽约市长宣布房东不得在房产广告中秘密使用 AI 生成的图像。此举旨在打击虚假宣传，保护租客免受 AI 美化图片的误导。这是监管层面对 AI 生成内容在商业营销中滥用问题的首次明确反击，为 AI 内容合规树立了先例。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.v2ex.com/t/1228204">PowerShell 与 Codex 冲突解决提示词分享</a> (V2EX)
+  针对 Windows 下使用 Codex 开发时 PowerShell 经常与之打架的问题，开发者分享了一套行之有效的提示词方案。通过优化指令，可以让 Codex 更好地适配 PowerShell 环境，提升开发体验，使其更接近 Linux 下的流畅度。</p>
+</li>
+<li>
+<p><a href="https://github.com/moonshine-ai/moonshine/tree/main/micro">Moonshine：不到 500kb 的语音识别与 TTS 工具</a> (Hacker News)
+  Moonshine 是一款极为轻量级的语音识别和文本转语音（TTS）开源项目，体积不到 500kb。它打破了传统语音模型对庞大算力的依赖，非常适合资源受限的边缘设备与嵌入式场景，为端侧 AI 语音交互提供了极具性价比的解决方案。</p>
+</li>
+<li>
+<p><a href="https://www.neatnik.net/hardcore-indieweb">Hardcore IndieWeb：每天仅需 $0.01 独立运行你的网站</a> (Hacker News)
+  这篇长文详细介绍了如何以极低成本（每天 0.01 美元）100% 独立运行个人网站。文章涵盖了从服务器搭建到服务配置的全流程，为希望摆脱大平台束缚、追求数据完全自主权的开发者提供了极具实操性的 IndieWeb 实践指南。</p>
+</li>
+<li>
+<p><a href="https://sspai.com/post/111128">UniGetUI：可能是 Windows 下最好用的应用商店</a> (sspai)
+  UniGetUI 是一款优秀的 Windows 包管理器图形界面工具。它提供统一的更新 UI，将分散的软件集中管理，不仅适合普通用户日常维护，也能满足开发者批量配置环境的需求，极大缓解了 Windows 下软件管理碎片化的痛点。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1228199">2026，我将博客部署到了 Cloudflare</a> (V2EX)
+  作者分享了将个人博客迁移至 Cloudflare 的完整经历。相比国内云服务高昂的成本与繁琐的备案、证书配置，CF 提供了更简便的部署体验。文章为想要低成本、免维护搭建个人站点的开发者提供了极具参考价值的现代部署思路。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
