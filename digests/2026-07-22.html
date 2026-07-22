@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-22</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-22</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-22</h1>
+<p>AI 行业今日迎来多重震荡：Anthropic 因版权问题达成 15 亿美元天价和解，数据壁垒进一步高筑；Google 连发 Gemini 新模型并废弃传统采样参数，引发开发者关注。与此同时，AI 对开发者的冲击与重塑仍在继续，Agent 深度融入工作流，而底层基础设施与安全合规的挑战也日益凸显。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63">法官批准 Anthropic 15 亿美元盗版书籍和解协议</a> (Hacker News)
+  法官批准了 Anthropic 因使用盗版书籍训练 Claude 而达成的 15 亿美元和解协议。这一标志性判决为 AI 训练数据的版权问题确立了先例，将对整个 AI 行业的数据获取和合规成本产生深远影响。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3905176863721349?f=rss">PICO 创始人周宏伟卸任，李晓凯接任新负责人</a> (36kr)
+  字节跳动旗下 XR 业务 PICO 完成负责人调整，创始人周宏伟因个人规划卸任，李晓凯接任并全面负责业务。此次交接不影响既定战略，PICO 今年仍将按计划推出全新的混合现实（MR）产品。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3906250194785670?f=rss">引力一号遥四运载火箭发射成功，一箭九星</a> (36kr)
+  我国太原卫星发射中心使用引力一号遥四运载火箭，成功将东坡系列、西光贰号01星等9颗卫星送入预定轨道。这是引力一号运载火箭的第3次飞行，标志着我国商业航天运载能力持续稳步提升。</p>
+</li>
+<li>
+<p><a href="https://openai.com/index/hugging-face-model-evaluation-security-incident/">OpenAI 与 Hugging Face 在模型评估期间发生安全事件</a> (Hacker News)
+  OpenAI 披露在 Hugging Face 模型评估期间发生了安全事件。随着大模型生态协作日益紧密，供应链和评估环节的安全漏洞正在成为新的风险点，这也引发了业界对模型开源与评测安全边界的重新审视。</p>
+</li>
+<li>
+<p><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/">Google 发布 Gemini 3.6 Flash 等新模型，宣布废弃温度等参数</a> (Hacker News)
+  Google 推出 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber 三款新模型，同时宣布在最新模型中 temperature、top_p 和 top_k 参数已被弃用和忽略。这反映了模型自我调节能力的提升，开发者需及时调整调用逻辑。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3906182715282822?f=rss">Reddit 考虑阻止谷歌使用其内容进行 AI 分析</a> (36kr)
+  继 Anthropic 天价和解后，Reddit 正考虑阻止谷歌使用其内容进行 AI 分析。高质量数据墙日益高筑，数据版权与 AI 训练的博弈正从法律诉讼走向平台实质性封锁，数据获取成本将大幅上升。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1228794">AI 冲击下开发人员失业率引热议，Agent 成新方向</a> (V2EX)
+  V2EX 热议 AI 冲击导致超 30% 程序员失业，而另一边有开发者从传统 AI 跳槽至创业公司做 Agent。这反映出行业结构性变化：传统 CRUD 开发正在萎缩，而基于 Agent 的应用层创新正成为开发者的新出路。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1228796">GitHub 开源量化交易系统遭吐槽，LLM 幻觉仍是硬伤</a> (V2EX)
+  社区对 GitHub 上开源量化交易系统提出质疑，指出用 vibe coding 写指标、让 LLM 分析图表存在严重幻觉和不可审计性。在金融等高确定性要求领域，LLM 的一致性和可解释性仍是尚未跨越的鸿沟。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3906263274312834?f=rss">三星拟投资 2000 亿韩元建 HVAC 工厂，瞄准 AI 数据中心冷却</a> (36kr)
+  三星计划投资约 2000 亿韩元建设暖通空调制造工厂，重点加强面向 AI 数据中心的冷却设备产能。算力狂飙背后是惊人的散热能耗，液冷与精密空调等 AI 基础设施正成为科技巨头竞相布局的刚需赛道。</p>
+</li>
+<li>
+<p><a href="https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git">Jack Dorsey 推出 Buzz，整合团队聊天、AI 智能体与 Git 托管</a> (Hacker News)
+  Jack Dorsey 推出 Buzz，将团队通讯、AI Agent 和代码托管整合。同时微软和谷歌也纷纷支持 Go 语言开发 AI 智能体。这标志着 AI Agent 正在深度融入开发者的核心工作流，重塑软件工程范式。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/6yN5sFxOqoBX2h32YtjC?utm_source=rss&amp;utm_medium=article">16 万 Star 的 OpenCode 彻底重写：API 全部重做、迁移 Bun 与 Electron</a> (InfoQ)
+  拥有 16 万 Star 的开源项目 OpenCode 宣布彻底重写，API 全部重构，运行时从 Node 切换为 Bun，桌面端迁移至 Electron。此次大版本升级为开发者提供了更现代、高效的编码体验，值得相关技术栈开发者关注。</p>
+</li>
+<li>
+<p><a href="https://freeink.org/">FreeInk：面向电子书阅读器的开源生态系统</a> (Hacker News)
+  FreeInk 旨在为电子书阅读器打造一个开放生态系统，打破硬件厂商的封闭围墙。对于追求设备自主权和阅读体验极客而言，这是一个值得关注的开源硬件与软件结合的尝试。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/xKwcWiDKrEymUNaLwkAL?utm_source=rss&amp;utm_medium=article">Google Cloud Workbench Notebooks 扩展：将 VS Code 与 Jupyter 连接</a> (InfoQ)
+  Google Cloud 推出 Workbench Notebooks 扩展，实现了 VS Code 与 Google Cloud Jupyter Notebooks 的无缝连接。开发者现在可以在熟悉的 VS Code 环境中直接操作云端 Notebook，大幅提升数据科学开发效率。</p>
+</li>
+<li>
+<p><a href="https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/">陶哲轩解读雅可比猜想反例</a> (Hacker News)
+  著名数学家陶哲轩发文深入解析了雅可比猜想的反例。这篇长文不仅是对数学前沿突破的梳理，更是顶级大脑拆解复杂问题的思维示范，对算法和基础科学感兴趣的读者极具启发性。</p>
+</li>
+<li>
+<p><a href="https://www.aventos.dev/our-process?view=blog">AI 动画是如何制作的</a> (Hacker News)
+  文章详细拆解了 AI 动画的创作流程，从概念生成到动态渲染，展示了 AI 如何介入并改变传统动画制作管线。对于想了解 AIGC 在影视创作中实际落地工作流的从业者，这是一份不可多得的实战参考。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
