@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-29</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-29</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-29</h1>
+<p>AI 应用持续破圈，ChatGPT 周活跃用户即将突破 10 亿大关，月之暗面也正式开源 Kimi K3 模型引发行业对开源路线的热议。资本市场方面，韩国股市受 AI 投资焦虑拖累暴跌，但具身智能与端侧 AI 赛道依然逆势吸金，底层算力基建的长期需求未改。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3916120299498883?f=rss">ChatGPT周活跃用户数接近10亿</a> (36kr)
+    OpenAI内部披露ChatGPT周活即将突破10亿大关。尽管比原定预期晚了七个月，但上线不足四年积累如此规模，使其成为互联网历史上增长最快的产品之一，标志着AI应用正加速走向全民普及。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/jZ394NO5PIZIqNVbN4mD?utm_source=rss&amp;utm_medium=article">Kimi K3正式开源，Anthropic微妙表态</a> (InfoQ)
+    月之暗面正式开源Kimi K3模型，Anthropic表态从未主张禁止开放权重模型。结合近期黄仁勋言论引爆的开源论战与吴恩达的反击，K3的开源折射出大模型开源与闭源路线的激烈博弈，开放生态正成为行业重要力量。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3916143610769027?f=rss">韩国股市暴跌与全球芯片股震荡</a> (36kr)
+    受AI投资焦虑影响，美国与亚洲芯片股大幅下滑。韩国KOSPI指数盘中暴跌8%并触发熔断，SK海力士跌近12%，三星电子跌超7%。韩国财政部紧急研究稳市措施，反映出市场对AI短期变现能力的担忧与全球科技股的剧烈震荡。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3913213962540164?f=rss">UCLA博士团队做人形机器人基础模型获近5亿融资</a> (36kr)
+    人形机器人基础模型公司德塔智能完成近5亿元天使++轮融资。资金将主要用于基础模型迭代、自研数采设备量产与数据闭环建设，推动技术在真实工业场景中的工程化落地，显示资本对具身智能底座的重注。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3916110445079942?f=rss">OpenAI发布开源版Codex Security CLI</a> (36kr)
+    OpenAI发布开源版Codex Security CLI，支持扫描代码仓库、跨运行追踪问题、验证修复结果，并能将安全检查无缝纳入CI/CD流程。此举大幅降低了开发者进行代码安全审计的门槛，推动安全左移走向标准化。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://www.infoq.cn/article/BXOUaAvzZQpGrzMg3lDK?utm_source=rss&amp;utm_medium=article">黄仁勋引爆开源论战，吴恩达反击</a> (InfoQ)
+    黄仁勋言论引发开源论战，Anthropic员工呼吁CUDA和Windows开源，吴恩达则反击称不应阻止他人开源。这场争论凸显了AI底层生态控制权之争：巨头试图通过闭源构建护城河，而开源力量正努力打破算力与框架的垄断。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3915066350327176?f=rss">2026智能硬件报告：端侧AI加速渗透</a> (36kr)
+    报告指出国内超八成消费者已接触AI硬件，端侧AI成为核心发力点，智能硬件进入产品能力升级关键期。随着大模型向端侧迁移，硬件不仅是载体，更成为AI能力落地的决定性因素，消费端市场需求具备稳步向上的支撑基础。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/ircg5ZZVmWMLFG7ElCd6?utm_source=rss&amp;utm_medium=article">清华教授提出具身智能破局新路线</a> (InfoQ)
+    清华教授李升波认为物理原生智能是具身智能实用化答案，世界模型将成为核心。这一观点指出了当前具身智能依赖海量数据训练的瓶颈，转向世界模型构建物理常识，有望加速机器人从实验室走向真实复杂场景。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3916115764260483?f=rss">希捷财报揭示长期算力基建信心</a> (36kr)
+    尽管市场对AI短期前景存疑导致芯片股震荡，但希捷财报显示客户并未缩减资本开支，多家厂商将规划拉长至2029年以后。这表明科技巨头对AI基础设施的长期投入依然坚定，算力需求的底层逻辑并未因短期波动而改变。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://www.hubble.md/">Hubble：为你和Agent打造的开源笔记应用</a> (Hacker News)
+    Hubble是一款专为人类与AI Agent协作设计的开源笔记应用。在Agent时代，它解决了多智能体协作中的信息同步与记忆管理问题，开发者可利用其构建更顺畅的人机交互工作流，是探索AI原生生产力工具的优质项目。</p>
+</li>
+<li>
+<p><a href="https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html">Lightweight Spring Boot Monitoring Without Prometheus and Grafana</a> (Hacker News)
+    针对中小型项目，开发者分享了无需Prometheus和Grafana的轻量级Spring Boot监控方案。该方案降低了传统监控组件带来的运维复杂度与资源开销，为追求极简部署和快速排障的Java开发者提供了高性价比的替代选择。</p>
+</li>
+<li>
+<p><a href="https://www.v2ex.com/t/1230447">每3个月给阿里CDN换一次证书，我终于受不了了</a> (V2EX)
+    开发者吐槽阿里云免费SSL证书每3个月需手动更换的痛点，从申请到DNS验证再到CDN配置流程繁琐，极易导致线上业务中断。这提醒运维人员需重视证书自动化管理，也反映出免费服务在工程效率上的隐性成本极高。</p>
+</li>
+<li>
+<p><a href="https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html">Kimi K3 Architecture Overview and Notes</a> (Hacker News)
+    Sebastian Raschka发布了Kimi K3架构解析长文。文章深入剖析了K3的模型结构、训练策略与工程细节，对于关注大模型底层演进、希望借鉴开源架构进行二次开发或微调的研究者与工程师而言，是一份极具价值的硬核技术参考。</p>
+</li>
+<li>
+<p><a href="https://www.norvig.com/21-days.html">Teach yourself programming in ten years</a> (Hacker News)
+    Peter Norvig的经典长文《十年自学编程》再次受到关注。文章批判了“21天速成”的浮躁风气，强调编程能力的精进需要十年的刻意练习与真实项目打磨。在AI代码生成日益普及的今天，重温此文有助于开发者重新审视核心竞争力的构建。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
