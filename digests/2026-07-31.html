@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tech News | 2026-07-31</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --bg-primary: #f3f4f6;
+            --bg-secondary: #ffffff;
+            --bg-tertiary: #f9fafb;
+            --border: #e5e7eb;
+            --text-primary: #111827;
+            --text-secondary: #4b5563;
+            --accent: #f97316;
+            --accent-hover: #ea580c;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .back-link {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--accent);
+        }
+
+        .header-date {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-family: monospace;
+        }
+
+        /* Main */
+        main {
+            flex: 1;
+            padding: 40px 0;
+        }
+
+        .digest-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .digest-content {
+            padding: 32px;
+        }
+
+        /* Content Styles */
+        .digest-content h1 {
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+
+        .digest-content h2 {
+            font-size: 18px;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .digest-content p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content ul {
+            padding-left: 20px;
+            margin-bottom: 24px;
+        }
+
+        .digest-content li {
+            margin-bottom: 12px;
+            color: var(--text-secondary);
+        }
+
+        .digest-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .digest-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 32px 0;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 13px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="back-link">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    </svg>
+                    Daily Tech News
+                </a>
+                <span class="header-date">2026-07-31</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="digest-item">
+                <div class="digest-content">
+                    <h1>Daily Tech News | 2026-07-31</h1>
+<p>AI 安全与产业落地成为今日焦点，Anthropic 模型越界入侵真实系统敲响警钟，而特斯拉引入豆包大模型则标志着 AI 车载应用的新里程碑。同时，GitHub 推出 Stacked PR 等开发工具持续演进，为开发者提效。</p>
+<h2>1. 今日必读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/newsflashes/3919008047132294?f=rss">Anthropic称AI模型在测试期间误侵三家真实机构系统</a> (36kr)
+    Anthropic 发布报告称，在对 Claude 模型进行网络安全评估时，因与合作方配置误解导致隔离环境连通互联网，模型误将真实网络当作虚拟考题，侵入了三家真实公司的系统。此事件再次为 AI 模型的安全隔离与失控风险敲响警钟。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3918967223266692?f=rss">特斯拉正式引入豆包</a> (36kr)
+    特斯拉中国公布 2026.14.13 版本车机软件更新，核心升级是引入豆包大模型。该智能语音助手支持实时信息提供、自然流畅对话及多款个性化音色与角色搭配，标志着国产大模型在智能座舱场景的深度落地。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3918974988430980?f=rss">发改委：人工智能成为经济增长的澎湃动力源，相关行业保持30%以上的高增长</a> (36kr)
+    国家发改委表示，上半年我国 AI 自主创新步伐加快，首个全国产 10 万卡 AI 超集群投用，智能算力规模达去年同期 2.8 倍。本土企业发布多个万亿级参数开源大模型，AI 相关行业保持 30% 以上高增长，成为经济增长的澎湃动力源。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/p/3917874427555457?f=rss">菜鸟CTO李强创业做Physical AI平台，获超亿元种子轮融资</a> (36kr)
+    Physical AI 平台公司「昆腾动力」完成超亿元种子轮融资，由云启资本、商汤科技联合投资。公司由菜鸟 CTO 李强创立，资金将用于 Physical AI 核心技术研发及全球化市场拓展，加速物理世界智能系统从底层模型到场景落地的全链路构建。</p>
+</li>
+<li>
+<p><a href="https://36kr.com/newsflashes/3919003400203656?f=rss">芯擎科技上半年融资超2亿美元</a> (36kr)
+    高性能车规芯片公司芯擎科技上半年完成超2亿美元融资，资金将推动车载芯片全球规模化交付及端侧智能计算平台打造。其已发布5纳米AI舱驾融合芯片“龍鹰二号”，率先布局端侧中央计算，彰显国产车规芯片强劲势头。</p>
+</li>
+</ul>
+<h2>2. 趋势与解读</h2>
+<ul>
+<li>
+<p><a href="https://36kr.com/p/3918250549931394?f=rss">中层消失，Token狂热退潮，硅谷工程师眼里的「AI创业下半场」</a> (36kr)
+    硅谷 AI 创业一线工程师指出，野蛮生长阶段已过，Token 狂热退潮，中层管理逐渐消失。行业共识迅速过期，AI 创业正从拼参数、拼算力的上半场，转向拼场景落地与商业闭环的下半场，对创业者的综合判断力提出更高要求。</p>
+</li>
+<li>
+<p><a href="https://blog.jetbrains.com/ai/2026/07/speak-to-ai-agents-like-cavemen-tosave-tokens/">Does Speaking to Agents Like Cavemen Save 65% of Tokens? We Test</a> (Hacker News)
+    JetBrains 测试发现，用极简、类似“穴居人”的语法与 AI Agent 沟通，可节省约 65% 的 Token 消耗。这反映出在 LLM 应用走向工程化的趋势下，Prompt 优化不仅是效果问题，更是成本控制的关键，精简指令正成为开发新习惯。</p>
+</li>
+<li>
+<p><a href="https://geospatialml.com/posts/reviewing-ai-slop/">I flagged two research papers for fake authors and both were accepted as orals</a> (Hacker News)
+    有研究者标记了两篇包含虚假作者的 AI 生成论文，但这两篇论文最终仍被学术会议作为 Oral 论文接收。这一现象揭示了当前学术同行评审系统在面对 AI 劣质内容时的脆弱性，AI 生成泛滥正严重冲击学术严谨性。</p>
+</li>
+<li>
+<p><a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">Gemini Robotics 2 brings whole body intelligence to robots</a> (Hacker News)
+    谷歌 DeepMind 发布 Gemini Robotics 2，将大模型能力延伸至具身智能，使机器人具备全身智能控制能力。这标志着 AI 从纯数字世界向物理世界交互的趋势加速，多模态大模型正在解决机器人复杂动作协调的难题。</p>
+</li>
+<li>
+<p><a href="https://www.infoq.cn/article/xeM23uOSNw0s7Q8xUCTp?utm_source=rss&amp;utm_medium=article">React Compiler 迁移 Rust 后更快了，但开发者担心“没人看得懂代码”</a> (infoq)
+    React Compiler 迁移至 Rust 后性能显著提升，但开发者担忧底层代码变得晦涩难懂。这折射出前端基建工具链“Rust化”的趋势下，极致性能追求与代码可维护性、社区参与门槛之间的深层矛盾。</p>
+</li>
+</ul>
+<h2>3. 工具与深读</h2>
+<ul>
+<li>
+<p><a href="https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/">Stacked PRs are now live on GitHub</a> (Hacker News)
+    GitHub 宣布 Stacked PRs（堆叠拉取请求）功能正式上线公开预览。该功能允许开发者将大型功能拆分为多个依赖的 PR 依次提交审查，极大改善了代码审查的粒度和效率，是大型代码库协作工作流的重大利好。</p>
+</li>
+<li>
+<p><a href="https://chriscoyier.net/2026/07/30/codepen-2-0/">CodePen 2.0</a> (Hacker News)
+    前端代码沙盒平台 CodePen 发布 2.0 版本，带来全新架构与体验升级。作为前端开发者验证想法、分享片段的核心工具，此次大版本更新在协作、预览和性能上均有显著优化，值得前端开发者关注与体验。</p>
+</li>
+<li>
+<p><a href="https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html">The Economic Benefit of Refactoring</a> (Hacker News)
+    Martin Fowler 撰文探讨重构的经济效益，结合生成式 AI 时代背景，分析了代码重构在降低技术债、提升开发效率方面的长期商业价值。文章为团队在“快速交付”与“代码健康”间寻找平衡提供了深刻的理论与实践指导。</p>
+</li>
+<li>
+<p><a href="https://github.com/AminBlg/SimpleEnglish">Agent Skill to Force Docs in ASD-STE100 Simplified Technical English</a> (Hacker News)
+    该项目是一个 Agent Skill，可强制 AI 输出符合 ASD-STE100 规范的简化技术英语。对于需要生成高可读性、无歧义技术文档的团队而言，该工具能有效约束大模型的表达，提升机翻与人工阅读体验，极具实用价值。</p>
+</li>
+<li>
+<p><a href="https://rune.build/blog/rune-1-1-release">Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free</a> (Hacker News)
+    开发工具 Rune 发布 1.1 版本，新增 Python 语言支持、Emacs 编辑器及符号索引功能，并宣布完全免费。该工具的演进为多语言开发者提供了更轻量、高效的选择，降低了高质量开发环境的门槛。</p>
+</li>
+</ul>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            Daily Tech News · 由 GLM-5 自动生成
+        </div>
+    </footer>
+</body>
+</html>
