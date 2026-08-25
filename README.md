@@ -163,7 +163,7 @@ ANTHROPIC_BASE_URL=https://api.siliconflow.cn/v1
 ```json
 {
   "llm": {
-    "model": "Pro/zai-org/GLM-5",
+    "model": "zai-org/GLM-5.2",
     "max_tokens": 2200,
     "base_url": "https://api.siliconflow.cn/v1",
     "timeout_seconds": 120,
